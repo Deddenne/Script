@@ -2,30 +2,34 @@
 from tkinter import *
 from tkinter.ttk import *
 import bdd
+import os 
 
 #permet de pouvoir utiliser la classe data_sujet() importé depuis bdd
-data = bdd.data_sujet()
+data = bdd.data_subject()
 
-# FONCTION : Recherche TOUS LES UTILISATEURS ------------------------------------------------------------------
+# FONCTION : Recherche TOUS LES SUJETS ------------------------------------------------------------------
 def get_all_data_subjects (): 
     fenetre = Tk()
     fenetre.title("Enumération de tous les sujets")
-    fenetre.geometry("900x500")
-    fenetre.minsize(900,500)
+    fenetre.geometry("900x450")
+    fenetre.minsize(900,450)
     fenetre.grid_columnconfigure(0, weight=1)
     fenetre.grid_columnconfigure(1, weight=1)
     fenetre.grid_columnconfigure(2, weight=1)
     espace = Label(fenetre).grid(row=0, column=1)
 
-    libelle = Label(fenetre, text = 'Listes de tous les utilisateurs').grid(row=1, column=1)
+    libelle = Label(fenetre, text = 'Listes de tous les sujets').grid(row=1, column=1)
 
     #tableau
-    tableau = Treeview(fenetre, columns=('Sujet', 'Destination'))
+    tableau = Treeview(fenetre, columns=('Sujet', 'Destination'), height=15)
     tableau.heading('Sujet', text='Sujet')
     tableau.heading('Destination', text='Destination')
+    tableau.column("#1", minwidth=0, width=350, stretch=NO)
+    tableau.column("#2", minwidth=0, width=400, stretch=NO)
     tableau['show'] = 'headings' # sans ceci, il y avait une colonne vide à gauche qui a pour rôle d'afficher le paramètre "text" qui peut être spécifié lors du insert
     tableau.grid(row=2, column=1)
-    
+
+
     # Requête SQL pour récupérer les informations à afficher
     data.cursor.execute("SELECT id_sujet, sujet, destination FROM info_sujet")
     results = data.cursor.fetchall()
@@ -35,9 +39,18 @@ def get_all_data_subjects ():
             tableau.insert('', 'end', iid=enreg[0], values=(enreg[1], enreg[2]))
 
     espace = Label(fenetre).grid(row=3, column=1)
-    label_1 = Label(fenetre, text="Rappel sur les types d'utilisateur : ").grid(row=4, column=1)
-    label_2 = Label(fenetre, text="0 = super-administrateur ; 1 = admistrateur ; 2 = utilisateur normal").grid(row=5, column=1)
-    espace = Label(fenetre).grid(row=6, column=1)
+
+    # Ouvrir le répertoire ou le fichier 
+    def open(row):
+        os.startfile(row)
+
+    # sélectionner la ligne 
+    def select_row(a) : 
+        selectedItem = tableau.selection()[0]
+        row = tableau.item(selectedItem)['values'][1]
+        open(row)
+
+    tableau.bind("<<TreeviewSelect>>", select_row)
 
     def retun_menu_principal():
         fenetre.destroy()
@@ -64,8 +77,8 @@ def get_data_user_by_subject():
     def reseach_data_by_user_nom(select_subject):
         fenetre = Tk()
         fenetre.title("Projet Python")
-        fenetre.geometry("900x500")
-        fenetre.minsize(900,500)
+        fenetre.geometry("900x300")
+        fenetre.minsize(900,300)
         fenetre.grid_columnconfigure(0, weight=1)
         fenetre.grid_columnconfigure(1, weight=1)
         fenetre.grid_columnconfigure(2, weight=1)
@@ -73,9 +86,11 @@ def get_data_user_by_subject():
 
         
         #tableau
-        tableau = Treeview(fenetre, columns=('Sujet', 'Destination'))
+        tableau = Treeview(fenetre, columns=('Sujet', 'Destination'), height=10)
         tableau.heading('Sujet', text='Sujet')
         tableau.heading('Destination', text='Destination')
+        tableau.column("#1", minwidth=0, width=350, stretch=NO)
+        tableau.column("#2", minwidth=0, width=400, stretch=NO)
         tableau['show'] = 'headings' # sans ceci, il y avait une colonne vide à gauche qui a pour rôle d'afficher le paramètre "text" qui peut être spécifié lors du insert
         tableau.grid(row=2, column=1)
         
@@ -87,6 +102,18 @@ def get_data_user_by_subject():
             for enreg in results:
                 # chaque ligne n'a pas de parent, est ajoutée à la fin de la liste, utilise le champ id comme identifiant et on fournit les valeurs pour chacune des colonnes du tableau
                 tableau.insert('', 'end', iid=enreg[0], values=(enreg[1], enreg[2]))
+
+        # Ouvrir le répertoire ou le fichier 
+        def open(row):
+            os.startfile(row)
+
+        # sélectionner la ligne 
+        def select_row(a) : 
+            selectedItem = tableau.selection()[0]
+            row = tableau.item(selectedItem)['values'][1]
+            open(row)
+
+        tableau.bind("<<TreeviewSelect>>", select_row)
 
         # détruire la fenêtre précédante (fenêtre qui demande le nom) et affichier la nouvelle (fenêtre données user)
         def retun_menu_principal():

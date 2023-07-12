@@ -1,0 +1,50 @@
+Inventaire du matériels informatique - juin 2023
+\\10.10.27.106\dsit\1. Inventaire\Inventaire utilisateurs - NEW.xlsx
+
+Les mots de passe des utilisateurs (avant 2023) 
+\\10.10.27.106\dsit\1. Inventaire\Inventaire utilisateurs - OLD.xlsx
+
+Inventaire du matériels informatique-  juin 2023
+\\10.10.27.106\dsit\1. Inventaire\Inventaire du matériels -  juin 2023.xlsx
+
+Les mots de passes (en général, logiciels … ) - Keepass
+\\10.10.27.106\dsit\database.kdb
+
+Documentations de tout genre 
+\\10.10.27.106\dsit\4. Documentations
+
+Documentations sur la nouvelle TSE (solutions, chemin etc. ) 
+\\10.10.27.106\dsit\5. Services Servers\TSE
+
+Dossier avec tous les logiciels (DSIT)
+\\10.10.27.106\dsit\3. Logiciels
+
+Dossier avec tous les logiciels (COMMUN)
+\\10.10.27.106\commun\z instal Logiciels
+
+Mise en place d'un nouvel ordinateur 
+\\10.10.27.106\dsit\4. Documentations\Arrivant\Mise en place d’un nouveau pc.pdf
+
+Sujet et documentation SAGE
+\\10.10.27.106\dsit\4. Documentations\SAGE
+
+Problème imprimante SAGE
+\\10.10.27.106\dsit\4. Documentations\SAGE\Problème d'imprimante SAGE - Spouleur d'impression.pdf
+
+Mot de passe SAGE
+Voir avec Jessica ou David
+
+Sujet et documentation TSE 
+\\10.10.27.106\dsit\4. Documentations\TSE
+
+Problèmes TSE 
+\\10.10.27.106\dsit\4. Documentations\TSE\Documentation TSE.pdf
+
+Configurer une IP statique
+\\10.10.27.106\dsit\4. Documentations\Configurer une adresse IP statique.pdf
+
+Lancer un logiciel au démarrage 
+\\10.10.27.106\dsit\4. Documentations\Lancer un logiciel au démarrage.pdf 
+
+Installation et configuration TNT
+\\10.10.27.106\dsit\4. Documentations\TNT
