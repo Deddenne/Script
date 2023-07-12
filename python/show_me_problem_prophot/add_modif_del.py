@@ -61,6 +61,13 @@ def create_subject() :
     # Ajoute un bouton de validation
     button_valide = Button(fenetre, text="  Valider et créer le sujet ✓  ", command=get_subject_info)
     button_valide.grid(row=9, column=3)
+
+    espace = Label(fenetre).grid(row=10, column=3)
+
+    def retun_menu_principal():
+        fenetre.destroy()
+    quit = Button(fenetre, text=" 🔙 Retrouner sur le menu principal ", command=retun_menu_principal).grid(row=11, column=1)
+
     fenetre.mainloop()
 
 # MODIFICATION d'un sujet   -----------------------------------------------------------------------------------------------------------
@@ -136,6 +143,13 @@ def modify_subject():
             tableau.insert('', 'end', iid=enreg[0], values=(enreg[1], enreg[2]))
 
     tableau.bind('<Double-Button-1>', modify_element) 
+
+    espace = Label(fenetre).grid(row=10, column=3)
+
+    def retun_menu_principal():
+        fenetre.destroy()
+    quit = Button(fenetre, text=" 🔙 Retrouner sur le menu principal ", command=retun_menu_principal).grid(row=11, column=1)
+
     fenetre.mainloop()
 
 # SUPPRESSION d'un sujet   -----------------------------------------------------------------------------------------------------------
@@ -159,24 +173,35 @@ def del_subject() :
     tableau['show'] = 'headings' # sans ceci, il y avait une colonne vide à gauche qui a pour rôle d'afficher le paramètre "text" qui peut être spécifié lors du insert
     tableau.grid(row=2, column=1)
 
-    def modify_element(event):
+    def del_element(event):
         item_id = tableau.focus()  # Get the selected item's ID
         sujet = tableau.item(item_id, 'values')[0]  # Get the sujet value
         destination = tableau.item(item_id, 'values')[1]  # Get the destination value
+        
+        # Create a dialog window for modifying the element
+        dialog = Toplevel(fenetre)
+        dialog.title("Modifier l'élément")
 
-        # Function to save the modified values
-        def save_changes():
-            new_sujet = sujet_entry.get()
-            new_destination = destination_entry.get()
+        dialog.title("Confirmation de suppression")
+        name_subject = Label(dialog, text=" Etes-vous sûre de vouloir supprimer le sujet ? ").grid(row=1, column=1)
+        name_subject = Label(dialog, text=" La supression est irréversible. ").grid(row=2, column=1)
 
+        
+        def verify_del():
             # Met à jour le tableau
-            tableau.item(item_id, values=(new_sujet, new_destination))
+            tableau.delete(item_id)
 
             # Met à jour la base de donnée
-            data_envoie = bdd.data_subject(0, new_sujet, new_destination)
-            data_envoie.modif_subject(sujet, destination)
+            data_envoie = bdd.data_subject(0, sujet, destination)
+            data_envoie.del_subject(sujet, destination)
+            
+            # Ferme la ferme fenêtre près sauvegarde
+            dialog.destroy()
+            messagebox.showinfo("Suppression réussie", "L'élément a été supprimé avec succès.")
 
-
+        # Bouton sauvegarde de la modification
+        save_button = Button(dialog, text="Supprimer", command=verify_del)
+        save_button.grid(row=3, column=0, columnspan=2)
 
     # Requête SQL pour récupérer les informations à afficher
     data.cursor.execute("SELECT id_sujet, sujet, destination FROM info_sujet")
@@ -186,7 +211,12 @@ def del_subject() :
             # chaque ligne n'a pas de parent, est ajoutée à la fin de la liste, utilise le champ id comme identifiant et on fournit les valeurs pour chacune des colonnes du tableau
             tableau.insert('', 'end', iid=enreg[0], values=(enreg[1], enreg[2]))
 
-    tableau.bind('<Double-Button-1>', modify_element) 
-    fenetre.mainloop()
+    tableau.bind('<Double-Button-1>', del_element) 
 
-del_subject()
+    espace = Label(fenetre).grid(row=10, column=3)
+
+    def retun_menu_principal():
+        fenetre.destroy()
+    quit = Button(fenetre, text=" 🔙 Retrouner sur le menu principal ", command=retun_menu_principal).grid(row=11, column=1)
+    
+    fenetre.mainloop()

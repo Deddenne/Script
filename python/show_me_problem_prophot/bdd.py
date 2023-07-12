@@ -45,10 +45,10 @@ class data_subject :
         data_subject.connection.close()
 
     # Supprimer un sujet
-    def del_subject(data_subject,sujet,destination):
+    def del_subject(data_subject,old_sujet,old_destination):
         data_subject.cursor.execute("""
         DELETE FROM info_sujet 
         WHERE sujet = '{}' AND destination = '{}'
-        """.format(sujet,destination))
+        """.format(data_subject.sujet, data_subject.destination,old_sujet,old_destination))
 
         data_subject.connection.commit()

@@ -64,7 +64,7 @@ def index():
     espace = Label(fenetre).grid(row=10, column=1)
 
     # ---- Bouton pour rechercher un sujet -----------------------------------------------------------------------------
-    search_a_subject = Button(fenetre, text=" > Supprimer un sujet 🗑️", command=see_subject.get_data_user_by_subject)
+    search_a_subject = Button(fenetre, text=" > Supprimer un sujet 🗑️", command=add_modif_del.del_subject)
     search_a_subject.grid(row=11, column=1)
 
     espace = Label(fenetre).grid(row=12, column=1)
