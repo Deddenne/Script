@@ -5,15 +5,6 @@ import itertools
 connection = sqlite3.connect('python_database.db')
 cursor = connection.cursor()
 
-# Créer une table de donnée
-cursor.execute("""
-CREATE TABLE IF NOT EXISTS info_sujet (
-    id_sujet integer primary key,
-    sujet TEXT,
-    destination TEXT
-)
-""")
-
 # Utilisaiton de la base de données 
 class data_subject : 
     id_iter = itertools.count()

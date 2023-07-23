@@ -1,0 +1,188 @@
+id,name_movie,language,years,genre,time,finish
+1,16 vœux,Anglais,2010,Teen Movie / Romance / Fantaisie,1h30,✔
+2,6 underground,Anglais,2019,Action et Thriller,2h08,✔
+3,A tous les garçons que j’ai aimé,Anglais,2018,Romance et Drama,1h39,✔
+4,A tous les garçons que j’ai aimé 2 : PS Je t’aime toujours,Anglais,2020,Romance et Drama,1h42,✔
+5,A tous les garçons que j’ai aimé 3 : Pour toujours et à jamais,Anglais,2021,Romance et Drama,1h55,✔
+6,A travers ma fenêtre,Espagnol,2022,"Romantique, Intimiste",1h53,✔
+7,A travers ma fenêtre ,Espagnol,2022,Drame Romantique,1h56,✔
+8,Agent presque secret,Anglais,2016,Action et Comédie,1h54,✔
+9,Alerte rouge,Anglais,2022,Film pour enfant / Comédie ,1h40,✔
+10,Amour entre adulte,Danois,2022,"Drame et Thriller / Sombre, secret et mensonge",1h45,✔
+11,Antman,Anglais,2015,Action et Aventure,1h58,✔
+12,Appelez-moi DJ Rebel ,Anglais,2012,Teen Movie,1h38,✔
+13,Arrietty : Le petit monde des chapardeurs,Japonais,2010,Film pour enfant / Aventure / Fantaisie,1h34,✔
+14,Avalon High : Un amour légendaire ,Anglais,2010,Teen Movie / Fantaisie,1h30,✔
+15,Baby boss,Anglais,2017,Comédie,1h37,✔
+16,Baby driver,Anglais,2017,Action / Crime,1h55,✔
+17,Babysitting,Français,2014,Comédie,1h25,✔
+18,Babysitting 2,Français,2015,Comédie,1h33,✔
+19,Baywatch : Alerte à Malibu,Anglais,2017,Comédie et Action,2h10,✔
+20,Blond,Anglais,2022,Drame,2h47,✔
+21,Brain on fire,Anglais,2016,Drame et biopic,1h48,✔
+22,Bumblebee,Anglais,2018,Action / SF,1h54,✔
+23,Camp Rock,Anglais,2008,Teen Movie / Comédie musicale,1h37,✔
+24,Camp Rock 2 : Le face à face,Anglais,2010,Teen Movie / Comédie musicale,1h44,✔
+25,Casper,Anglais,1995,Comédie et Fantastique,1h40,✔
+26,Charlie et la Chocolaterie,Anglais,2005,Cinéma de fantaisie,1h46,✔
+27,Cloud 9 : L'Ultime figure,Anglais,2014,Teen Movie / Drame / Sport,1h25,✔
+28,Coco,Anglais,2017,Film pour enfant / Aventure,1h45,✔
+29,Crazy Rich Asians,Anglais,2018,Drame et Romance,2h10,✔
+30,De l’autre côté du périphérique,Français,2012,Comédie et Action,1h36,✔
+31,Deadpool,Anglais,2016,Action et Aventure,1h48,✔
+32,Deep,Thaïlandais,2021,"Thriller, Drame / Thriller, Drame, SF",1h41,✔
+33,Descendant,Anglais,2015,Teen Movie / Musical,1h52,✔
+34,Descendant 2 ,Anglais,2017,Teen Movie / Musical,1h51,✔
+35,Dirty papy,Anglais,2016,Comédie,1h42,✔
+36,Dragons,Anglais,2010,Aventure,1h38,✔
+37,El practicante / Irrémédiable,Espagnol,2020,Thriller / Sombre et psychologique,1h34,✔
+38,Encanto : La Fantastique Famille Madriga,Anglais,2021,Film pour enfant / Comédie ,1h49,✔
+39,Escape room,Anglais,2019,Thriller et SF,1h40,✔
+40,Free guys,Anglais,2021,Action et SF,1h55,✔
+41,Frenemies,Anglais,2012,Teen Movie / Drame / Comédie,1h27,✔
+42,Frozen,Anglais,2013,Film pour enfant / Musical ,1h48,✔
+43,Green snake,Chinois,2021,Fantaisie,2h12,✔
+44,Homunculus,Japonais,2021,"Suspense, SF",1h56,✔
+45,I am Legend,Anglais,2007,Thriller / Action / Drame / SF ,1h41,✔
+46,I Am Mother,Anglais,2019,Thriller / SF ,1h53,✔
+47,Intrusion,Anglais,2019,Thriller / Psychologique et suspense,1h42,✔
+48,Joker,Anglais,2019,Thriller / Violence /  Psychologique ,2h01,✔
+49,Jony English contre-attaque,Anglais,2018,Comédie et Aventure,1h28,✔
+50,Kidnapping Stella,Allemand,2019,Suspense,1h27,✔
+51,Kingsman : Le Cercle d’or,Anglais,2017,Action,2h21,✔
+52,Kingsman service secret,Anglais,2014,Action et Aventure,2h10,✔
+53,KungFu Panda,Anglais,2008,Comédie,1h32,✔
+54,La belle et la bête,Anglais ,2014,"Fantastique, Romance",1h54,✔
+55,La grande muraille,Anglais,2016,"Aventure, Historique, Fantastique",1h44,✔
+56,La momie,Anglais,2017,Suspence,1h50,✔
+57,La momie,Anglais,1999,Suspence / SF,2h04,✔
+58,La nuit au musée,Anglais,2006,Film pour enfant / Comédie / Aventure,1h48,✔
+59,La nuit au musée 2,Anglais,2009,Film pour enfant / Comédie / Aventure,1h45,✔
+60,La plateforme,Espagnol,2019,Thriller / Psychologique et suspense,1h34,✔
+61,La scuda Cattolica,Italien,2021,Drame,1h46,✔
+62,Le château ambulant,Japonais,2004,Film pour enfant / Aventure / Fantaisie,1h59,✔
+63,Le conte de la princesse Kaguya,Japonais,2013,Film pour enfant / Aventure / Fantaisie,2h17,✔
+64,Le dernier voyage,Anglais,2020,Drame / SF,1h27,✔
+65,Le diable tout le temps,Anglais,2020,Thriller et Drame / Psychologique,2h18,✔
+66,Le Fabuleux Destin D’Amélie Poulain,Franco-allemand,2001,Drame et Romance/Comédie,2h20,✔
+67,Le garçon idéal,Anglais,2014,Teen Movie / SF,1h29,✔
+68,Le Geek charmant ,Anglais,2011,Teen Movie / Comédie ,1h34,✔
+69,Le monde de Ralph,Anglais,2012,Film pour enfant / Comédie / Aventure,1h48,✔
+70,Le pôle express,Anglais,2004,Fantaisie / Film pour enfant,1h40,✔
+71,Le smoking,Anglais,2002,Action / Comédie,1h39,✔
+72,Le vent se lève,Japonais,2013,Film pour enfant / Aventure / Fantaisie,2h06,✔
+73,Le voyage de Chihiro,Japonais,2001,Film pour enfant / Aventure / Fantaisie,2h05,✔
+74,Lemonade Mouth,Anglais,2011,Teen Movie / Musical / Drame ,1h46,✔
+75,Les 3 idiots,Indien,2009,Comédie / Romance ,2h51,✔
+76,Les cheetah girls,Anglais,2003,Teen Movie / Comédie musicale,1h40,✔
+77,Les chroniques de Noël,Anglais,2018,Film pour enfant / Comédie / Aventure,1h43,✔
+78,Les Goonies,Anglais,1985,Aventure / Comédie,1h54,✔
+79,Les mignons,Anglais,2015,Aventure / Comédie,1h51,✔
+80,Les mignons 2 :  Il était une fois Gru,Anglais,2022,Aventure / Comédie,1h28,✔
+81,Les noces funèbres de Tim Burton,Anglais,2005,Fantaisie,1h14,✔
+82,Les profs,Français,2013,Comédie,1h28,✔
+83,Les profs 2,Français,2015,Comédie,1h32,✔
+84,Let it shine,Anglais,2012,Teen Movie / Musical,1h44,✔
+85,Love and monsters,Anglais,2020,Comédie / Fiction apocalyptique et post-apocalyptique,1h48,✔
+86,Luca,Anglais,2021,Aventure / Comédie ,1h35,✔
+87,Ma,Anglais,2019,Thriller et Horreur / Psychologique,1h40,✔
+88,Mad max : Fury Road,Anglais,2015,Action / Aventure,2h,✔
+89,Meurtres sans ordonnances,Anglais,2022,Thriller / Crime / Drame,2h03,✔
+90,Moana,Anglais,2016,Film pour enfant / Animation / Action / Humour,1h47,✔
+91,Moi moche et méchant,Anglais,2010,Film pour enfant / Comédie ,1h35,✔
+92,Moi moche et méchant 2,Anglais,2013,Film pour enfant / Comédie ,1h38,✔
+93,Moi moche et méchant 3,Anglais,2017,Film pour enfant / Comédie ,1h36,✔
+94,Mon voisin Totora,Japonais,1988,Film pour enfant / Aventure / Fantaisie,1h26,✔
+95,Mortal engine,Anglais,2018,Action / SF,2h08,✔
+96,Mulan ,Anglais,1998,Film pour enfant / Musical ,1h28,✔
+97,Mulan 2 ,Anglais,2004,Film pour enfant / Musical ,1h19,✔
+98,Nos pires voisins,Anglais,2014,Comédie,1h37,✔
+99,Nos pires voisins 2,Anglais,2016,Comédie,1h32,✔
+100,Obsessed,Anglais,2009,Thriller / Drame,1h48,✔
+101,Obsession secrète,Anglais,2019,Thriller / Suspense,1h37,✔
+102,Ocean’s 8,Anglais,2018,Comédie / Crime,1h51,✔
+103,Oxygene,Anglais,2021,Thriller / Suspense / SF,1h41,✔
+104,Parasite,Coréen,2019,Thriller / Drame,2h12,✔
+105,Ponyo sur la falaise,Japonais,2008,Film pour enfant / Aventure / Fantaisie,1h51,✔
+106,Porco Rosso,Japonais,1992,Film pour enfant / Aventure / Fantaisie,1h42,✔
+107,Princesse Mononoké,Japonais,1997,Film pour enfant / Aventure / Fantaisie,2h13,✔
+108,Raiponse,Anglais,2010,Film pour enfant / Musical ,1h40,✔
+109,Raya et le dernier dragon,Anglais,2021,Film pour enfant / Aventure ,1h47,✔
+110,Rebelle,Anglais,2012,Film pour enfant / Aventure ,1h33,✔
+111,Red Notice,Anglais,2021,Action / Aventure / Policier ,1h58,✔
+112,Retour vers le futur,Anglais,1985,Comédie / SF / Aventure,1h56,✔
+113,Room,Anglais,2015,Thriller / Drame,1h58,✔
+114,Sharpay’s fabulous adventure,Anglais,2011,Teen Movie / Musical / Romantique,1h30,✔
+115,Shuttle Island,Anglais,2010,Thriller / Film à énigme,2h18,✔
+116,Silenced,Coréen,2011,Drame / Ecole,2h40,✔
+117,Skylar Lewis : Chasseuse de monstres ,Anglais,2012,Teen Movie / Comédie / SF,1h30,✔
+118,Sous emprise,Français,2022,Drame / Torride et Intimiste,1h58,✔
+119,Sous sa coupe,Espagnol,2022,Thriller / Sombre et psychologique,1h50,✔
+120,Spider-man Far from home,Anglais,2019,Action / Aventure,2h10,✔
+121,Spider-man Home Coming,Anglais,2017,Action / Aventure,2h13,✔
+122,Spider-man No way home,Anglais,2021,Action / Aventure,2h30,✔
+123,Split,Anglais,2016,Thriller / Psychologique et suspense,1h57,✔
+124,Starstruck,Anglais,2010,Teen Movie / Romance / Comédie,1h30,✔
+125,Suicide Squad,Anglais,2016,Action / Aventure ,2h03,✔
+126,Tall girl,Anglais,2019,Comédie Romantique,1h42,✔
+127,Tall girl 2,Anglais,2022,Comédie Romantique,1h37,✔
+128,TAU,Anglais,2018,SF / Action,1h37,✔
+129,Tean Beach Movie,Anglais,2013,Teen Movie / Musical,1h50,✔
+130,Tean Beach Movie 2 ,Anglais,2015,Teen Movie / Musical,1h45,✔
+131,The Amazing Spider-man,Anglais,2012,Action / Aventure,2h16,✔
+132,The babysitter : killer queen,Anglais,2020,Comédie / Horreur,1h41,✔
+133,The babysitters,Anglais,2007,Drame,1h30,✔
+134,The call,Coréen,2020,"Thriller, Psychologique",1h52,✔
+135,The greatest showman,Anglais,2017,Musical / Drame ,1h45,✔
+136,The Karate Kid,Anglais,2010,Action et Drame,2h20,✔
+137,The old guard,Anglais,2020,Action,2h05,✔
+138,The silence,Anglais,2019,Thriller / Horreur,1h30,✔
+139,Tous en scène,Anglais,2016,Film pour enfant / Musical ,1h50,✔
+140,Tous en scène 2,Anglais,2021,Film pour enfant / Musical ,1h50,✔
+141,Toy Story 1,Anglais,1995,Film pour enfant / Aventure,1h21,✔
+142,Tune of Love,Coréen,2019,Romance / Drame ,2h02,✔
+143,Venom,Anglais,2018,Action / SF,1h52,✔
+144,Vivo,Anglais,2021,Comédie / Film familial ,1h43,✔
+145,Wanted : Choisis ton destin,Anglais,2008,Thriller / Action ,1h50,✔
+146,X-men : Apocalypse,Anglais,2016,Action / SF,2h24,✔
+147,Your Name,Japonais,2016,Romance / Fantaisie,1h52,✔
+148,Zapped : Une application d'enfer !,Anglais,2014,Teen Movie / Comédie / Fantaisie,1h42,✔
+149,"Miraculous, le film",Anglais,2023,Aventure / Action,1h45,✔
+150,30 jours max,Français,2020,Comédie et Crime,1h27,
+151,A silence voice,Japonais,2016,Animation / Drame / Romance,2h09,
+152,Baby boss 2,Anglais,2021,Comédie,1h47,
+153,Bird box,Anglais,2018,Horreur / SF,2h04,
+154,Dragons 2,Anglais,2014,Aventure,1h42,
+155,Dragons 3,Anglais,2019,Aventure,1h44,
+156,Forgotten,Coréen,2017,Thriller,1h49,
+157,Forte,Français,2020,Comédie,1h35,
+158,Frozen II ,Anglais,2019,Film pour enfant / Musical ,1h43,
+159,Good boy,Anglais,2019,Aventure,1h35,
+160,Invisible man,Anglais,2020,Thriller / Horreur,2h05,
+161,Jumanji : The next level,Anglais,2019,SF,2h03,
+162,Jurassic Word,Anglais,2015,Action / SF,2h04,
+163,Jurassic World : Le Monde d'après ,Anglais,2022,Action / SF,2h,
+164,Jurassic World: Fallen Kingdom ,Anglais,2018,Action / SF,2h09,
+165,KungFu Panda 2,Anglais,2011,Comédie,1h32,
+166,KungFu Panda 3,Anglais,2016,Comédie,1h35,
+167,La nuit au musée 3 : Le Secret des Pharaons,Anglais,2014,Film pour enfant / Comédie / Aventure,1h38,
+168,La nuit au musée 4 : Le Retour de Kahmunrah,Anglais,2022,Film pour enfant / Comédie / Aventure,1h20,
+169,La vie scolaire,Français,2019,Drame / Comédie,1h51,
+170,Le monde de Ralph 2,Anglais,2018,Film pour enfant / Comédie / Aventure,1h52,
+171,Les cheetah girls 2 ,Anglais,2006,Teen Movie / Comédie musicale,1h39,
+172,Les crevettes pailletées,Français,2019,Comédie / Sport,1h40,
+173,Megan,Anglais,2022,Thriller / Horreur,1h42,
+174,Mulan (film),Anglais,2020,Aventure / Famille / Fantastique,1h55,
+175,Retour vers le futur 2,Anglais,1989,Comédie / SF / Aventure,1h45,
+176,Retour vers le futur 3,Anglais,1990,Comédie / SF / Aventure,1h58,
+177,Spider-Man 3 ,Anglais,2007,Action / SF,2h19,
+178,Suzune,Japonais,2022,Animation / AventureAnimation,2h02,
+179,The Amazing Spider-Man : Le Destin d'un héros,Anglais,2014,Action / Aventure,2h22,
+180,The kissing booth,Anglais,2018,Comédie Romantique,1h45,
+181,The kissing booth 2,Anglais,2020,Comédie Romantique,2h11,
+182,Thunder force,Anglais,2021,Comédie de super-héro,1h46,
+183,Tick tick .. boom,Anglais,2021,Drame / Biographique,1h55,
+184,Toy Story 2,Anglais,1999,Film pour enfant / Aventure,1h35,
+185,Toy Story 3,Anglais,2010,Film pour enfant / Aventure,1h43,
+186,Venom : Let There Be Carnage,Anglais,2021,Action / SF,2h,
+187,Work it,Anglais,2020,Drame / Comédie / Comédie musicale,1h33,
