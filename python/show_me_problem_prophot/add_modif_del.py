@@ -57,6 +57,8 @@ def create_subject() :
         # envoyer les données à la base de données
         data_envoie = bdd.data_subject(0,sujet,destination)
         data_envoie.add_sujbect()
+        fenetre.destroy()
+        messagebox.showinfo("Ajout réussie", "L'élément a été ajouté avec succès.")
 
     # Ajoute un bouton de validation
     button_valide = Button(fenetre, text="  Valider et créer le sujet ✓  ", command=get_subject_info)
