@@ -137,7 +137,7 @@ def modify_subject():
         save_button.grid(row=2, column=0, columnspan=2)
 
     # Requête SQL pour récupérer les informations à afficher
-    data.cursor.execute("SELECT id_sujet, sujet, destination FROM info_sujet")
+    data.cursor.execute("SELECT id_sujet, sujet, destination FROM info_sujet ORDER BY sujet")
     results = data.cursor.fetchall()
     if len(results):
         for enreg in results:
@@ -206,7 +206,7 @@ def del_subject() :
         save_button.grid(row=3, column=0, columnspan=2)
 
     # Requête SQL pour récupérer les informations à afficher
-    data.cursor.execute("SELECT id_sujet, sujet, destination FROM info_sujet")
+    data.cursor.execute("SELECT id_sujet, sujet, destination FROM info_sujet ORDER BY sujet")
     results = data.cursor.fetchall()
     if len(results):
         for enreg in results:

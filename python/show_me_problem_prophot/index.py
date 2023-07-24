@@ -28,7 +28,7 @@ def index():
 
     # Commentaires 
     remarque_1 = Label(fenetre, text="Binevenue sur le menu principal")
-    remarque_2 = Label(fenetre, text="Voici un petit logiciel poru vous aider à trouver les bonnes informations.")
+    remarque_2 = Label(fenetre, text="Voici un petit logiciel pour vous aider à trouver les bonnes informations.")
     remarque_1.grid(row=0, column=1)
     remarque_2.grid(row=1, column=1)
 

@@ -31,7 +31,7 @@ def get_all_data_subjects ():
 
 
     # Requête SQL pour récupérer les informations à afficher
-    data.cursor.execute("SELECT id_sujet, sujet, destination FROM info_sujet")
+    data.cursor.execute("SELECT id_sujet, sujet, destination FROM info_sujet ORDER BY sujet")
     results = data.cursor.fetchall()
     if len(results):
         for enreg in results:
@@ -95,7 +95,7 @@ def get_data_user_by_subject():
         tableau.grid(row=2, column=1)
         
         # Requête SQL pour récupérer les informations à afficher
-        subject_entry =  "SELECT id_sujet, sujet, destination FROM info_sujet WHERE sujet LIKE '%" + str(select_subject) +"%'"
+        subject_entry =  "SELECT id_sujet, sujet, destination FROM info_sujet WHERE sujet LIKE '%" + str(select_subject) +"%'  ORDER BY sujet"
         data.cursor.execute(subject_entry)
         results = data.cursor.fetchall()
         if len(results):
