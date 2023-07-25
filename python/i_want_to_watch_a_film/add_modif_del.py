@@ -17,17 +17,17 @@ import bdd
 from tkinter import *
 from tkinter import messagebox
 from tkinter.ttk import *
-
+import tkinter as tk
 
 #permet de pouvoir utiliser la classe user() importé depuis bdd
 data = bdd.data_movie()
 
 # CREATION d'un nouveau sujet  -----------------------------------------------------------------------------------------------------------
-def create_subject() :
+def create_movie() :
     # Crée une fenêtre Tkinter
     fenetre = Tk()
-    fenetre.geometry("800x200")
-    fenetre.minsize(800,200)
+    fenetre.geometry("800x300")
+    fenetre.minsize(800,300)
     fenetre.grid_columnconfigure(0, weight=1)
     fenetre.grid_columnconfigure(1, weight=1)
     fenetre.grid_columnconfigure(2, weight=1)
@@ -36,27 +36,64 @@ def create_subject() :
     remaque = Label(fenetre, text = "Veuillez entrer les informations suivantes : ").grid(row=1, column=1)
     espace = Label(fenetre).grid(row=2, column=1)
 
-    name_subject = Label(fenetre, text=" Entrer le nom du sujet : ").grid(row=3, column=0)
-    name_subject = Entry(fenetre)
-    name_subject.configure(width=40)
-    name_subject.grid(row=3, column=1)
+    name_movie = Label(fenetre, text=" Entrer le titre du film : ").grid(row=3, column=0)
+    name_movie = Entry(fenetre)
+    name_movie.configure(width=40)
+    name_movie.grid(row=3, column=1)
 
-    # Ajoute un libellé pour le mot de passe
-    destination_subject = Label(fenetre, text=" Entrer un commentaire ou le chemain complet vers le fichier : ").grid(row=4, column=0)
-    destination_subject = Entry(fenetre)
-    destination_subject.configure(width=40)
-    destination_subject.grid(row=4, column=1)
+    language_movie = Label(fenetre, text=" Entrer la langue du film : ").grid(row=4, column=0)
+    language_movie = Entry(fenetre)
+    language_movie.configure(width=40)
+    language_movie.grid(row=4, column=1)
+
+    years_movie = Label(fenetre, text=" Entrer l'année de parution du film : ").grid(row=5, column=0)
+    years_movie = Entry(fenetre)
+    years_movie.configure(width=40)
+    years_movie.grid(row=5, column=1)
+
+    genre_movie = Label(fenetre, text=" Entrer le genre du film (format : genre1 / genre 2 / ...) : ").grid(row=6, column=0)
+    genre_movie = Entry(fenetre)
+    genre_movie.configure(width=40)
+    genre_movie.grid(row=6, column=1)
+
+    time_movie = Label(fenetre, text=" Entrer la durée du film (format : ..h..) : ").grid(row=7, column=0)
+    time_movie = Entry(fenetre)
+    time_movie.configure(width=40)
+    time_movie.grid(row=7, column=1)
+
+    # Variable de contrôle pour les Radiobuttons
+    choix = tk.IntVar()
+
+    finish_movie = Label(fenetre, text=" Avez-vous déjà vu le film ? : ").grid(row=8, column=0)
+    oui_radio = tk.Radiobutton(fenetre, text="Oui", variable=choix, value=1)
+    non_radio = tk.Radiobutton(fenetre, text="Non", variable=choix, value=2)
+    oui_radio.grid(row=8, column=1, padx=10, pady=5)
+    non_radio.grid(row=8, column=2, padx=10, pady=5)
+
+    comment_movie = Label(fenetre, text=" Entrer un commentaire (facultative) : ").grid(row=9, column=0)
+    comment_movie = Entry(fenetre)
+    comment_movie.configure(width=40)
+    comment_movie.grid(row=9, column=1)
 
     # Espace 
     espace = Label(fenetre).grid(row=5, column=3)
 
     #GET POUR RECUPERER LES INFORMATIONS ET ENVOYER DANS LA BASE DE DONNEES
     def get_subject_info():
-        sujet = name_subject.get()
-        destination = destination_subject.get()
+        if choix.get() == 1:
+            print(choix)
+            finish = '✔'
+        elif choix.get() == 2:
+            finish = ''
+        name_movie_entry = name_movie.get()
+        language_movie_entry = language_movie.get()
+        years_movie_entry = years_movie.get()
+        genre_movie_entry = genre_movie.get()
+        time_movie_entry = time_movie.get()
+        comment_movie_entry = comment_movie.get()
         # envoyer les données à la base de données
-        data_envoie = bdd.data_movie(0,sujet,destination)
-        data_envoie.add_sujbect()
+        data_envoie = bdd.data_movie(0,name_movie_entry,language_movie_entry,years_movie_entry,genre_movie_entry,time_movie_entry,finish,comment_movie_entry)
+        data_envoie.add_movie()
 
     # Ajoute un bouton de validation
     button_valide = Button(fenetre, text="  Valider et créer le sujet ✓  ", command=get_subject_info)
@@ -70,6 +107,7 @@ def create_subject() :
 
     fenetre.mainloop()
 
+create_movie()
 # MODIFICATION d'un sujet   -----------------------------------------------------------------------------------------------------------
 def modify_movie():
     fenetre = Tk()
@@ -236,8 +274,8 @@ def del_subject() :
         dialog.title("Modifier l'élément")
 
         dialog.title("Confirmation de suppression")
-        name_subject = Label(dialog, text=" Etes-vous sûre de vouloir supprimer le sujet ? ").grid(row=1, column=1)
-        name_subject = Label(dialog, text=" La supression est irréversible. ").grid(row=2, column=1)
+        name_movie = Label(dialog, text=" Etes-vous sûre de vouloir supprimer le sujet ? ").grid(row=1, column=1)
+        name_movie = Label(dialog, text=" La supression est irréversible. ").grid(row=2, column=1)
 
         
         def verify_del():

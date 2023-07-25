@@ -22,7 +22,7 @@ class data_movie :
         data_movie.cursor = data_movie.connection.cursor()
 
     # Ajouter un name_movie_1
-    def add_sujbect(data_movie):
+    def add_movie(data_movie):
         data_movie.cursor.execute("""
         INSERT INTO movie (name_movie, language, years, genre, time, finish, comment) VALUES 
         ('{}','{}','{}','{}','{}','{}','{}')
