@@ -57,6 +57,8 @@ def create_subject() :
         # envoyer les données à la base de données
         data_envoie = bdd.data_subject(0,sujet,destination)
         data_envoie.add_sujbect()
+        fenetre.destroy()
+        messagebox.showinfo("Ajout réussie", "L'élément a été ajouté avec succès.")
 
     # Ajoute un bouton de validation
     button_valide = Button(fenetre, text="  Valider et créer le sujet ✓  ", command=get_subject_info)
@@ -135,7 +137,7 @@ def modify_subject():
         save_button.grid(row=2, column=0, columnspan=2)
 
     # Requête SQL pour récupérer les informations à afficher
-    data.cursor.execute("SELECT id_sujet, sujet, destination FROM info_sujet")
+    data.cursor.execute("SELECT id_sujet, sujet, destination FROM info_sujet ORDER BY sujet")
     results = data.cursor.fetchall()
     if len(results):
         for enreg in results:
@@ -204,7 +206,7 @@ def del_subject() :
         save_button.grid(row=3, column=0, columnspan=2)
 
     # Requête SQL pour récupérer les informations à afficher
-    data.cursor.execute("SELECT id_sujet, sujet, destination FROM info_sujet")
+    data.cursor.execute("SELECT id_sujet, sujet, destination FROM info_sujet ORDER BY sujet")
     results = data.cursor.fetchall()
     if len(results):
         for enreg in results:
