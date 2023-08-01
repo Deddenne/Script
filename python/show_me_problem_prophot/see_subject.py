@@ -3,6 +3,8 @@ from tkinter import *
 from tkinter.ttk import *
 import bdd
 import os 
+from tkinter import messagebox
+
 
 #permet de pouvoir utiliser la classe data_sujet() importé depuis bdd
 data = bdd.data_subject()
@@ -42,7 +44,11 @@ def get_all_data_subjects ():
 
     # Ouvrir le répertoire ou le fichier 
     def open(row):
-        os.startfile(row)
+        try : 
+            os.startfile(row)
+        except : 
+            messagebox.showinfo("Pas de documentation", "Il n'y a pas documentation pour ce sujet.\n Mais vous avez l'information suivante : \n{}".format(row))
+
 
     # sélectionner la ligne 
     def select_row(a) : 
