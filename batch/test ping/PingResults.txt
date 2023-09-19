@@ -1,0 +1,9 @@
+******************************************************
+  PingTest executed on 19/09/2023 @ Time 16:49:25,71
+******************************************************
+
+Host 10.3.6.54 reachable OK 
+Host 10.3.6.53 reachable OK 
+Host 10.3.6.52 reachable OK 
+Host 10.3.6.51 not reachable KO 
+Host 10.3.6.50 reachable OK 
