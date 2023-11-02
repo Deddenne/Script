@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Compteur de lectures vidéo</title>
+</head>
+<body>
+    <video id="myVideo" controls>
+        <source src="https://drive.google.com/uc?export=download&id=1FOOoBj1X56m2U4UvlfBnRzqrTUakD_tG" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <div id="counter">Le nombre de lectures : 0</div>
+
+    <script>
+        // Réinitialiser le compteur à 0 à chaque chargement de page
+        localStorage.setItem('videoCount', '0');
+
+        let video = document.getElementById('myVideo');
+        let counterElement = document.getElementById('counter');
+        let isPaused = false;
+
+        video.addEventListener('play', () => {
+            if (!isPaused) {
+                let count = parseInt(localStorage.getItem('videoCount'));
+                count++;
+                localStorage.setItem('videoCount', count.toString());
+                counterElement.innerText = 'Le nombre de lectures : ' + count;
+            }
+            isPaused = false;
+        });
+
+        video.addEventListener('pause', () => {
+            isPaused = true;
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Compteur de lectures vidéo</title>
+</head>
+<body>
+    <video id="myVideo" controls>
+        <source src="https://drive.google.com/uc?export=download&id=1FOOoBj1X56m2U4UvlfBnRzqrTUakD_tG" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <div id="counter">Le nombre de lectures : Loading...</div>
+
+    <script>
+        const video = document.getElementById('myVideo');
+        const counterElement = document.getElementById('counter');
+        const fileURL = 'https://drive.google.com/uc?export=download&id=1f8R4BZvYzOQ09R3OEJxAaozIZtubTf5n'; // Replace with your CSV file URL
+
+        // Lire le compteur depuis le fichier CSV sur Google Drive
+        fetch(fileURL)
+            .then(response => response.text())
+            .then(data => {
+                // Le CSV est lu sous forme de texte
+                // Vous devez parser le texte CSV en tableau pour obtenir les données
+                const parsedData = data.split('\n').map(row => row.split(','));
+                let count = parseInt(parsedData[0][1]) || 0;
+                counterElement.innerText = 'Le nombre de lectures : ' + count;
+            });
+
+        video.addEventListener('play', () => {
+            // Incrémenter le compteur lorsque la vidéo est lue
+            fetch(fileURL)
+                .then(response => response.text())
+                .then(data => {
+                    const parsedData = data.split('\n').map(row => row.split(','));
+                    let count = parseInt(parsedData[0][1]) || 0;
+                    count++;
+                    parsedData[0][1] = count.toString();
+
+                    // Reconstruire le fichier CSV mis à jour
+                    const updatedData = parsedData.map(row => row.join(',')).join('\n');
+
+                    // Mettre à jour le fichier CSV sur Google Drive
+                    fetch(fileURL, {
+                        method: 'PUT',
+                        headers: {
+                            'Content-Type': 'text/csv'
+                        },
+                        body: updatedData
+                    });
+
+                    // Mettre à jour l'affichage du compteur
+                    counterElement.innerText = 'Le nombre de lectures : ' + count;
+                });
+        });
+    </script>
+</body>
+</html>
