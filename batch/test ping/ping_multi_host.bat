@@ -1,11 +1,17 @@
 @echo off
+
 Title Multi-Ping hosts Tester with colors by Hackoo 2016
+
 call :init
 set "nomPC=listePC.txt"
 If Not exist %nomPC% goto error
+
 mode con cols=70 lines=35
+
 set "LogFile=PingResults.txt"
 If exist %LogFile% Del %LogFile%
+
+
 echo(
 call :color 0E "      ------- Ping status of targets hosts -------" 1
 echo(
