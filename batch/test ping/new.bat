@@ -17,21 +17,25 @@ Setlocal EnableDelayedExpansion
 
 for /l %%x in (1,1,2) do (
     for /l %%y in (1,1,4) do (
+        echo --------------'10.%%x.%%y' >>%LogFile%
         for %%s in (50,51,70,90) do (
             ping -n 1 "10.%%x.%%y.%%s" | find "TTL=" >nul
             REM echo 10.%%x.%%y.%%s
             if errorlevel 1 (
-                echo Host '10.%%x.%%y.%%s' not reachable KO & echo Host "10.%%x.%%y.%%s" not reachable KO >>%LogFile%
+                echo Host "10.%%x.%%y.%%s" not reachable KO >>%LogFile%
             ) else (
-                echo Host '10.%%x.%%y.%%s' reachable OK & echo Host "10.%%x.%%y.%%s" reachable KO >>%LogFile%
-            )
+                echo Host "10.%%x.%%y.%%s" reachable KO >>%LogFile%
+            ) 
         )
     )
 )
 
 
+
 EndLocal
 Start "" %LogFile%
-pause>nul & exit
 
+
+
+pause>nul & exit
 

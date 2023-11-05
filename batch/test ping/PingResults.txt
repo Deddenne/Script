@@ -1,35 +1,43 @@
 ******************************************************
-  PingTest executed on 03/11/2023 @ Time 16:23:44,00
+  PingTest executed on 05/11/2023 @ Time 15:53:23,42
 ******************************************************
 
-Host "10.1.1.50" reachable KO 
+--------------'10.1.1' 
+Host "10.1.1.50" not reachable KO 
 Host "10.1.1.51" not reachable KO 
-Host "10.1.1.70" reachable KO 
+Host "10.1.1.70" not reachable KO 
 Host "10.1.1.90" not reachable KO 
-Host "10.1.2.50" reachable KO 
+--------------'10.1.2' 
+Host "10.1.2.50" not reachable KO 
 Host "10.1.2.51" not reachable KO 
-Host "10.1.2.70" reachable KO 
+Host "10.1.2.70" not reachable KO 
 Host "10.1.2.90" not reachable KO 
-Host "10.1.3.50" reachable KO 
+--------------'10.1.3' 
+Host "10.1.3.50" not reachable KO 
 Host "10.1.3.51" not reachable KO 
-Host "10.1.3.70" reachable KO 
+Host "10.1.3.70" not reachable KO 
 Host "10.1.3.90" not reachable KO 
-Host "10.1.4.50" reachable KO 
+--------------'10.1.4' 
+Host "10.1.4.50" not reachable KO 
 Host "10.1.4.51" not reachable KO 
-Host "10.1.4.70" reachable KO 
+Host "10.1.4.70" not reachable KO 
 Host "10.1.4.90" not reachable KO 
+--------------'10.2.1' 
 Host "10.2.1.50" not reachable KO 
 Host "10.2.1.51" not reachable KO 
 Host "10.2.1.70" not reachable KO 
 Host "10.2.1.90" not reachable KO 
+--------------'10.2.2' 
 Host "10.2.2.50" not reachable KO 
 Host "10.2.2.51" not reachable KO 
 Host "10.2.2.70" not reachable KO 
 Host "10.2.2.90" not reachable KO 
+--------------'10.2.3' 
 Host "10.2.3.50" not reachable KO 
 Host "10.2.3.51" not reachable KO 
 Host "10.2.3.70" not reachable KO 
 Host "10.2.3.90" not reachable KO 
+--------------'10.2.4' 
 Host "10.2.4.50" not reachable KO 
 Host "10.2.4.51" not reachable KO 
 Host "10.2.4.70" not reachable KO 
