@@ -17,7 +17,10 @@ Setlocal EnableDelayedExpansion
 
 for /l %%x in (1,1,2) do (
     for /l %%y in (1,1,4) do (
-        echo --------------'10.%%x.%%y' >>%LogFile%
+        if %%x==1 (
+            echo ----------- Magasin %%y 
+        ) 
+        )
         for %%s in (50,51,70,90) do (
             ping -n 1 "10.%%x.%%y.%%s" | find "TTL=" >nul
             REM echo 10.%%x.%%y.%%s
