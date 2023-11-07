@@ -18,8 +18,8 @@ else :
         fichier.write(date)
 
 # ---------- LISTE A EXCLURE :
-to_forget_10_1 = [6,8,11,14,15,22,23,25,34,35,36,39,40,43,44,45,46,47,50,52,54,56,58,59,60,61,65,68,69,70,71,76,77,78,82,91,92,103,113,114,117,118,121,125,126,128,129,
-                  130,132,133,135,137,140,144,146,148,150,152,154,192,197,198,199,202,203,204,207,208,210,213,214,216,218,219,222,223,225,229,232] + list(range(156,190))
+to_forget_10_1 = [6,8,11,14,15,22,23,25,34,35,36,39,40,50,52,54,65,113,114,117,118,121,125,126,137,140,144,146,148,150,152,154,192,197,198,199,202,203,204,207,208,210,213,214,216,218,219,222,223,
+                  225,229,232] + list(range(43,47)) + list(range(56,61)) + list(range(68,71)) + list(range(76,79)) + list(range(82,105))+ list(range(128,135)) + list(range(156,190))
 
 to_forget_10_2 = [0,1,8,10,13,25,33,38,42,43,44,107,109,110,111,113,115,119,120] + list(range(131,254))
 
@@ -30,9 +30,7 @@ for x in range (1,2) :
         if x == 1 :
             # ---- à exclure pour 10.1 ----
             if y in to_forget_10_1 :                        # si dans la liste to_forget_10_1
-                continue                                    # passer
-            elif y in to_forget_10_1_bis :                  # si dans la liste to_forget_10_1
-                continue                                    # passer
+                continue                                    # passer                       
             else :                                          # si n'est pas dans la liste, écrire le nom du magasin
                 nom_mag = "-------- Magasin "+str(y)+"\n"
                 fichier = open("PingResults.txt", "a")
@@ -43,8 +41,6 @@ for x in range (1,2) :
             # ---- à exclure pour 10.1 ----
             if y in to_forget_10_2 :                                # si dans la liste to_forget_10_2
                 continue                                            # passer
-            elif y in to_forget_10_2_bis :                          # si dans la liste to_forget_10_2_bis
-                continue                                            # passer 
             else :                                                  # si n'est pas dans la liste, écrire le nom du magasin
                 if y < 10:                                          # inférieur à 10 
                     nom_mag = "-------- Magasin 30"+str(y)+"\n"     # 30 + y (1 à 9)
