@@ -52,7 +52,7 @@ for x in range (1,2) :
                     fichier.write(nom_mag)
                 else :                                              # supérieur à 100
                     y_split = str(y)                    
-                    y_split = y[1:3]    
+                    y_split = y_split[1:3]    
                     nom_mag = "-------- Magasin 4"+y_split+"\n"     # 4 + y (0 à 99)        
                     fichier = open("PingResults.txt", "a")
                     fichier.write(nom_mag)
