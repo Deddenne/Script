@@ -8,6 +8,10 @@ import os
 import datetime
 from datetime import datetime
 import csv
+import time
+
+print ("Merci de ne pas éteindre ce terminal, il se fermera à la fin du programme ... ")
+print ("Le programme met environ 12 min à faire tous les magasins, veuillez attendre ... ")
 
 # ---------- Créer le fichier CSV
 time_today = str(datetime.today().strftime("%Y-%m-%d %H-%M"))
@@ -100,4 +104,6 @@ for y in ip_400 :
         writer = csv.writer(f)
         writer.writerow(fields)
 
-        
+print ("Le programme est fini, bonne journée :D ")
+time.sleep(7)
+exit()
