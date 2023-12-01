@@ -1,0 +1,411 @@
+First_Name],Last Name [Required],Email Address [Required],Status [READ ONLY],Last Sign In [READ ONLY],Double_auth,Email_Usage
+1,SAINT FERREOL,stferreol1@louispion.fr,Active,2023/11/09 02:44:14,False,5.44GB
+42,LA VILLE DU BOIS,villedubois42@louispion.fr,Active,2023/11/08 05:48:49,False,6.8GB
+303,BHV Rivoli,lprivoli303@louispion.fr,Active,2023/11/09 02:43:17,False,8.21GB
+303 BHV,SAV,303sav@louispion.fr,Active,2023/11/09 02:44:05,False,0.89GB
+312,GL Lyon Part Dieu,312gllyonpartdieu@louispion.fr,Active,2023/11/09 00:26:52,False,5.27GB
+314,GL Marseille Bourse,314glmarseillebourse@louispion.fr,Active,2023/11/07 06:05:35,False,6.01GB
+320,GL Strasbourg,320glstrasbourg@louispion.fr,Active,2023/11/06 06:28:59,False,10.23GB
+332,GL Dijon,332gldijon@louispion.fr,Active,2023/11/09 00:55:34,False,3.12GB
+408,Cartier cdg2E408,boutiquecartiercdg@rqz-galerieslafayette.com,Active,2023/11/06 11:23:21,False,9.79GB
+416,GL Tudor,boutiquegltudor@rqz-galerieslafayette.com,Active,2023/10/29 11:04:54,False,1.15GB
+422,422 T1,boutique422@rqz-galerieslafayette.com,Active,2023/11/08 05:19:54,False,1.28GB
+453,Orly Rolex,boutique453rolex@rqz-galerieslafayette.com,Suspended,2023/07/11 02:58:59,False,1.22GB
+Abygaelle,OSSEUX,aosseux@rqz-galerieslafayette.com,Active,2023/11/08 06:21:20,False,1.79GB
+ACS2I,infogéreur,acs2i_helpdesk@louispion.fr,Active,2023/11/08 01:28:34,False,0.01GB
+ADM_Stephane,maiocchi,adm_smaiocchi@louispion.fr,Active,Never logged in,False,0.0GB
+Adrien,DUFFAU,aduffau@rqz-galerieslafayette.com,Active,2023/11/09 01:50:25,False,2.55GB
+Alberto,Carvalhido,acarvalhido@rqz-galerieslafayette.com,Active,2023/11/09 00:09:07,False,0.32GB
+Alice,LAM,alam@rqz-galerieslafayette.com,Active,2023/11/08 20:20:19,False,0.06GB
+Alice,QU,aqu@rqz-galerieslafayette.com,Active,2023/11/09 02:33:37,False,0.15GB
+Aliette,ALLAVENE D'ERLON,aallavenederlon@louispion.fr,Active,2023/10/30 01:16:20,False,3.38GB
+Ana,CAMBAUD-PINON,acambaud@rqz-galerieslafayette.com,Active,2023/11/08 07:12:06,False,0.16GB
+Anissa,FOUZRI,afouzri@rqz-galerieslafayette.com,Active,2023/11/08 09:40:16,False,0.27GB
+Anna,WEI,awei@rqz-galerieslafayette.com,Active,2023/10/23 03:21:21,False,0.0GB
+Anna,ALLALI,aallali@rqz-galerieslafayette.com,Active,2023/11/08 17:08:36,False,0.66GB
+Atelier,424,atelier424ruedesarchives@rqz-galerieslafayette.com,Active,2023/11/02 05:40:06,False,0.16GB
+Bryan,SALVADOR,bsalvador@rqz-galerieslafayette.com,Active,Never logged in,False,0.0GB
+Cengizhan,CANPOLAT,ccanpolat@rqz-galerieslafayette.com,Suspended,2023/09/05 08:10:19,False,0.42GB
+Charlotte,EL BAZ,celbaz@rqz-galerieslafayette.com,Active,2023/11/08 21:35:08,False,0.2GB
+Chiencheng,HSU,chsu@rqz-galerieslafayette.com,Active,Never logged in,False,0.0GB
+Clément,GRUAT,cgruat@rqz-galerieslafayette.com,Active,2023/11/08 03:58:42,False,0.02GB
+co-lfo.logistique.temis,Externe,co-lfo.logistique.temis@louispion.fr,Active,2023/09/20 07:13:09,False,0.0GB
+conso,consommable,consommable@louispion.fr,Active,2022/09/27 08:53:20,False,0.06GB
+Courtney,CHARLES,ccharles@rqz-galerieslafayette.com,Active,2023/11/09 03:38:10,False,0.14GB
+Danuta,SKUBISZEWSKA,dskubiszewska@rqz-galerieslafayette.com,Active,Never logged in,False,0.04GB
+David,PIN,dpin@rqz-galerieslafayette.com,Active,2023/11/07 06:38:04,False,2.51GB
+devis,lp,devislp@louispion.fr,Active,2021/10/26 03:15:48,False,39.8GB
+Diane,LAM,dlam@rqz-galerieslafayette.com,Active,2023/11/09 01:16:27,False,0.13GB
+diffusion,LP,diffusion_louispion@louispion.fr,Active,2022/06/14 08:26:12,False,0.24GB
+Djédjiga,ALLOUCHENE,dallouchene@louispion.fr,Active,2023/11/07 02:34:24,False,9.74GB
+Eleonore,COGAN,ecogan@louispion.fr,Active,2023/11/03 03:01:33,False,4.01GB
+Etienne,FRIEDEMANN,efriedemann@rqz-galerieslafayette.com,Active,2023/11/04 10:09:20,False,0.07GB
+Farid,BEZTOUT,fbeztout@rqz-galerieslafayette.com,Active,2023/07/07 03:49:16,False,0.04GB
+Gael,MAUBERT,gmaubert@rqz-galerieslafayette.com,Active,2023/11/08 07:35:34,False,0.07GB
+gestion,salle,gestiondesalle@louispion.fr,Active,2020/03/03 04:26:50,False,0.0GB
+Gezal,AKTAR,gaktar@rqz-galerieslafayette.com,Active,2023/10/26 01:21:40,False,0.0GB
+Ghislaine,LON,glon@rqz-galerieslafayette.com,Active,2023/10/27 08:01:24,False,0.07GB
+google,gcds,google_gcds@louispion.fr,Active,2023/10/03 08:09:09,False,0.0GB
+google,gsmmme,google_gsmme@louispion.fr,Active,Never logged in,False,0.0GB
+Henzo,TAGHZOUIT,htaghzouit@rqz-galerieslafayette.com,Active,2023/10/16 01:07:07,False,0.0GB
+Imane,BOUSHABA,iboushaba@rqz-galerieslafayette.com,Active,2023/11/09 02:48:26,False,0.04GB
+inventaires,inventaires,inventaires@louispion.fr,Active,2023/07/18 02:26:52,False,1.51GB
+Jolanta,DELEYE,jdeleye@rqz-galerieslafayette.com,Active,2023/11/08 07:45:02,False,1.11GB
+Joulia,AMIRIAN,jamirian@rqz-galerieslafayette.com,Active,2023/11/08 09:37:33,False,0.08GB
+Jungmi,LEE,jlee@rqz-galerieslafayette.com,Active,2023/11/08 03:49:34,False,0.23GB
+Jérôme,SANCHEZ,jsanchez@rqz-galerieslafayette.com,Active,2023/11/08 03:17:39,False,0.0GB
+Kader,AKAK,kakak@rqz-galerieslafayette.com,Suspended,2023/10/23 01:40:48,False,0.03GB
+Kenza,RHAYATI,krhayati@rqz-galerieslafayette.com,Active,2023/11/08 10:28:27,False,0.04GB
+Lilou,VIEN,lvien@rqz-galerieslafayette.com,Active,2023/11/08 09:07:10,False,0.16GB
+Linda,LAMRI,llamri@louispion.fr,Active,2023/10/30 01:22:46,False,5.44GB
+litiges,transport,litiges-transport@louispion.fr,Active,2023/10/02 05:45:04,False,0.97GB
+Ludivine,SCHMIDT,lschmidt@louispion.fr,Active,2023/11/06 00:35:44,False,13.15GB
+Léa,DJAKPA,ldjakpa@rqz-galerieslafayette.com,Active,2023/11/03 23:51:40,False,0.0GB
+Mahin,GOLCHINFARD,mgolchinfard@rqz-galerieslafayette.com,Active,2023/07/06 07:18:32,False,0.0GB
+Mahira,SAHRAOUI,msahraoui@louispion.fr,Active,2023/11/02 02:07:19,False,0.66GB
+Malika,AZZOUZ,mazzouz@rqz-galerieslafayette.com,Active,2023/11/03 02:08:50,False,0.01GB
+Man,HUI,mhui@rqz-galerieslafayette.com,Active,2023/11/09 01:02:49,False,0.13GB
+Marine,MAISONNETTE,mmaisonnette@rqz-galerieslafayette.com,Active,2023/11/08 04:43:56,False,1.53GB
+Marjorie,DINIS,mdinis@louispion.fr,Active,2023/11/08 00:00:17,False,14.08GB
+Marjorie,SAITER,msaiter@rqz-galerieslafayette.com,Active,2023/11/08 04:42:50,False,0.1GB
+Mohammad,SUFFURALLY,msuffurally@rqz-galerieslafayette.com,Active,2023/11/02 22:26:24,False,0.03GB
+Mohand,CHEBLAL,mcheblal@rqz-galerieslafayette.com,Active,2023/11/07 07:12:56,False,2.21GB
+Murad,TAHER SALEH,mtahersaleh@rqz-galerieslafayette.com,Suspended,2023/10/18 09:54:35,False,1.3GB
+NO_,reply,no_reply@louispion.fr,Active,2020/06/11 05:54:05,False,0.0GB
+NoReply,SAV,noreply_sav@louispion.fr,Active,2023/11/09 00:00:48,False,0.4GB
+Oceane,BETTABASSI,obettabassi@louispion.fr,Active,2023/10/30 02:31:08,False,4.22GB
+Océane,GUYOT,oguyot@rqz-galerieslafayette.com,Active,2023/11/08 17:13:11,False,0.05GB
+Olivier,BRECHAT,obrechat@louispion.fr,Active,2023/11/03 01:42:37,False,0.01GB
+Operations,RETAIL,operations.retail@louispion.fr,Active,2023/02/13 07:28:56,False,0.68GB
+Pierre David,LAFFARGUE,pdlaffargue@rqz-galerieslafayette.com,Active,2023/10/04 02:47:48,False,0.08GB
+Salma,CHATOUI,schatoui@rqz-galerieslafayette.com,Active,2023/09/20 02:15:09,False,0.04GB
+Selma,SADAOUI,ssadaoui@louispion.fr,Active,2023/11/07 05:38:45,False,7.31GB
+Sema,KILIC,skilic@rqz-galerieslafayette.com,Active,2023/06/20 16:16:17,False,1.62GB
+Servane,DELAUNAY,sdelaunay@louispion.fr,Active,2023/11/02 10:06:47,False,7.3GB
+service,rolex,service.rolex@rqz-galerieslafayette.com,Active,2023/11/07 07:07:39,False,0.83GB
+service.rolex,marais,service.rolex.marais@rqz-galerieslafayette.com,Active,2023/11/01 03:06:55,False,0.07GB
+si,apple,si_apple@louispion.fr,Active,2022/10/04 07:17:40,False,0.0GB
+Sidney,FLIES,sflies@louispion.fr,Active,2023/11/08 22:44:07,False,0.16GB
+Solenn,MARTINEAU,smartineau@rqz-galerieslafayette.com,Active,2023/11/09 03:00:11,False,0.02GB
+Solenne,RAVEGLIA,sraveglia@louispion.fr,Active,2023/10/26 06:10:34,False,0.52GB
+Sophia,ZEHAR,szehar@rqz-galerieslafayette.com,Suspended,2023/10/18 21:03:27,False,0.05GB
+Stephane,DESHAYES,sdeshayes@rqz-galerieslafayette.com,Active,2023/11/08 15:44:05,False,2.12GB
+Stéphanie,HERNANDEZ BARRAGAN,shernandezbarragan@louispion.fr,Active,2023/11/02 00:38:11,False,25.93GB
+Thomas,HIEN,thien@rqz-galerieslafayette.com,Active,2023/11/09 01:22:01,False,0.26GB
+Timéa,KEKSZ,tkeksz@rqz-galerieslafayette.com,Active,2023/10/20 08:01:32,False,0.47GB
+Tomomi,MATSUNO,tmatsuno@rqz-galerieslafayette.com,Active,2023/11/09 03:21:03,False,0.09GB
+Valérie,CHRISTEN,vchristen@royalquartz.fr,Active,2023/11/06 01:00:20,False,1.31GB
+vente,privée,vp@louispion.fr,Active,2023/06/16 07:43:01,False,0.42GB
+Veronique,ARCAYA,varcaya@rqz-galerieslafayette.com,Active,Never logged in,False,0.0GB
+Vincent,LEMESLE,vlemesle@louispion.fr,Active,2023/11/08 03:35:23,False,0.79GB
+Viviane,BARRUET,vbarruet@rqz-galerieslafayette.com,Active,2023/11/08 04:35:25,False,0.06GB
+Xavier,REVOIL,xrevoil@rqz-galerieslafayette.com,Active,2023/11/09 00:15:20,False,0.06GB
+Yacine,TAHAR ABBES,ytaharabbes@rqz-galerieslafayette.com,Active,2023/11/08 07:20:54,False,0.0GB
+Zakari,SALEH,zsaleh@rqz-galerieslafayette.com,Active,2023/11/08 23:19:39,False,0.06GB
+2,LE PONTET,avignonpontet2@louispion.fr,Active,2023/11/07 03:33:46,True,5.04GB
+3,VITROLLES,vitrolles3@louispion.fr,Active,2023/11/04 09:06:59,True,5.64GB
+4,AVANT CAP,avantcap4@louispion.fr,Active,2023/11/09 02:40:49,True,7.83GB
+5,AIX EN PROVENCE,aix5@louispion.fr,Active,2023/11/09 00:21:31,True,7.45GB
+7,VILLARS,villars7@louispion.fr,Active,2023/11/04 01:14:23,True,2.39GB
+9,PERPIGNAN,perpignan9@louispion.fr,Active,2023/10/27 05:51:09,True,0.96GB
+10,ANNECY,annecy10@louispion.fr,Active,2023/11/06 06:23:55,True,2.34GB
+12,TOULON GRAND VAR,toulonvar12@louispion.fr,Active,2023/11/09 00:33:26,True,9.76GB
+13,NICE LINGOSTIERE,nicelingostiere13@louispion.fr,Active,2023/11/07 05:08:51,True,6.67GB
+16,SAINT PRIEST,stpriest16@louispion.fr,Active,2023/11/08 02:36:53,True,7.8GB
+17,ECULLY,ecully17@louispion.fr,Active,2023/11/03 04:33:42,True,1.81GB
+18,TOULON MAYOL,toulonmayol18@louispion.fr,Active,2023/11/02 02:07:44,True,7.12GB
+19,PORTET S/ GARONNE,toulouseportet19@louispion.fr,Active,2023/11/06 00:12:32,True,6.01GB
+20,TOULOUSE GRAMONT,toulousegramont20@louispion.fr,Active,2023/11/06 07:22:37,True,3.85GB
+21,BORDEAUX LE LAC,bordeauxlelac21@louispion.fr,Active,2023/11/03 06:32:01,True,9.34GB
+24,NICE ETOILE,niceetoile24@louispion.fr,Active,2023/11/02 05:24:56,True,1.26GB
+26,PONTAULT COMBAULT,pontault26@louispion.fr,Active,2023/11/08 01:02:29,True,5.27GB
+27,CLAYE SOUILLY,clayesouilly27@louispion.fr,Active,2023/11/02 02:31:10,True,3.1GB
+28,FACHES THUMESNIL,faches28@louispion.fr,Active,2023/11/07 06:25:10,True,5.05GB
+29,RONCQ,roncq29@louispion.fr,Active,2023/11/07 04:29:01,True,4.82GB
+30,SAINT GENIS 2,stgenis30@louispion.fr,Active,2023/11/09 02:42:47,True,4.25GB
+31,NOYELLES GODAULT,noyelles31@louispion.fr,Active,2023/11/06 01:24:53,True,3.06GB
+32,ST BRICE SOUS FORET,stbrice32@louispion.fr,Active,2023/11/08 04:29:36,True,5.79GB
+33,ST SEBASTIEN S/ LOIRE,stsebastien33@louispion.fr,Active,2023/11/06 08:29:19,True,4.76GB
+37,CAP 3000,cap300037@louispion.fr,Active,2023/11/08 02:51:54,True,7.83GB
+38,VALENCE,valence38@louispion.fr,Active,2023/11/09 03:19:07,True,6.76GB
+41,VALTHOIRY,valthoiry41@louispion.fr,Active,2023/11/08 07:49:53,True,7.81GB
+48,BORDEAUX ST MEDARD,bordeauxmedard48@louispion.fr,Active,2023/10/28 03:44:35,True,2.51GB
+49,NOISY LE GRAND,noisy49@louispion.fr,Active,2023/11/03 08:37:23,True,2.65GB
+51,LE MANS,lemans51@louispion.fr,Active,2023/11/09 03:41:14,True,1.45GB
+55,GRENOBLE GRAND PLACE,grenoblegdplace55@louispion.fr,Active,2023/11/06 02:27:59,True,5.1GB
+62,VELIZY,velizy62@louispion.fr,Active,2023/10/31 20:44:10,True,9.23GB
+63,MERIGNAC,merignac63@louispion.fr,Active,2023/11/08 06:09:59,True,5.8GB
+64,CARRE SENART,carresenart64@louispion.fr,Active,2023/11/08 06:58:09,True,4.99GB
+66,CRETEIL,creteilsoleil66@louispion.fr,Active,2023/11/06 06:35:03,True,0.9GB
+67,TOURS,tourscentre67@louispion.fr,Active,2023/11/08 01:49:22,True,4.64GB
+72,BRETIGNY,bretigny72@louispion.fr,Active,2023/11/07 03:45:15,True,5.23GB
+73,EVRY 2,evrydeux73@louispion.fr,Active,2023/11/08 05:45:23,True,5.59GB
+74,CAEN CENTRE VILLE,caen74@louispion.fr,Active,2023/11/08 23:43:03,True,2.45GB
+75,NANCY,nancy75@louispion.fr,Active,2023/11/08 00:03:58,True,4.83GB
+80,LILLE TANNEURS,lille80@louispion.fr,Active,2023/11/07 08:43:45,True,0.98GB
+81,Cora HOUDEMONT,nancy81@louispion.fr,Active,2023/11/07 08:39:53,True,5.0GB
+106,ROUEN,rouen106@louispion.fr,Active,2023/11/02 00:59:19,True,5.78GB
+116,COQUELLES,calais116@louispion.fr,Active,2023/10/30 05:07:44,True,4.08GB
+120,BREST,brest120@louispion.fr,Active,2023/11/09 02:53:29,True,3.48GB
+122,ANGERS,angers122@louispion.fr,Active,2023/11/04 02:20:11,True,0.98GB
+127,MONTPELLIER,montpellier127@louispion.fr,Active,2023/11/08 22:48:07,True,1.46GB
+136,LYON PART DIEU,lyonpartdieu136@louispion.fr,Active,2023/11/06 10:03:29,True,4.29GB
+139,TOURS,stpierredescorps139@louispion.fr,Active,2023/11/08 05:31:23,True,6.09GB
+141,PARIS LA DEFENSE,ladefense141@louispion.fr,Active,2023/11/07 06:00:15,True,6.54GB
+142,PARIS PASSAGE DU HAVRE,passageduhavre142@louispion.fr,Active,2023/11/07 02:04:08,True,4.34GB
+143,ORLEANS,orleans143@louispion.fr,Active,2023/11/09 00:59:25,True,1.87GB
+145,PARIS LES HALLES,forum145@louispion.fr,Active,2023/11/08 03:15:40,True,4.29GB
+149,PARIS RUE DE RENNES,ruederennes149@louispion.fr,Active,2023/11/07 06:06:25,True,1.9GB
+153,LE HAVRE,lehavrecoty153@louispion.fr,Active,2023/10/30 03:37:26,True,2.93GB
+155,LORIENT,lorient155@louispion.fr,Active,2023/11/09 01:46:28,True,2.45GB
+191,VAL D'EUROPE,valdeurope191@louispion.fr,Active,2023/11/08 21:05:55,True,2.31GB
+193,ANNECY,annecy193@louispion.fr,Active,2023/10/30 02:44:24,True,6.47GB
+194,VILLENEUVE D'ASCQ,villeneuve194@louispion.fr,Active,2023/11/06 01:47:50,True,4.71GB
+195,PAU LESCAR,pau195@louispion.fr,Active,2023/11/08 22:58:44,True,6.47GB
+196,BELLE EPINE,belleepine196@louispion.fr,Active,2023/11/08 04:27:31,True,5.84GB
+200,ROSNY,rosny200@louispion.fr,Active,2023/11/06 12:02:01,True,8.04GB
+206,Commerce,commerce206@louispion.fr,Active,2023/11/09 01:09:44,True,4.76GB
+215,Passy,passy215@louispion.fr,Active,2023/11/09 01:04:30,True,3.76GB
+217,Lyon confluence,217lyonconfluence@louispion.fr,Active,2023/11/09 03:26:18,True,6.96GB
+221,Dijon Toison,221dijontoison@louispion.fr,Active,2023/11/08 03:11:56,True,3.48GB
+224,Qwartz,qwartz224@louispion.fr,Active,2023/11/06 04:23:52,True,5.89GB
+226,Les Passages,lespassages226@louispion.fr,Active,2023/11/04 06:04:49,True,5.42GB
+227,TOULOUSE FENOUILLET,toulousefenouillet227@louispion.fr,Active,2023/11/07 00:24:24,True,1.22GB
+228,Parly2,228parly2@louispion.fr,Active,2023/11/04 09:43:00,True,6.04GB
+230,Bordeaux Bègles,230begles@louispion.fr,Active,2023/11/04 01:23:10,True,2.04GB
+234 VICTOR,HUGO,234victorhugo@louispion.fr,Active,2023/11/03 06:45:06,True,6.43GB
+235,STRASBOURG,235strasbourg@louispion.fr,Active,2023/11/06 08:45:44,True,7.12GB
+302,GL Haussmann,lphausmann302@louispion.fr,Active,2023/10/27 08:23:09,True,2.59GB
+304,GL Tours,304lpgltours@louispion.fr,Active,2023/11/06 12:35:17,True,5.61GB
+305,GL Grenoble,305glgrenoble@louispion.fr,Active,2023/11/03 01:56:26,True,7.95GB
+306,GL Toulouse,306gltoulouse@louispion.fr,Active,2023/11/03 09:22:45,True,6.64GB
+307,GL Cap 3000,307glcap3000@louispion.fr,Active,2023/11/03 08:49:44,True,9.45GB
+309,GL Bordeaux,309glbordeaux@louispion.fr,Active,2023/11/08 06:07:33,True,8.74GB
+311,GL Lyon Bron,311gllyonbron@louispion.fr,Active,2023/11/08 01:05:41,True,8.0GB
+315,GL Montpellier,315glmontpellier@louispion.fr,Active,2023/11/02 04:32:33,True,1.82GB
+316,GL Nantes Decre,316glnantesdecre@louispion.fr,Active,2023/11/08 14:06:48,True,9.93GB
+317,GL Nice Massena,317glnicemassena@louispion.fr,Active,2023/11/08 04:13:07,True,3.54GB
+318,GL Perpignan,318glperpignan@louispion.fr,Active,2023/10/28 00:20:39,True,4.78GB
+319,GL Rosny,319glrosny@louispion.fr,Active,2023/11/08 04:44:01,True,4.76GB
+321,GL Amiens,321glamiens@louispion.fr,Active,2023/11/06 07:35:23,True,3.2GB
+322,GL Angers,322glangers@louispion.fr,Active,2023/11/06 11:51:39,True,2.62GB
+323,GL Annecy,323glannecy@louispion.fr,Active,2023/11/08 06:13:11,True,6.05GB
+324,GL Avignon Cap Sud,324glavignoncapsud@louispion.fr,Active,2023/11/08 06:08:49,True,4.84GB
+326,GL Besancon,326glbesancon@louispion.fr,Active,2023/11/02 02:17:26,True,1.5GB
+327,GL Biarritz,327glbiarritz@louispion.fr,Active,2023/11/08 03:04:24,True,4.84GB
+328,GL Caen,328glcaen@louispion.fr,Active,2023/11/03 09:53:07,True,5.22GB
+329,GL Cannes,329glcannes@louispion.fr,Active,2023/10/31 00:20:31,True,5.37GB
+330,GL Chambery,330glchambery@louispion.fr,Active,2023/11/07 09:33:16,True,4.28GB
+331,GL Clermont Ferrand,331glclermontferrand@louispion.fr,Active,2023/11/06 03:01:03,True,6.09GB
+334,334 GL Le Mans,334gllemans@louispion.fr,Active,2023/11/03 07:42:43,True,2.92GB
+335,GL Limoges,335gllimoges@louispion.fr,Active,2023/11/09 00:54:38,True,7.61GB
+336,GL Metz,336glmetz@louispion.fr,Active,2023/11/08 03:07:31,True,5.04GB
+337,GL Orleans,337glorleans@louispion.fr,Active,2023/11/07 01:00:34,True,2.48GB
+339,GL Reims,339glreims@louispion.fr,Active,2023/11/06 06:37:01,True,7.3GB
+340,GL Rennes,340glrennes@louispion.fr,Active,2023/11/09 00:57:53,True,5.4GB
+341,GL Rouen,341glrouen@louispion.fr,Active,2023/11/06 08:55:15,True,1.88GB
+345,BERLIN,345glberlin@louispion.fr,Active,2023/10/30 04:01:27,True,2.15GB
+346,GL Homme Mode,346@louispion.fr,Active,2023/11/04 10:36:50,True,2.39GB
+347,GL Senart,347glsenart@louispion.fr,Active,2023/11/03 02:37:34,True,5.42GB
+348,GL PRADO,348glprado@louispion.fr,Active,2023/11/04 10:08:06,True,6.36GB
+349,GL Beaugrenelle,349glbeaugrenelle@louispion.fr,Active,2023/11/06 07:06:09,True,2.27GB
+350,GL LUXEMBOURG LP,350glluxembourg@louispion.fr,Active,2023/11/04 04:05:14,True,7.72GB
+351,champselysees,351glchampselysees@louispion.fr,Active,2023/11/02 09:13:31,True,0.78GB
+402,CDG2F1,boutique402@rqz-galerieslafayette.com,Active,2022/06/23 07:05:43,True,1.21GB
+403,CDG2F2,boutique403@rqz-galerieslafayette.com,Active,2023/09/06 06:06:09,True,3.83GB
+404,CDG2E2,cdgs3404@royalquartz.fr,Active,2023/10/28 02:20:34,True,3.03GB
+406,CDG2E1 Royal Quartz,cdg2e1406@royalquartz.fr,Active,2023/11/07 06:03:18,True,1.98GB
+412,Auber,auber412@louispion.fr,Active,2023/11/07 07:20:05,True,6.68GB
+414,GL Rolex,boutiqueglrolex@rqz-galerieslafayette.com,Active,2023/11/09 01:59:51,True,2.94GB
+417,CDGAC,boutique417@rqz-galerieslafayette.com,Active,2022/12/29 23:46:31,True,1.82GB
+418,S4,boutique418@rqz-galerieslafayette.com,Active,2023/11/04 06:54:02,True,3.0GB
+421,Augis 1830,boutiquelyon@rqz-galerieslafayette.com,Active,2023/11/08 02:19:11,True,9.68GB
+421,Augis - SAV Bijouterie,savbijouterie@rqz-galerieslafayette.com,Active,2023/11/09 01:18:08,True,0.47GB
+421,Augis - SAV Horlogerie,savhorlogerie@rqz-galerieslafayette.com,Active,2023/11/09 01:20:14,True,3.57GB
+424,rqz marais,boutiquemarais@rqz-galerieslafayette.com,Active,2023/11/07 06:49:04,True,4.52GB
+426,RolexCDG2EK,rolexcdg2ek@rqz-galerieslafayette.com,Active,2023/11/07 10:28:29,True,1.0GB
+427,GL LUXEMBOURG RQ,427glluxembourg@rqz-galerieslafayette.com,Active,2023/11/09 01:50:45,True,6.3GB
+428 CARTIER 2EL,CARTIER 2EL,boutiquecartiercdg2el@rqz-galerieslafayette.com,Active,2023/10/31 23:31:45,True,17.85GB
+429,CDGBD,boutique429@rqz-galerieslafayette.com,Active,2023/11/06 03:07:23,True,2.21GB
+430 GL,HERMES,boutiqueglhermes@rqz-galerieslafayette.com,Active,2023/11/06 07:01:39,True,0.39GB
+438,cartiercdgT1,boutiquecartiercdgt1@rqz-galerieslafayette.com,Active,2023/11/07 07:49:43,True,7.34GB
+454,Sud International,boutique454@rqz-galerieslafayette.com,Active,2023/10/27 04:42:03,True,0.45GB
+admin,cirruseo,admin_cirruseo@louispion.fr,Active,2021/11/22 06:37:07,True,0.0GB
+Agnes,WINNICKA,awinnicka@rqz-galerieslafayette.com,Active,2023/11/09 00:30:10,True,0.24GB
+Agnès,GRUEZ,agruez@louispion.fr,Active,2023/11/03 02:59:34,True,39.23GB
+Alain,ITH,aith@louispion.fr,Active,2023/10/30 03:10:24,True,8.64GB
+Alexandra,MAERKERKE,amaerkerke@louispion.fr,Active,2023/11/06 11:07:09,True,12.82GB
+Alexandre,LU,alu@louispion.fr,Active,2023/11/05 15:29:13,True,12.58GB
+Alexis,DE CELLERY D'ALLENS,adecellerydallens@rqz-galerieslafayette.com,Active,2023/10/31 02:25:07,True,0.04GB
+Allan,OUNISSI,aounissi@louispion.fr,Active,2023/11/09 02:17:21,True,0.93GB
+Anais,RANDRIANANTOANINA,arandrianantoanina@louispion.fr,Active,2023/11/02 00:51:47,True,17.89GB
+Angélique,PLANE,aplane@louispion.fr,Active,2023/11/09 00:18:58,True,16.09GB
+Annick,RAMAMONJISOA,aramamonjisoa@rqz-galerieslafayette.com,Active,2023/11/09 02:11:50,True,1.53GB
+Anthony,VU,avu@rqz-galerieslafayette.com,Active,2023/11/08 13:52:17,True,2.83GB
+Antonio,GOMES,agomes@louispion.fr,Active,2023/11/08 06:49:14,True,1.67GB
+Antony,ANASTACIO,aanastacio@louispion.fr,Active,2023/11/08 01:28:31,True,5.3GB
+Arthur,LEMOINE,alemoine@louispion.fr,Active,2022/07/21 02:04:00,True,0.06GB
+atelier074,atelier074caen,atelier074caen@louispion.fr,Active,2023/11/03 01:07:21,True,0.66GB
+atelier235,atelier235strasbourg,atelier235strasbourg@louispion.fr,Active,2022/12/30 04:04:20,True,0.02GB
+Audrey,Reynaud,areynaud@rqz-galerieslafayette.com,Active,2023/11/03 06:26:28,True,2.9GB
+Aurelie,NEVEUX,aneveux@rqz-galerieslafayette.com,Active,2023/11/02 09:38:39,True,0.01GB
+Aurore,STEPIEN,astepien@louispion.fr,Active,2023/11/06 01:05:30,True,36.97GB
+Aurélie,ANDRE,aandre@louispion.fr,Active,2023/11/07 00:50:09,True,0.38GB
+Aurélie,GEORGES,ageorges@louispion.fr,Active,2023/11/06 00:42:48,True,24.53GB
+Ayling,DIEP,adiep@rqz-galerieslafayette.com,Active,2023/11/06 01:21:52,True,3.81GB
+Baudouin,SIMON,bsimon@rqz-galerieslafayette.com,Active,2023/11/09 02:52:55,True,4.02GB
+Camille,POUVREAU,cpouvreau@louispion.fr,Active,2023/11/08 11:19:39,True,24.71GB
+Candice,MAGNIER,cmagnier@louispion.fr,Active,2023/11/06 00:29:35,True,12.96GB
+Carlos,D'ALMEIDA,cdalmeida@rqz-galerieslafayette.com,Active,2023/11/08 10:30:45,True,0.46GB
+Cecile,DUONG,cduong@rqz-galerieslafayette.com,Active,2023/11/09 03:27:23,True,0.09GB
+Charles-Henry,LERAT,chlerat@rqz-galerieslafayette.com,Active,2023/11/08 10:39:38,True,1.02GB
+Charlotte,SOHIER,csohier@louispion.fr,Active,2023/11/02 09:14:53,True,16.9GB
+Chloé,ALBENQUE,calbenque@louispion.fr,Active,2023/10/26 08:39:40,True,51.65GB
+Christophe,MEURANT,cmeurant@louispion.fr,Active,2023/11/08 05:18:03,True,20.98GB
+Christophe,LAHAY (EXT),clahay.ext@louispion.fr,Active,2023/10/31 10:05:22,True,0.05GB
+Claire,PECHEUR,cpecheur@louispion.fr,Active,2023/11/08 05:42:56,True,17.67GB
+Corinne,CALLEGARI,ccallegari@louispion.fr,Active,2023/11/06 00:28:23,True,26.02GB
+Corinne,CHESNEAU,cchesneau@rqz-galerieslafayette.com,Active,2023/07/21 02:50:23,True,0.04GB
+Célestine,DECLERCK,cdeclerck@louispion.fr,Active,2023/11/09 02:22:19,True,1.83GB
+Daniel,CHAI,dchai@rqz-galerieslafayette.com,Active,2023/11/08 10:53:39,True,0.11GB
+Daniela,KONYARDI,dkonyardi@louispion.fr,Active,2023/11/01 03:49:17,True,14.33GB
+Daniela ,DUGENY,ddugeny@rqz-galerieslafayette.com,Active,2023/11/07 22:08:31,True,2.48GB
+Danuta,Skubiszewska,dskubiszewska-cse@louispion.fr,Active,2023/11/08 03:15:48,True,0.02GB
+David,DESGARCEAUX,ddesgarceaux@louispion.fr,Active,2023/11/06 07:40:11,True,10.81GB
+David,LEFANT,dlefant@louispion.fr,Active,2023/11/07 06:13:27,True,43.12GB
+Dawen,QIN,dqin@rqz-galerieslafayette.com,Active,2023/11/08 10:29:34,True,1.16GB
+Daying,CHEN,dchen@rqz-galerieslafayette.com,Active,2023/11/09 01:27:17,True,0.29GB
+Dorian,BLANCHARD,dblanchard@louispion.fr,Active,2023/11/09 00:47:59,True,3.25GB
+Doris,SEITZ,dseitz@rqz-galerieslafayette.com,Active,2023/11/02 08:57:11,True,29.44GB
+Edgar,EKWALLA ETIA,eekwallaetia@rqz-galerieslafayette.com,Active,2023/11/08 10:42:21,True,0.2GB
+Edo,EKA SAPUTRA,eekasaputra@rqz-galerieslafayette.com,Active,2023/11/08 18:05:50,True,0.08GB
+Eduardo,AZEVEDO,eazevedo@rqz-galerieslafayette.com,Active,2023/11/05 23:33:17,True,2.02GB
+Eglantine,VIGNERON,evigneron@louispion.fr,Active,2023/11/06 08:54:21,True,8.64GB
+Eliott,PY,epy@louispion.fr,Active,2023/11/06 01:14:40,True,2.0GB
+Elodie,JOURDAN,ejourdan@rqz-galerieslafayette.com,Active,2023/11/09 00:03:12,True,0.16GB
+Elvan,GYSELINCK,egyselinck@rqz-galerieslafayette.com,Active,2023/11/08 05:58:27,True,1.22GB
+Eléa,ANDRE,eandre@louispion.fr,Active,2023/11/02 01:41:16,True,1.81GB
+Emilie,DA COSTA,edacosta@louispion.fr,Active,2023/10/30 01:15:54,True,10.47GB
+Emma,LAROUSSI,elaroussi@louispion.fr,Active,2023/11/08 01:13:34,True,1.64GB
+Eric,BRALERET,ebraleret@louispion.fr,Active,2023/11/02 01:11:23,True,14.76GB
+Fabrice,BOUCHENOIRE,fbouchenoire@louispion.fr,Active,2023/11/07 00:07:09,True,8.91GB
+Farhath,AHAMEDSAH,fahamedsah@rqz-galerieslafayette.com,Active,2023/11/08 08:53:10,True,0.23GB
+Florence,PIQUEREAU,fpiquereau@rqz-galerieslafayette.com,Active,2023/11/08 16:00:50,True,0.0GB
+Francis,PAKYRISSAMY,fpakyrissamy@rqz-galerieslafayette.com,Active,2023/11/08 10:39:22,True,0.21GB
+Franck,GESBERT,fgesbert@rqz-galerieslafayette.com,Active,2023/11/08 07:37:01,True,6.02GB
+Francois,DERRENDINGER,fderrendinger@louispion.fr,Active,2023/11/03 00:22:53,True,32.46GB
+G-Suite,formation,formation.gsuite@louispion.fr,Active,2021/02/16 01:33:53,True,0.07GB
+Gilda,BAROUX,gbaroux@rqz-galerieslafayette.com,Active,2023/11/02 03:52:56,True,2.07GB
+Guio,ASSATIANI,gassatiani@rqz-galerieslafayette.com,Active,2023/11/08 07:42:52,True,0.07GB
+Hassna,AIT MOULOUD (EXT),haitmouloud.ext@louispion.fr,Active,2023/11/09 03:37:28,True,0.08GB
+Hinda,TALHAOUI,htalhaoui@rqz-galerieslafayette.com,Active,2023/11/08 15:07:14,True,0.33GB
+Hélène,PROUVOST,hprouvost@louispion.fr,Active,2023/11/06 00:38:54,True,6.52GB
+Ibtissam,CETIN,icetin@louispion.fr,Active,2023/10/30 06:09:28,True,3.56GB
+Ingrid,COELHO,icoelho@rqz-galerieslafayette.com,Active,2023/11/08 13:30:05,True,0.14GB
+Isabelle,GONCALVES,igoncalves@louispion.fr,Active,2023/11/09 03:24:49,True,36.61GB
+Jacqueline,PEREIRA,jpereira@rqz-galerieslafayette.com,Active,2023/11/08 03:34:22,True,0.04GB
+Jean Pierre,CINGALA,jpcingala@rqz-galerieslafayette.com,Active,2023/11/08 06:21:39,True,0.07GB
+Johann,SCHMITT,jschmitt@rqz-galerieslafayette.com,Active,2023/11/07 06:22:14,True,0.37GB
+John,ALLARD,jallard@louispion.fr,Active,2023/11/08 01:02:57,True,6.41GB
+Julia,SOULHIARD,jsoulhiard@louispion.fr,Active,2023/10/30 05:57:35,True,3.78GB
+Julia,DAUTRY,jdautry@louispion.fr,Active,2023/11/04 14:08:55,True,17.88GB
+Junfeng,LI,jli@rqz-galerieslafayette.com,Active,2023/11/08 04:45:23,True,0.05GB
+Jéremy,BASTARD,jbastard@louispion.fr,Active,2023/11/08 10:09:50,True,24.72GB
+Karima,DIFALLAH,kdifallah@louispion.fr,Active,2023/11/08 06:17:18,True,13.92GB
+Kevin,ALBERTS,kalberts@rqz-galerieslafayette.com,Active,2023/11/07 01:13:25,True,2.27GB
+Kiran,YAQUB,kyaqub@rqz-galerieslafayette.com,Active,2023/07/25 02:45:30,True,0.02GB
+Laetitia,Guillaumin,lguillaumin-cse@louispion.fr,Active,2022/03/01 06:35:13,True,0.05GB
+Laure,COSNIER,lcosnier@rqz-galerieslafayette.com,Active,2023/10/07 00:39:27,True,0.02GB
+Lauren,CHERON,lcheron@louispion.fr,Active,2023/11/08 04:40:47,True,20.04GB
+Li,SU,lsu@rqz-galerieslafayette.com,Active,2023/10/21 09:28:48,True,0.0GB
+Lorena,VAGINAY-DONGO,lvaginaydongo@louispion.fr,Active,2023/11/06 14:23:49,True,13.83GB
+Lou,MOREAU,lmoreau@louispion.fr,Active,2023/11/01 07:54:07,True,6.4GB
+Louis Pion,Accueil,accueil@louispion.fr,Active,2023/11/02 09:42:08,True,0.71GB
+Louise,DE BORDAS,ldebordas@louispion.fr,Active,2023/11/06 00:04:53,True,9.59GB
+Louise,LECOURT,llecourt@louispion.fr,Active,2023/11/08 00:48:44,True,5.62GB
+Lucie,BOURQUIN,lbourquin@louispion.fr,Active,2023/11/08 08:43:16,True,4.81GB
+Luzviminda,KUONG,lkuong@rqz-galerieslafayette.com,Active,2023/10/28 09:44:17,True,0.05GB
+Mandana,LEVAUX,mlevaux@louispion.fr,Active,2023/10/27 03:08:59,True,24.41GB
+Marc,BLAZICA,mblazica@louispion.fr,Active,2023/11/08 00:04:16,True,20.49GB
+Maria Paula,VILLAMIZAR,mpvillamizar@louispion.fr,Active,2023/10/27 01:03:14,True,2.66GB
+Marianne,ROMESTAIN,mromestain@louispion.fr,Active,2023/10/27 06:16:09,True,4.14GB
+Marie,AUBERT,maubert@louispion.fr,Active,2023/11/03 08:40:36,True,0.18GB
+Marie-Claire,POIGNONEC,mcpoignonec@louispion.fr,Active,2023/11/07 01:02:59,True,22.95GB
+Mariia,VOLIK,mvolik@louispion.fr,Active,2023/11/06 00:42:52,True,19.82GB
+Marine,FAVENNEC,mfavennec@louispion.fr,Active,2023/11/08 01:46:24,True,6.25GB
+Marine,CABY,mcaby@louispion.fr,Active,2023/10/30 08:06:21,True,3.16GB
+Marvin,TIMBRIA,mtimbria@louispion.fr,Active,2023/11/09 01:27:11,True,5.94GB
+Maryam,AGNAOU,magnaou@louispion.fr,Active,2023/09/05 05:44:24,True,11.97GB
+Mathilde,JACOB,mjacob@rqz-galerieslafayette.com,Active,2023/10/21 09:40:51,True,0.06GB
+Mathilde,WOLNY,mwolny@rqz-galerieslafayette.com,Active,2023/11/07 09:30:57,True,0.41GB
+Maxence,BOUDILLET,mboudillet@rqz-galerieslafayette.com,Active,2023/11/09 01:23:02,True,3.72GB
+Maëlla,QUINOT,mquinot@louispion.fr,Active,2023/11/06 00:48:48,True,1.26GB
+Mickael,PUNTONET,mpuntonet@louispion.fr,Active,2023/11/06 01:40:09,True,19.94GB
+Miguel,DONASCIMENTO,mdonascimento@rqz-galerieslafayette.com,Active,2023/11/09 02:22:35,True,2.21GB
+Mohamed,BOUTRA,mboutra@louispion.fr,Active,2023/11/09 01:19:32,True,32.0GB
+Mohammed-Chems,HACHEMI-RACHEDI,mchachemirachedi@rqz-galerieslafayette.com,Active,2023/11/07 04:19:05,True,0.0GB
+Murielle,LAISNEY,mlaisney@rqz-galerieslafayette.com,Active,2023/11/08 12:42:23,True,2.79GB
+Mustapha,ELMOUKTAFI,melmouktafi@royalquartz.fr,Active,2023/11/07 00:51:10,True,4.41GB
+Myriam,TALHA,mtalha@rqz-galerieslafayette.com,Active,2023/11/07 11:57:33,True,0.16GB
+Nada,BOUABDILLAH,nbouabdillah@louispion.fr,Active,2023/11/08 00:20:04,True,1.42GB
+Nadia,CHIKH,nchikh@louispion.fr,Active,2023/11/09 03:39:56,True,22.12GB
+Nahied,DANISH,ndanish@louispion.fr,Active,2023/11/08 03:57:27,True,6.3GB
+Natalia,DE OLIVEIRA SOARES,ndeoliveirasoares@rqz-galerieslafayette.com,Active,2023/11/07 05:04:51,True,0.15GB
+Nathalie,RODRIGUEZ,nrodriguez@rqz-galerieslafayette.com,Active,2023/11/08 11:34:36,True,0.25GB
+Nathalie,WATTELET,nwattelet@louispion.fr,Active,2023/11/07 00:39:02,True,21.37GB
+Nathalie,COUSIN,ncousin@rqz-galerieslafayette.com,Active,2023/11/09 01:42:10,True,0.75GB
+Nathalie,DAME,ndame@rqz-galerieslafayette.com,Active,2023/09/26 05:32:13,True,0.05GB
+Nicolas,DOUCET,ndoucet@louispion.fr,Active,2023/11/08 00:50:36,True,16.5GB
+Nicolas,COLSON,ncolson@rqz-galerieslafayette.com,Active,2023/11/09 00:44:50,True,0.32GB
+Noemie,STANICKI,nstanicki@rqz-galerieslafayette.com,Active,2023/11/09 01:07:18,True,3.24GB
+Nora,SI BACHIR,nsibachir@louispion.fr,Active,2023/10/20 06:32:08,True,16.7GB
+Olivier,DE PASTORS,odepastors@louispion.fr,Active,2023/10/26 06:20:54,True,21.92GB
+Paola,LAMBERT,plambert@rqz-galerieslafayette.com,Active,2023/11/08 01:08:50,True,4.41GB
+Paul,BARBET-MASSIN,pbarbetmassin@louispion.fr,Active,2023/11/07 03:32:26,True,16.93GB
+Pauline,ARFEUILLERE,parfeuillere@louispion.fr,Active,2023/11/03 12:32:43,True,11.03GB
+Pierre,DE FOUCAULT,pdefoucault@louispion.fr,Active,2023/11/06 23:16:11,True,31.16GB
+Qian,ZHANG,qzhang@rqz-galerieslafayette.com,Active,2023/06/02 06:01:53,True,0.06GB
+Rachanoo,TOURNOIS,rtournois@rqz-galerieslafayette.com,Active,2023/11/08 06:27:44,True,1.41GB
+Ranto,RAJAOFETRA,rrajaofetra@louispion.fr,Active,2023/11/09 00:57:24,True,5.06GB
+Romain,CULETTO,rculetto@rqz-galerieslafayette.com,Active,2023/11/09 01:00:14,True,4.56GB
+Romain,MEYER,rmeyer@rqz-galerieslafayette.com,Active,2023/10/26 07:24:02,True,0.18GB
+ROYQ,401 Rue Royale,boutiqueroyale@rqz-galerieslafayette.com,Active,2023/11/08 08:13:52,True,8.26GB
+Rémi,CORNUT,rcornut@louispion.fr,Active,2023/10/30 10:13:45,True,17.15GB
+Sabrina,CANONICI,scanonici@rqz-galerieslafayette.com,Active,2023/11/09 00:00:23,True,0.57GB
+Sadia,LACHGUAR,slachguar@rqz-galerieslafayette.com,Active,2023/11/09 01:37:26,True,0.3GB
+Sajaintini,SATHIANATHAN,ssathianathan@louispion.fr,Active,2023/11/07 00:53:34,True,11.73GB
+Samira,AZMINE,sazmine@rqz-galerieslafayette.com,Active,2023/11/08 05:23:39,True,0.83GB
+Sandrine,LIN,slin@louispion.fr,Active,2023/11/09 02:55:57,True,0.46GB
+SAV,Royal,savroyal@royalquartz.fr,Active,2023/11/02 02:32:18,True,1.16GB
+SAV,ORLY,savorly@rqz-galerieslafayette.com,Active,2023/10/26 01:15:21,True,0.07GB
+service.rolex,royale,service.rolex.royale@rqz-galerieslafayette.com,Active,2023/10/26 06:34:42,True,0.6GB
+Shi,MIAOMIAO,smiaomiao@rqz-galerieslafayette.com,Active,2023/11/08 09:59:24,True,0.93GB
+Siem,YAM,syam@rqz-galerieslafayette.com,Active,2023/11/08 23:09:37,True,1.37GB
+Sonia,TISSIER,stissier@rqz-galerieslafayette.com,Active,2023/11/08 11:16:13,True,0.09GB
+Sonia,HAMICI,shamici@rqz-galerieslafayette.com,Active,2023/11/08 09:39:30,True,0.0GB
+Sophie,SAGUET,ssaguet@louispion.fr,Active,2023/10/31 00:40:23,True,10.33GB
+Sophie,CHARBONNIER,scharbonnier@louispion.fr,Active,2023/10/31 00:31:27,True,15.6GB
+Stephane,MORICEAU,smoriceau@rqz-galerieslafayette.com,Active,2023/11/08 23:50:45,True,37.46GB
+Steve,BENDJAICHE,sbendjaiche@louispion.fr,Active,2023/11/08 08:38:18,True,39.8GB
+Stéphane,MAIOCCHI,smaiocchi@louispion.fr,Active,2023/11/02 01:34:59,True,27.34GB
+Sylvain,NIGRA,snigra@louispion.fr,Active,2023/11/06 14:50:15,True,8.26GB
+Sylvie,JOLAK,sjolak@louispion.fr,Active,2023/11/08 01:31:14,True,9.25GB
+Syrine,DENIA,sdenia@louispion.fr,Active,2023/11/03 07:49:15,True,6.35GB
+Tarik,KHOUADER,tkhouader@louispion.fr,Active,2023/10/31 11:11:05,True,6.4GB
+Thi Kim Oanh,NGUYEN,tkonguyen@rqz-galerieslafayette.com,Active,2023/11/08 21:03:32,True,0.13GB
+Thibaut,LERDA,tlerda@rqz-galerieslafayette.com,Active,2023/09/18 00:56:31,True,0.08GB
+Thomas,CHEVILLOT,tchevillot@louispion.fr,Active,2023/11/09 02:08:59,True,12.08GB
+Thomas,DRUON,tdruon@rqz-galerieslafayette.com,Active,2023/10/25 06:47:34,True,0.1GB
+Valérie,BEUVELOT,vbeuvelot@louispion.fr,Active,2023/11/02 10:23:36,True,14.15GB
+Valérie,LOBJOIS,vlobjois@rqz-galerieslafayette.com,Active,2023/10/31 00:55:44,True,0.01GB
+Van Sang,DO,vsdo@rqz-galerieslafayette.com,Active,2023/11/09 02:50:26,True,0.07GB
+Victoria,HONORAT,vhonorat@louispion.fr,Active,2023/11/07 05:00:11,True,9.26GB
+Vincent,VARDIN,vvardin@rqz-galerieslafayette.com,Active,2023/11/02 01:16:49,True,1.23GB
+Virginie,MONTIGNAC,vmontignac@rqz-galerieslafayette.com,Active,2023/11/08 19:19:42,True,0.72GB
+Wini-fred,MOUNTHAULT,wfmounthault@rqz-galerieslafayette.com,Active,2023/11/08 23:44:07,True,0.4GB
+Wioletta,KIERZEK,wkierzek@rqz-galerieslafayette.com,Active,2023/11/08 14:11:32,True,0.13GB
+Xiaoshuang,LI,xli@rqz-galerieslafayette.com,Active,2023/11/09 03:17:22,True,0.13GB
+Ying,XING,yxing@rqz-galerieslafayette.com,Active,2023/11/09 01:54:15,True,1.7GB
+Yreman,DACHUN,ydachun@louispion.fr,Active,2023/11/07 06:52:30,True,4.76GB
+Yuanbing,OU,you@rqz-galerieslafayette.com,Active,2023/11/08 14:39:56,True,0.04GB
+Yue,FENG,yfeng@rqz-galerieslafayette.com,Active,2023/11/08 06:01:18,True,0.16GB
