@@ -1,0 +1,4 @@
+md "\\ip\c$\Program Files (x86)\Cegid\Cegid Retail\CPOS Drivers\Neptin"
+xcopy "\\srv-data\Distrib\Nepting" "\\ip\c$\Program Files (x86)\Cegid\Cegid Retail\CPOS Drivers\Neptin"
+""\\ip\c$\Program Files (x86)\Cegid\Cegid Retail\Cegid Retail Y2 23.0\Front Office\CPOS_DLLManager.exe" -reg "\\ip\c$:\Program Files (x86)\Cegid\Cegid Retail\CPOS Drivers\Nepting\Cegid.CPOS.Nepting.dll"
+""\\ip\c$\Program Files (x86)\Cegid\Cegid Retail\Cegid Retail Y2 23.0\Front Office\CPOS_DLLManager.exe" -reg "\\ip\c$:\Program Files (x86)\Cegid\Cegid Retail\CPOS Drivers\Nepting\NepPosDLL32.dll"
