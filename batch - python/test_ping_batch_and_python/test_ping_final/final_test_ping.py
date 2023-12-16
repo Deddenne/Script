@@ -21,12 +21,7 @@ def ping(x,start,stop):
 
         # ---- .50 / .51 /.70 /.90
         for z in (50,51,70,90) :
-            if x == 2 : 
-                y_str = y-300
-                hostname = str("10."+str(x)+"."+str(y_str)+"."+str(z))
-            else : 
-                hostname = str("10."+str(x)+"."+str(y)+"."+str(z))
-            
+            hostname = str("10."+str(x)+"."+str(y)+"."+str(z))
             response = os.system("ping -n 1 " + hostname + '| find "TTL=" >nul')
             # ---- réponse positive au ping
             if response == 0:
@@ -49,8 +44,12 @@ def ping(x,start,stop):
                     etat_90 = 'DOWN'
         
         # ---- Ecrire dans le csv
-        nom_mag = "Magasin "+str(y)
-
+        if x == 2 :
+            y_split = str(y)                    
+            y_split = y_split[1:3]    
+            nom_mag = "Magasin 4"+y_split
+        else : 
+            nom_mag = "Magasin "+str(y)
         with open(name_file, 'a') as f:
             f.write("{};{};{};{};{}\n".format(nom_mag , etat_50 , etat_51, etat_70, etat_90))
     
