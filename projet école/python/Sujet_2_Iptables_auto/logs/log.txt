@@ -1,0 +1,1230 @@
+Régle : iptables -D INPUT -p tcp --dport 80 -j DROP erreur
+Régle : iptables -D INPUT -p tcp --dport 8181 -j DROP erreur
+Régle : iptables -D FORWARD -p tcp --dport 82 -j DROP erreur
+Régle : iptables -D FORWARD -p tcp --dport 8282 -j DROP erreur
+Régle : iptables -D OUTPUT -p tcp --dport 83 -j DROP erreur
+Régle : iptables -D OUTPUT -p tcp --dport 8383 -j DROP erreur
+Régle : iptables -A INPUT -p tcp --dport 80 -j DROP erreur
+Régle : iptables -A INPUT -p tcp --dport 8181 -j DROP erreur
+Régle : iptables -A FORWARD -p tcp --dport 82 -j DROP erreur
+Régle : iptables -A FORWARD -p tcp --dport 8282 -j DROP erreur
+Régle : iptables -A OUTPUT -p tcp --dport 83 -j DROP erreur
+Régle : iptables -A OUTPUT -p tcp --dport 8383 -j DROP erreur
+12/11/2023 23:55:31 La règle pour le port n/a n'existe pas
+12/11/2023 23:55:31 La règle pour le port n/a n'existe pas
+12/11/2023 23:55:31 La règle pour le port n/a n'existe pas
+12/11/2023 23:55:31 La règle pour le port n/a n'existe pas
+12/11/2023 23:55:31 La règle pour le port n/a n'existe pas
+12/11/2023 23:55:31 La règle pour le port n/a n'existe pas
+12/11/2023 23:55:31 La règle pour le port 80 en INPUT a bien été supprimée
+12/11/2023 23:55:31 La règle pour le port 8181 en INPUT a bien été supprimée
+12/11/2023 23:55:31 La règle pour le port 82 en FORWARD a bien été supprimée
+12/11/2023 23:55:31 La règle pour le port 8282 en FORWARD a bien été supprimée
+12/11/2023 23:55:31 La règle pour le port 83 en OUTPUT a bien été supprimée
+12/11/2023 23:55:31 La règle pour le port 8383 en OUTPUT a bien été supprimée
+12/11/2023 23:55:31 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+12/11/2023 23:56:26 La règle pour le port n/a n'existe pas
+12/11/2023 23:56:26 La règle pour le port n/a n'existe pas
+12/11/2023 23:56:26 La règle pour le port n/a n'existe pas
+12/11/2023 23:56:26 La règle pour le port n/a n'existe pas
+12/11/2023 23:56:26 La règle pour le port n/a n'existe pas
+12/11/2023 23:56:26 La règle pour le port n/a n'existe pas
+12/11/2023 23:56:26 La règle pour le port 80 en INPUT a bien été supprimée
+12/11/2023 23:56:26 La règle pour le port 8181 en INPUT a bien été supprimée
+12/11/2023 23:56:26 La règle pour le port 82 en FORWARD a bien été supprimée
+12/11/2023 23:56:26 La règle pour le port 8282 en FORWARD a bien été supprimée
+12/11/2023 23:56:26 La règle pour le port 83 en OUTPUT a bien été supprimée
+12/11/2023 23:56:26 La règle pour le port 8383 en OUTPUT a bien été supprimée
+12/11/2023 23:56:26 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+12/11/2023 23:56:36 La règle pour le port 80 en INPUT est bien présente
+12/11/2023 23:56:36 La règle pour le port 8181 en INPUT est bien présente
+12/11/2023 23:56:36 La règle pour le port 82 en FORWARD est bien présente
+12/11/2023 23:56:36 La règle pour le port 8282 en FORWARD est bien présente
+12/11/2023 23:56:36 La règle pour le port 83 en OUTPUT est bien présente
+12/11/2023 23:56:36 La règle pour le port 8383 en OUTPUT est bien présente
+12/11/2023 23:56:36 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+12/11/2023 23:57:10 La règle pour le port 80 en INPUT a bien été supprimée
+12/11/2023 23:57:10 La règle pour le port 8181 en INPUT a bien été supprimée
+12/11/2023 23:57:10 La règle pour le port 82 en FORWARD a bien été supprimée
+12/11/2023 23:57:10 La règle pour le port 8282 en FORWARD a bien été supprimée
+12/11/2023 23:57:10 La règle pour le port 83 en OUTPUT a bien été supprimée
+12/11/2023 23:57:10 La règle pour le port 8383 en OUTPUT a bien été supprimée
+12/11/2023 23:57:10 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+13/11/2023 00:01:28 La règle pour le port n/a n'existe pas
+13/11/2023 00:01:28 La règle pour le port n/a n'existe pas
+13/11/2023 00:01:28 La règle pour le port n/a n'existe pas
+13/11/2023 00:01:28 La règle pour le port n/a n'existe pas
+13/11/2023 00:01:28 La règle pour le port n/a n'existe pas
+13/11/2023 00:01:28 La règle pour le port 22 en INPUT a bien été supprimée
+13/11/2023 00:01:28 La règle pour le port iptables -D OUTPUT -p tcp --sport 22 -j ACCEPT
+ en OUTPUT a bien été supprimée
+13/11/2023 00:01:28 La règle pour le port iptables -D OUTPUT -p tcp ! --sport 22 -j DROP
+ en OUTPUT a bien été supprimée
+13/11/2023 00:01:28 La règle pour le port iptables -D OUTPUT -p udp -j DROP
+ en OUTPUT a bien été supprimée
+13/11/2023 00:01:28 La règle pour le port iptables -D OUTPUT -p icmp -j DROP en OUTPUT a bien été supprimée
+13/11/2023 00:01:28 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+13/11/2023 00:01:41 La règle pour le port 22 en INPUT est bien présente
+13/11/2023 00:01:41 La règle pour le port iptables -A OUTPUT -p tcp --sport 22 -j ACCEPT
+ en OUTPUT n'a pas été ajoutée
+13/11/2023 00:01:41 La règle pour le port iptables -A OUTPUT -p tcp ! --sport 22 -j DROP
+ en OUTPUT n'a pas été ajoutée
+13/11/2023 00:01:41 La règle pour le port iptables -A OUTPUT -p udp -j DROP
+ en OUTPUT n'a pas été ajoutée
+13/11/2023 00:01:41 La règle pour le port iptables -A OUTPUT -p icmp -j DROP en OUTPUT n'a pas été ajoutée
+13/11/2023 00:01:41 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+13/11/2023 00:02:06 La règle pour le port n/a n'existe pas
+13/11/2023 00:02:06 La règle pour le port n/a n'existe pas
+13/11/2023 00:02:06 La règle pour le port n/a n'existe pas
+13/11/2023 00:02:06 La règle pour le port n/a n'existe pas
+13/11/2023 00:02:06 La règle pour le port 22 en INPUT a bien été supprimée
+13/11/2023 00:02:06 La règle pour le port iptables -D OUTPUT -p tcp --sport 22 -j ACCEPT
+ en OUTPUT a bien été supprimée
+13/11/2023 00:02:06 La règle pour le port iptables -D OUTPUT -p tcp ! --sport 22 -j DROP
+ en OUTPUT a bien été supprimée
+13/11/2023 00:02:06 La règle pour le port iptables -D OUTPUT -p udp -j DROP
+ en OUTPUT a bien été supprimée
+13/11/2023 00:02:06 La règle pour le port iptables -D OUTPUT -p icmp -j DROP en OUTPUT a bien été supprimée
+13/11/2023 00:02:06 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+13/11/2023 00:02:27 La règle pour le port n/a n'existe pas
+13/11/2023 00:02:27 La règle pour le port n/a n'existe pas
+13/11/2023 00:02:27 La règle pour le port n/a n'existe pas
+13/11/2023 00:02:27 La règle pour le port n/a n'existe pas
+13/11/2023 00:02:27 La règle pour le port n/a n'existe pas
+13/11/2023 00:02:27 La règle pour le port 22 en INPUT a bien été supprimée
+13/11/2023 00:02:27 La règle pour le port iptables -D OUTPUT -p tcp --sport 22 -j ACCEPT
+ en OUTPUT a bien été supprimée
+13/11/2023 00:02:27 La règle pour le port iptables -D OUTPUT -p tcp ! --sport 22 -j DROP
+ en OUTPUT a bien été supprimée
+13/11/2023 00:02:27 La règle pour le port iptables -D OUTPUT -p udp -j DROP
+ en OUTPUT a bien été supprimée
+13/11/2023 00:02:27 La règle pour le port iptables -D OUTPUT -p icmp -j DROP en OUTPUT a bien été supprimée
+13/11/2023 00:02:27 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+13/11/2023 00:03:27 La règle pour le port 22 en INPUT est bien présente
+13/11/2023 00:03:27 La règle pour le port iptables -A OUTPUT -p tcp --sport 22 -j ACCEPT
+ en OUTPUT n'a pas été ajoutée
+13/11/2023 00:03:27 La règle pour le port iptables -A OUTPUT -p tcp ! --sport 22 -j DROP
+ en OUTPUT n'a pas été ajoutée
+13/11/2023 00:03:27 La règle pour le port iptables -A OUTPUT -p udp -j DROP
+ en OUTPUT n'a pas été ajoutée
+13/11/2023 00:03:27 La règle pour le port iptables -A OUTPUT -p icmp -j DROP en OUTPUT n'a pas été ajoutée
+13/11/2023 00:03:27 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+13/11/2023 00:03:42 La règle pour le port 22 existe déjà
+13/11/2023 00:03:42 La règle pour le port 22 en INPUT est bien présente
+13/11/2023 00:03:42 La règle pour le port iptables -A OUTPUT -p tcp --sport 22 -j ACCEPT
+ en OUTPUT n'a pas été ajoutée
+13/11/2023 00:03:42 La règle pour le port iptables -A OUTPUT -p tcp ! --sport 22 -j DROP
+ en OUTPUT n'a pas été ajoutée
+13/11/2023 00:03:42 La règle pour le port iptables -A OUTPUT -p udp -j DROP
+ en OUTPUT n'a pas été ajoutée
+13/11/2023 00:03:42 La règle pour le port iptables -A OUTPUT -p icmp -j DROP en OUTPUT n'a pas été ajoutée
+13/11/2023 00:03:42 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+13/11/2023 00:03:58 La règle pour le port n/a n'existe pas
+13/11/2023 00:03:58 La règle pour le port n/a n'existe pas
+13/11/2023 00:03:58 La règle pour le port n/a n'existe pas
+13/11/2023 00:03:58 La règle pour le port n/a n'existe pas
+13/11/2023 00:03:58 La règle pour le port 22 en INPUT a bien été supprimée
+13/11/2023 00:03:58 La règle pour le port iptables -D OUTPUT -p tcp --sport 22 -j ACCEPT
+ en OUTPUT a bien été supprimée
+13/11/2023 00:03:58 La règle pour le port iptables -D OUTPUT -p tcp ! --sport 22 -j DROP
+ en OUTPUT a bien été supprimée
+13/11/2023 00:03:58 La règle pour le port iptables -D OUTPUT -p udp -j DROP
+ en OUTPUT a bien été supprimée
+13/11/2023 00:03:58 La règle pour le port iptables -D OUTPUT -p icmp -j DROP en OUTPUT a bien été supprimée
+13/11/2023 00:03:58 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+13/11/2023 00:04:10 La règle pour le port n/a n'existe pas
+13/11/2023 00:04:10 La règle pour le port n/a n'existe pas
+13/11/2023 00:04:10 La règle pour le port n/a n'existe pas
+13/11/2023 00:04:10 La règle pour le port n/a n'existe pas
+13/11/2023 00:04:10 La règle pour le port n/a n'existe pas
+13/11/2023 00:04:10 La règle pour le port 22 en INPUT a bien été supprimée
+13/11/2023 00:04:10 La règle pour le port iptables -D OUTPUT -p tcp --sport 22 -j ACCEPT
+ en OUTPUT a bien été supprimée
+13/11/2023 00:04:10 La règle pour le port iptables -D OUTPUT -p tcp ! --sport 22 -j DROP
+ en OUTPUT a bien été supprimée
+13/11/2023 00:04:10 La règle pour le port iptables -D OUTPUT -p udp -j DROP
+ en OUTPUT a bien été supprimée
+13/11/2023 00:04:10 La règle pour le port iptables -D OUTPUT -p icmp -j DROP en OUTPUT a bien été supprimée
+13/11/2023 00:04:10 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+13/11/2023 00:05:13 La règle pour le port n/a n'existe pas
+13/11/2023 00:05:13 La règle pour le port n/a n'existe pas
+13/11/2023 00:05:13 La règle pour le port n/a n'existe pas
+13/11/2023 00:05:13 La règle pour le port n/a n'existe pas
+13/11/2023 00:05:13 La règle pour le port n/a n'existe pas
+13/11/2023 00:05:13 La règle pour le port 22 en INPUT a bien été supprimée
+13/11/2023 00:05:13 La règle pour le port iptables -D OUTPUT -p tcp --sport 22 -j ACCEPT
+ en OUTPUT a bien été supprimée
+13/11/2023 00:05:13 La règle pour le port iptables -D OUTPUT -p tcp ! --sport 22 -j DROP
+ en OUTPUT a bien été supprimée
+13/11/2023 00:05:13 La règle pour le port iptables -D OUTPUT -p udp -j DROP
+ en OUTPUT a bien été supprimée
+13/11/2023 00:05:13 La règle pour le port iptables -D OUTPUT -p icmp -j DROP en OUTPUT a bien été supprimée
+13/11/2023 00:05:13 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+13/11/2023 00:15:11 La règle pour le port 22 en INPUT est bien présente
+13/11/2023 00:15:11 La règle pour le port iptables -A OUTPUT -p tcp --sport 22 -j ACCEPT
+ en OUTPUT n'a pas été ajoutée
+13/11/2023 00:15:11 La règle pour le port iptables -A OUTPUT -p tcp ! --sport 22 -j DROP
+ en OUTPUT n'a pas été ajoutée
+13/11/2023 00:15:11 La règle pour le port iptables -A OUTPUT -p udp -j DROP
+ en OUTPUT n'a pas été ajoutée
+13/11/2023 00:15:11 La règle pour le port iptables -A OUTPUT -p icmp -j DROP en OUTPUT n'a pas été ajoutée
+13/11/2023 00:15:11 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+13/11/2023 00:15:20 La règle pour le port n/a n'existe pas
+13/11/2023 00:15:20 La règle pour le port n/a n'existe pas
+13/11/2023 00:15:20 La règle pour le port n/a n'existe pas
+13/11/2023 00:15:20 La règle pour le port n/a n'existe pas
+13/11/2023 00:15:20 La règle pour le port 22 en INPUT a bien été supprimée
+13/11/2023 00:15:20 La règle pour le port iptables -D OUTPUT -p tcp --sport 22 -j ACCEPT
+ en OUTPUT a bien été supprimée
+13/11/2023 00:15:20 La règle pour le port iptables -D OUTPUT -p tcp ! --sport 22 -j DROP
+ en OUTPUT a bien été supprimée
+13/11/2023 00:15:20 La règle pour le port iptables -D OUTPUT -p udp -j DROP
+ en OUTPUT a bien été supprimée
+13/11/2023 00:15:20 La règle pour le port iptables -D OUTPUT -p icmp -j DROP en OUTPUT a bien été supprimée
+13/11/2023 00:15:20 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+13/11/2023 00:15:44 La règle pour le port 22 en INPUT est bien présente
+13/11/2023 00:15:44 La règle pour le port iptables -A OUTPUT -p tcp --sport 22 -j ACCEPT
+ en OUTPUT n'a pas été ajoutée
+13/11/2023 00:15:44 La règle pour le port iptables -A OUTPUT -p tcp ! --sport 22 -j DROP
+ en OUTPUT n'a pas été ajoutée
+13/11/2023 00:15:44 La règle pour le port iptables -A OUTPUT -p udp -j DROP
+ en OUTPUT n'a pas été ajoutée
+13/11/2023 00:15:44 La règle pour le port iptables -A OUTPUT -p icmp -j DROP en OUTPUT n'a pas été ajoutée
+13/11/2023 00:15:44 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+13/11/2023 00:21:43 La règle pour le port n/a n'existe pas
+13/11/2023 00:21:43 La règle pour le port n/a n'existe pas
+13/11/2023 00:21:43 La règle pour le port n/a n'existe pas
+13/11/2023 00:21:43 La règle pour le port n/a n'existe pas
+13/11/2023 00:21:43 La règle pour le port 22 en INPUT a bien été supprimée
+13/11/2023 00:21:43 La règle pour le port iptables -D OUTPUT -p tcp --sport 22 -j ACCEPT
+ en OUTPUT a bien été supprimée
+13/11/2023 00:21:43 La règle pour le port iptables -D OUTPUT -p tcp ! --sport 22 -j DROP
+ en OUTPUT a bien été supprimée
+13/11/2023 00:21:43 La règle pour le port iptables -D OUTPUT -p udp -j DROP
+ en OUTPUT a bien été supprimée
+13/11/2023 00:21:43 La règle pour le port iptables -D OUTPUT -p icmp -j DROP en OUTPUT a bien été supprimée
+13/11/2023 00:21:43 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+13/11/2023 00:52:02 La règle pour le port n/a n'existe pas
+13/11/2023 00:52:02 La règle pour le port n/a n'existe pas
+13/11/2023 00:52:02 La règle pour le port n/a n'existe pas
+13/11/2023 00:52:02 La règle pour le port n/a n'existe pas
+13/11/2023 00:52:02 La règle pour le port n/a n'existe pas
+13/11/2023 00:52:02 La règle pour le port 22 en INPUT a bien été supprimée
+13/11/2023 00:52:02 La règle pour le port iptables -D OUTPUT -p tcp --sport 22 -j ACCEPT
+ en OUTPUT a bien été supprimée
+13/11/2023 00:52:02 La règle pour le port iptables -D OUTPUT -p tcp ! --sport 22 -j DROP
+ en OUTPUT a bien été supprimée
+13/11/2023 00:52:02 La règle pour le port iptables -D OUTPUT -p udp -j DROP
+ en OUTPUT a bien été supprimée
+13/11/2023 00:52:02 La règle pour le port iptables -D OUTPUT -p icmp -j DROP en OUTPUT a bien été supprimée
+13/11/2023 00:52:02 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+13/11/2023 00:52:16 La règle pour le port n/a n'existe pas
+13/11/2023 00:52:16 La règle pour le port n/a n'existe pas
+13/11/2023 00:52:16 La règle pour le port n/a n'existe pas
+13/11/2023 00:52:16 La règle pour le port n/a n'existe pas
+13/11/2023 00:52:16 La règle pour le port n/a n'existe pas
+13/11/2023 00:52:16 La règle pour le port 22 en INPUT a bien été supprimée
+13/11/2023 00:52:16 La règle pour le port iptables -D OUTPUT -p tcp --sport 22 -j ACCEPT
+ en OUTPUT a bien été supprimée
+13/11/2023 00:52:16 La règle pour le port iptables -D OUTPUT -p tcp ! --sport 22 -j DROP
+ en OUTPUT a bien été supprimée
+13/11/2023 00:52:16 La règle pour le port iptables -D OUTPUT -p udp -j DROP
+ en OUTPUT a bien été supprimée
+13/11/2023 00:52:16 La règle pour le port iptables -D OUTPUT -p icmp -j DROP en OUTPUT a bien été supprimée
+13/11/2023 00:52:16 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+13/11/2023 00:52:31 La règle pour le port n/a n'existe pas
+13/11/2023 00:52:31 La règle pour le port n/a n'existe pas
+13/11/2023 00:52:31 La règle pour le port n/a n'existe pas
+13/11/2023 00:52:31 La règle pour le port n/a n'existe pas
+13/11/2023 00:52:31 La règle pour le port n/a n'existe pas
+13/11/2023 00:52:31 La règle pour le port 22 en INPUT a bien été supprimée
+13/11/2023 00:52:31 La règle pour le port iptables -D OUTPUT -p tcp --sport 22 -j ACCEPT
+ en OUTPUT a bien été supprimée
+13/11/2023 00:52:31 La règle pour le port iptables -D OUTPUT -p tcp ! --sport 22 -j DROP
+ en OUTPUT a bien été supprimée
+13/11/2023 00:52:31 La règle pour le port iptables -D OUTPUT -p udp -j DROP
+ en OUTPUT a bien été supprimée
+13/11/2023 00:52:31 La règle pour le port iptables -D OUTPUT -p icmp -j DROP en OUTPUT a bien été supprimée
+13/11/2023 00:52:31 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+13/11/2023 00:53:03 La règle pour le port 22 en INPUT est bien présente
+13/11/2023 00:53:03 La règle pour le port iptables -A OUTPUT -p tcp --sport 22 -j ACCEPT
+ en OUTPUT n'a pas été ajoutée
+13/11/2023 00:53:03 La règle pour le port iptables -A OUTPUT -p tcp ! --sport 22 -j DROP
+ en OUTPUT n'a pas été ajoutée
+13/11/2023 00:53:03 La règle pour le port iptables -A OUTPUT -p udp -j DROP
+ en OUTPUT n'a pas été ajoutée
+13/11/2023 00:53:03 La règle pour le port iptables -A OUTPUT -p icmp -j DROP en OUTPUT n'a pas été ajoutée
+13/11/2023 00:53:03 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+13/11/2023 00:53:48 La règle pour le port n/a n'existe pas
+13/11/2023 00:53:48 La règle pour le port n/a n'existe pas
+13/11/2023 00:53:48 La règle pour le port n/a n'existe pas
+13/11/2023 00:53:48 La règle pour le port n/a n'existe pas
+13/11/2023 00:53:48 La règle pour le port 22 en INPUT a bien été supprimée
+13/11/2023 00:53:48 La règle pour le port iptables -D OUTPUT -p tcp --sport 22 -j ACCEPT
+ en OUTPUT a bien été supprimée
+13/11/2023 00:53:48 La règle pour le port iptables -D OUTPUT -p tcp ! --sport 22 -j DROP
+ en OUTPUT a bien été supprimée
+13/11/2023 00:53:48 La règle pour le port iptables -D OUTPUT -p udp -j DROP
+ en OUTPUT a bien été supprimée
+13/11/2023 00:53:48 La règle pour le port iptables -D OUTPUT -p icmp -j DROP en OUTPUT a bien été supprimée
+13/11/2023 00:53:48 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+13/11/2023 00:54:13 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+13/11/2023 00:54:29 La règle pour le port 22 en INPUT est bien présente
+13/11/2023 00:54:29 La règle pour le port iptables -A OUTPUT -p tcp --sport 22 -j ACCEPT
+ en OUTPUT n'a pas été ajoutée
+13/11/2023 00:54:29 La règle pour le port iptables -A OUTPUT -p tcp ! --sport 22 -j DROP
+ en OUTPUT n'a pas été ajoutée
+13/11/2023 00:54:29 La règle pour le port iptables -A OUTPUT -p udp -j DROP
+ en OUTPUT n'a pas été ajoutée
+13/11/2023 00:54:29 La règle pour le port iptables -A OUTPUT -p icmp -j DROP en OUTPUT n'a pas été ajoutée
+13/11/2023 00:54:29 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+13/11/2023 01:02:13 La règle pour le port n/a n'existe pas
+13/11/2023 01:02:13 La règle pour le port n/a n'existe pas
+13/11/2023 01:02:13 La règle pour le port n/a n'existe pas
+13/11/2023 01:02:13 La règle pour le port n/a n'existe pas
+13/11/2023 01:02:13 La règle pour le port n/a n'existe pas
+13/11/2023 01:02:13 La règle pour le port 22 en INPUT a bien été supprimée
+13/11/2023 01:02:13 La règle pour le port iptables -D OUTPUT -p tcp --sport 22 -j ACCEPT
+ en OUTPUT a bien été supprimée
+13/11/2023 01:02:13 La règle pour le port iptables -D OUTPUT -p tcp ! --sport 22 -j DROP
+ en OUTPUT a bien été supprimée
+13/11/2023 01:02:13 La règle pour le port iptables -D OUTPUT -p udp -j DROP
+ en OUTPUT a bien été supprimée
+13/11/2023 01:02:13 La règle pour le port iptables -D OUTPUT -p icmp -j DROP en OUTPUT a bien été supprimée
+13/11/2023 01:02:13 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+13/11/2023 01:02:28 La règle pour le port n/a n'existe pas
+13/11/2023 01:02:28 La règle pour le port n/a n'existe pas
+13/11/2023 01:02:28 La règle pour le port n/a n'existe pas
+13/11/2023 01:02:28 La règle pour le port n/a n'existe pas
+13/11/2023 01:02:28 La règle pour le port n/a n'existe pas
+13/11/2023 01:02:28 La règle pour le port 22 en INPUT a bien été supprimée
+13/11/2023 01:02:28 La règle pour le port iptables -D OUTPUT -p tcp --sport 22 -j ACCEPT
+ en OUTPUT a bien été supprimée
+13/11/2023 01:02:28 La règle pour le port iptables -D OUTPUT -p tcp ! --sport 22 -j DROP
+ en OUTPUT a bien été supprimée
+13/11/2023 01:02:28 La règle pour le port iptables -D OUTPUT -p udp -j DROP
+ en OUTPUT a bien été supprimée
+13/11/2023 01:02:28 La règle pour le port iptables -D OUTPUT -p icmp -j DROP en OUTPUT a bien été supprimée
+13/11/2023 01:02:28 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+13/11/2023 01:02:39 La règle pour le port 22 en INPUT n'a pas été ajoutée
+13/11/2023 01:02:39 La règle pour le port iptables -A OUTPUT -p tcp --sport 22 -j ACCEPT
+ en OUTPUT n'a pas été ajoutée
+13/11/2023 01:02:39 La règle pour le port iptables -A OUTPUT -p tcp ! --sport 22 -j DROP
+ en OUTPUT n'a pas été ajoutée
+13/11/2023 01:02:39 La règle pour le port iptables -A OUTPUT -p udp -j DROP
+ en OUTPUT n'a pas été ajoutée
+13/11/2023 01:02:39 La règle pour le port iptables -A OUTPUT -p icmp -j DROP en OUTPUT n'a pas été ajoutée
+13/11/2023 01:02:39 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+13/11/2023 01:02:46 La règle pour le port dpt n'existe pas
+13/11/2023 01:02:46 La règle pour le port spt n'existe pas
+13/11/2023 01:02:46 La règle pour le port spt n'existe pas
+13/11/2023 01:02:46 La règle pour le port spt n'existe pas
+13/11/2023 01:02:46 La règle pour le port spt n'existe pas
+13/11/2023 01:02:46 La règle pour le port 22 en INPUT a bien été supprimée
+13/11/2023 01:02:46 La règle pour le port iptables -D OUTPUT -p tcp --sport 22 -j ACCEPT
+ en OUTPUT a bien été supprimée
+13/11/2023 01:02:46 La règle pour le port iptables -D OUTPUT -p tcp ! --sport 22 -j DROP
+ en OUTPUT a bien été supprimée
+13/11/2023 01:02:46 La règle pour le port iptables -D OUTPUT -p udp -j DROP
+ en OUTPUT a bien été supprimée
+13/11/2023 01:02:46 La règle pour le port iptables -D OUTPUT -p icmp -j DROP en OUTPUT a bien été supprimée
+13/11/2023 01:02:46 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+13/11/2023 01:03:47 La règle pour le port 22 en INPUT n'a pas été ajoutée
+13/11/2023 01:03:47 La règle pour le port iptables -A OUTPUT -p tcp --sport 22 -j ACCEPT
+ en OUTPUT n'a pas été ajoutée
+13/11/2023 01:03:47 La règle pour le port iptables -A OUTPUT -p tcp ! --sport 22 -j DROP
+ en OUTPUT n'a pas été ajoutée
+13/11/2023 01:03:47 La règle pour le port iptables -A OUTPUT -p udp -j DROP
+ en OUTPUT n'a pas été ajoutée
+13/11/2023 01:03:47 La règle pour le port iptables -A OUTPUT -p icmp -j DROP en OUTPUT n'a pas été ajoutée
+13/11/2023 01:03:47 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+13/11/2023 01:20:52 La règle pour le port !22 n'existe pas
+13/11/2023 01:20:52 La règle pour le port !22 n'existe pas
+13/11/2023 01:20:52 La règle pour le port 22 en INPUT a bien été supprimée
+13/11/2023 01:20:52 La règle pour le port iptables -D OUTPUT -p tcp --sport 22 -j ACCEPT
+ en OUTPUT a bien été supprimée
+13/11/2023 01:20:52 La règle pour le port iptables -D OUTPUT -p tcp ! --sport 22 -j DROP
+ en OUTPUT a bien été supprimée
+13/11/2023 01:20:52 La règle pour le port iptables -D OUTPUT -p udp -j DROP
+ en OUTPUT a bien été supprimée
+13/11/2023 01:20:52 La règle pour le port iptables -D OUTPUT -p icmp -j DROP en OUTPUT a bien été supprimée
+13/11/2023 01:20:52 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+13/11/2023 01:24:00 La règle pour le port n/a n'existe pas
+13/11/2023 01:24:00 La règle pour le port n/a n'existe pas
+13/11/2023 01:24:00 La règle pour le port n/a n'existe pas
+13/11/2023 01:24:00 La règle pour le port n/a n'existe pas
+13/11/2023 01:24:00 La règle pour le port n/a n'existe pas
+13/11/2023 01:24:00 La règle pour le port 22 en INPUT a bien été supprimée
+13/11/2023 01:24:00 La règle pour le port iptables -D OUTPUT -p tcp --sport 22 -j ACCEPT
+ en OUTPUT a bien été supprimée
+13/11/2023 01:24:00 La règle pour le port iptables -D OUTPUT -p tcp ! --sport 22 -j DROP
+ en OUTPUT a bien été supprimée
+13/11/2023 01:24:00 La règle pour le port iptables -D OUTPUT -p udp -j DROP
+ en OUTPUT a bien été supprimée
+13/11/2023 01:24:00 La règle pour le port iptables -D OUTPUT -p icmp -j DROP en OUTPUT a bien été supprimée
+13/11/2023 01:24:00 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+13/11/2023 01:39:42 La règle pour le port n/a n'existe pas
+13/11/2023 01:39:42 La règle pour le port 22 en INPUT a bien été supprimée
+13/11/2023 01:39:42 La règle pour le port iptables -D OUTPUT -p tcp --sport 22 -j ACCEPT
+ en OUTPUT a bien été supprimée
+13/11/2023 01:39:42 La règle pour le port iptables -D OUTPUT -p tcp ! --sport 22 -j DROP
+ en OUTPUT a bien été supprimée
+13/11/2023 01:39:42 La règle pour le port iptables -D OUTPUT -p udp -j DROP
+ en OUTPUT a bien été supprimée
+13/11/2023 01:39:42 La règle pour le port iptables -D OUTPUT -p icmp -j DROP en OUTPUT a bien été supprimée
+13/11/2023 01:39:42 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+13/11/2023 01:39:55 La règle pour le port 22 en INPUT n'a pas été ajoutée
+13/11/2023 01:39:55 La règle pour le port iptables -A OUTPUT -p tcp --sport 22 -j ACCEPT
+ en OUTPUT n'a pas été ajoutée
+13/11/2023 01:39:55 La règle pour le port iptables -A OUTPUT -p tcp ! --sport 22 -j DROP
+ en OUTPUT n'a pas été ajoutée
+13/11/2023 01:39:55 La règle pour le port iptables -A OUTPUT -p udp -j DROP
+ en OUTPUT n'a pas été ajoutée
+13/11/2023 01:39:55 La règle pour le port iptables -A OUTPUT -p icmp -j DROP en OUTPUT n'a pas été ajoutée
+13/11/2023 01:39:55 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+13/11/2023 01:40:50 La règle pour le port 22 en INPUT a bien été supprimée
+13/11/2023 01:40:50 La règle pour le port iptables -D OUTPUT -p tcp --sport 22 -j ACCEPT
+ en OUTPUT a bien été supprimée
+13/11/2023 01:40:50 La règle pour le port iptables -D OUTPUT -p tcp ! --sport 22 -j DROP
+ en OUTPUT a bien été supprimée
+13/11/2023 01:40:50 La règle pour le port iptables -D OUTPUT -p udp -j DROP
+ en OUTPUT a bien été supprimée
+13/11/2023 01:40:50 La règle pour le port iptables -D OUTPUT -p icmp -j DROP en OUTPUT a bien été supprimée
+13/11/2023 01:40:50 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+13/11/2023 01:41:00 La règle pour le port 22 en INPUT n'a pas été ajoutée
+13/11/2023 01:41:00 La règle pour le port iptables -A OUTPUT -p tcp --sport 22 -j ACCEPT
+ en OUTPUT n'a pas été ajoutée
+13/11/2023 01:41:00 La règle pour le port iptables -A OUTPUT -p tcp ! --sport 22 -j DROP
+ en OUTPUT n'a pas été ajoutée
+13/11/2023 01:41:00 La règle pour le port iptables -A OUTPUT -p udp -j DROP
+ en OUTPUT n'a pas été ajoutée
+13/11/2023 01:41:00 La règle pour le port iptables -A OUTPUT -p icmp -j DROP en OUTPUT n'a pas été ajoutée
+13/11/2023 01:41:00 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+13/11/2023 01:41:17 La règle pour le port 22 en INPUT a bien été supprimée
+13/11/2023 01:41:17 La règle pour le port iptables -D OUTPUT -p tcp --sport 22 -j ACCEPT
+ en OUTPUT a bien été supprimée
+13/11/2023 01:41:17 La règle pour le port iptables -D OUTPUT -p tcp ! --sport 22 -j DROP
+ en OUTPUT a bien été supprimée
+13/11/2023 01:41:17 La règle pour le port iptables -D OUTPUT -p udp -j DROP
+ en OUTPUT a bien été supprimée
+13/11/2023 01:41:17 La règle pour le port iptables -D OUTPUT -p icmp -j DROP en OUTPUT a bien été supprimée
+13/11/2023 01:41:17 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+13/11/2023 01:41:32 La règle pour le port 22 en INPUT n'a pas été ajoutée
+13/11/2023 01:41:32 La règle pour le port iptables -A OUTPUT -p tcp --sport 22 -j ACCEPT
+ en OUTPUT n'a pas été ajoutée
+13/11/2023 01:41:32 La règle pour le port iptables -A OUTPUT -p tcp ! --sport 22 -j DROP
+ en OUTPUT n'a pas été ajoutée
+13/11/2023 01:41:32 La règle pour le port iptables -A OUTPUT -p udp -j DROP
+ en OUTPUT n'a pas été ajoutée
+13/11/2023 01:41:32 La règle pour le port iptables -A OUTPUT -p icmp -j DROP en OUTPUT n'a pas été ajoutée
+13/11/2023 01:41:32 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+13/11/2023 01:41:50 La règle pour le port 22 existe déjà
+13/11/2023 01:41:50 La règle pour le port   existe déjà
+13/11/2023 01:41:50 La règle pour le port   existe déjà
+13/11/2023 01:41:50 La règle pour le port   existe déjà
+13/11/2023 01:41:50 La règle pour le port   existe déjà
+13/11/2023 01:41:50 La règle pour le port 22 en INPUT n'a pas été ajoutée
+13/11/2023 01:41:50 La règle pour le port iptables -A OUTPUT -p tcp --sport 22 -j ACCEPT
+ en OUTPUT n'a pas été ajoutée
+13/11/2023 01:41:50 La règle pour le port iptables -A OUTPUT -p tcp ! --sport 22 -j DROP
+ en OUTPUT n'a pas été ajoutée
+13/11/2023 01:41:50 La règle pour le port iptables -A OUTPUT -p udp -j DROP
+ en OUTPUT n'a pas été ajoutée
+13/11/2023 01:41:50 La règle pour le port iptables -A OUTPUT -p icmp -j DROP en OUTPUT n'a pas été ajoutée
+13/11/2023 01:41:50 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+13/11/2023 01:43:19 La règle pour le port 22 en INPUT a bien été supprimée
+13/11/2023 01:43:19 La règle pour le port iptables -D OUTPUT -p tcp --sport 22 -j ACCEPT
+ en OUTPUT a bien été supprimée
+13/11/2023 01:43:19 La règle pour le port iptables -D OUTPUT -p tcp ! --sport 22 -j DROP
+ en OUTPUT a bien été supprimée
+13/11/2023 01:43:19 La règle pour le port iptables -D OUTPUT -p udp -j DROP
+ en OUTPUT a bien été supprimée
+13/11/2023 01:43:19 La règle pour le port iptables -D OUTPUT -p icmp -j DROP en OUTPUT a bien été supprimée
+13/11/2023 01:43:19 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+13/11/2023 01:44:31 La règle pour le port n/a n'existe pas
+13/11/2023 01:44:31 La règle pour le port n/a n'existe pas
+13/11/2023 01:44:31 La règle pour le port n/a n'existe pas
+13/11/2023 01:44:31 La règle pour le port n/a n'existe pas
+13/11/2023 01:44:31 La règle pour le port n/a n'existe pas
+13/11/2023 01:44:31 La règle pour le port 22 en INPUT a bien été supprimée
+13/11/2023 01:44:31 La règle pour le port iptables -D OUTPUT -p tcp --sport 22 -j ACCEPT
+ en OUTPUT a bien été supprimée
+13/11/2023 01:44:31 La règle pour le port iptables -D OUTPUT -p tcp ! --sport 22 -j DROP
+ en OUTPUT a bien été supprimée
+13/11/2023 01:44:31 La règle pour le port iptables -D OUTPUT -p udp -j DROP
+ en OUTPUT a bien été supprimée
+13/11/2023 01:44:31 La règle pour le port iptables -D OUTPUT -p icmp -j DROP en OUTPUT a bien été supprimée
+13/11/2023 01:44:31 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+13/11/2023 01:48:51 La règle pour le port 22 en INPUT n'a pas été ajoutée
+13/11/2023 01:48:51 La règle pour le port iptables -A OUTPUT -p tcp --sport 22 -j ACCEPT
+ en OUTPUT n'a pas été ajoutée
+13/11/2023 01:48:51 La règle pour le port iptables -A OUTPUT -p tcp ! --sport 22 -j DROP
+ en OUTPUT n'a pas été ajoutée
+13/11/2023 01:48:51 La règle pour le port iptables -A OUTPUT -p udp -j DROP
+ en OUTPUT n'a pas été ajoutée
+13/11/2023 01:48:51 La règle pour le port iptables -A OUTPUT -p icmp -j DROP en OUTPUT n'a pas été ajoutée
+13/11/2023 01:48:51 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+13/11/2023 01:52:43 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+13/11/2023 01:57:33 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+13/11/2023 01:58:28 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+13/11/2023 02:02:01 La règle pour le port   en INPUT a bien été supprimée
+13/11/2023 02:02:01 La règle pour le port   en INPUT a bien été supprimée
+13/11/2023 02:02:01 La règle pour le port   en INPUT a bien été supprimée
+13/11/2023 02:02:01 La règle pour le port   en INPUT a bien été supprimée
+13/11/2023 02:02:01 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+13/11/2023 02:02:17 La règle pour le port   en INPUT n'a pas été ajoutée
+13/11/2023 02:02:17 La règle pour le port   en INPUT n'a pas été ajoutée
+13/11/2023 02:02:17 La règle pour le port   en INPUT n'a pas été ajoutée
+13/11/2023 02:02:17 La règle pour le port   en INPUT n'a pas été ajoutée
+13/11/2023 02:02:17 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+13/11/2023 02:04:50 La règle pour le port   en INPUT a bien été supprimée
+13/11/2023 02:04:50 La règle pour le port   en INPUT a bien été supprimée
+13/11/2023 02:04:50 La règle pour le port   en INPUT a bien été supprimée
+13/11/2023 02:04:50 La règle pour le port   en INPUT a bien été supprimée
+13/11/2023 02:04:50 La règle pour le port   en INPUT a bien été supprimée
+13/11/2023 02:04:50 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+13/11/2023 02:05:14 La règle pour le port   en INPUT n'a pas été ajoutée
+13/11/2023 02:05:14 La règle pour le port   en INPUT n'a pas été ajoutée
+13/11/2023 02:05:14 La règle pour le port   en INPUT n'a pas été ajoutée
+13/11/2023 02:05:14 La règle pour le port   en INPUT n'a pas été ajoutée
+13/11/2023 02:05:14 La règle pour le port   en INPUT n'a pas été ajoutée
+13/11/2023 02:05:14 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+13/11/2023 02:10:17 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+13/11/2023 02:15:29 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+13/11/2023 02:15:56 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+13/11/2023 02:17:03 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+13/11/2023 02:17:22 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+13/11/2023 02:28:07 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+13/11/2023 02:28:17 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+13/11/2023 02:31:07 La règle pour le port   en INPUT n'a pas été supprimée
+13/11/2023 02:31:07 La règle pour le port   en INPUT n'a pas été supprimée
+13/11/2023 02:31:07 La règle pour le port   en INPUT n'a pas été supprimée
+13/11/2023 02:31:07 La règle pour le port   en INPUT n'a pas été supprimée
+13/11/2023 02:31:07 La règle pour le port   en INPUT n'a pas été supprimée
+13/11/2023 02:31:07 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+13/11/2023 02:35:24 La règle pour le port 22 en INPUT n'a pas été ajoutée
+13/11/2023 02:35:24 La règle pour le port 22 en INPUT n'a pas été ajoutée
+13/11/2023 02:35:24 La règle pour le port 22 en INPUT n'a pas été ajoutée
+13/11/2023 02:35:24 La règle pour le port   en OUTPUT est bien présente
+13/11/2023 02:35:24 La règle pour le port   en OUTPUT est bien présente
+13/11/2023 02:35:24 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+13/11/2023 02:36:35 La règle pour le port 22 en INPUT a bien été supprimée
+13/11/2023 02:36:35 La règle pour le port 22 en INPUT a bien été supprimée
+13/11/2023 02:36:35 La règle pour le port 22 en INPUT a bien été supprimée
+13/11/2023 02:36:35 La règle pour le port   en OUTPUT a bien été supprimée
+13/11/2023 02:36:35 La règle pour le port   en OUTPUT a bien été supprimée
+13/11/2023 02:36:35 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+18/11/2023 17:27:59 La règle pour le port 22 en INPUT n'a pas été ajoutée
+18/11/2023 17:27:59 La règle pour le port 22 en INPUT n'a pas été ajoutée
+18/11/2023 17:27:59 La règle pour le port 22 en INPUT n'a pas été ajoutée
+18/11/2023 17:27:59 La règle pour le port   en OUTPUT n'a pas été ajoutée
+18/11/2023 17:27:59 La règle pour le port   en OUTPUT n'a pas été ajoutée
+18/11/2023 17:27:59 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+18/11/2023 17:33:18 La règle pour le port 22 existe déjà
+18/11/2023 17:33:18 La règle pour le port !22 existe déjà
+18/11/2023 17:33:18 La règle pour le port !22 existe déjà
+18/11/2023 17:33:18 La règle pour le port 22 en INPUT n'a pas été ajoutée
+18/11/2023 17:33:18 La règle pour le port 22 en INPUT n'a pas été ajoutée
+18/11/2023 17:33:18 La règle pour le port 22 en INPUT n'a pas été ajoutée
+18/11/2023 17:33:18 La règle pour le port   en OUTPUT n'a pas été ajoutée
+18/11/2023 17:33:18 La règle pour le port   en OUTPUT n'a pas été ajoutée
+18/11/2023 17:33:18 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+18/11/2023 17:36:20 La règle pour le port !22 existe déjà
+18/11/2023 17:36:20 La règle pour le port !22 existe déjà
+18/11/2023 17:36:20 La règle pour le port 22 en INPUT n'a pas été ajoutée
+18/11/2023 17:36:20 La règle pour le port 22 en INPUT n'a pas été ajoutée
+18/11/2023 17:36:20 La règle pour le port 22 en INPUT n'a pas été ajoutée
+18/11/2023 17:36:20 La règle pour le port   en OUTPUT n'a pas été ajoutée
+18/11/2023 17:36:20 La règle pour le port   en OUTPUT n'a pas été ajoutée
+18/11/2023 17:36:20 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+18/11/2023 17:36:50 La règle pour le port !22 existe déjà
+18/11/2023 17:36:50 La règle pour le port !22 existe déjà
+18/11/2023 17:36:50 La règle pour le port 22 en INPUT n'a pas été ajoutée
+18/11/2023 17:36:50 La règle pour le port 22 en INPUT n'a pas été ajoutée
+18/11/2023 17:36:50 La règle pour le port 22 en INPUT n'a pas été ajoutée
+18/11/2023 17:36:50 La règle pour le port   en OUTPUT n'a pas été ajoutée
+18/11/2023 17:36:50 La règle pour le port   en OUTPUT n'a pas été ajoutée
+18/11/2023 17:36:50 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+18/11/2023 17:37:45 La règle pour le port 22 en INPUT n'a pas été ajoutée
+18/11/2023 17:37:45 La règle pour le port 22 en INPUT n'a pas été ajoutée
+18/11/2023 17:37:45 La règle pour le port 22 en INPUT n'a pas été ajoutée
+18/11/2023 17:37:45 La règle pour le port   en OUTPUT n'a pas été ajoutée
+18/11/2023 17:37:45 La règle pour le port   en OUTPUT n'a pas été ajoutée
+18/11/2023 17:37:45 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+18/11/2023 17:37:59 La règle pour le port n/a n'existe pas
+18/11/2023 17:37:59 La règle pour le port !22 n'existe pas
+18/11/2023 17:37:59 La règle pour le port !22 n'existe pas
+18/11/2023 17:37:59 La règle pour le port 22 en INPUT a bien été supprimée
+18/11/2023 17:37:59 La règle pour le port 22 en INPUT a bien été supprimée
+18/11/2023 17:37:59 La règle pour le port 22 en INPUT a bien été supprimée
+18/11/2023 17:37:59 La règle pour le port   en OUTPUT a bien été supprimée
+18/11/2023 17:37:59 La règle pour le port   en OUTPUT a bien été supprimée
+18/11/2023 17:37:59 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+18/11/2023 17:39:48 La règle pour le port 22 en INPUT n'a pas été ajoutée
+18/11/2023 17:39:48 La règle pour le port 22 en INPUT n'a pas été ajoutée
+18/11/2023 17:39:48 La règle pour le port 22 en INPUT n'a pas été ajoutée
+18/11/2023 17:39:48 La règle pour le port   en OUTPUT est bien présente
+18/11/2023 17:39:48 La règle pour le port   en OUTPUT est bien présente
+18/11/2023 17:39:48 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+18/11/2023 17:40:06 La règle pour le port   existe déjà
+18/11/2023 17:40:06 La règle pour le port   existe déjà
+18/11/2023 17:40:06 La règle pour le port   existe déjà
+18/11/2023 17:40:06 La règle pour le port   existe déjà
+18/11/2023 17:40:06 La règle pour le port 22 en INPUT n'a pas été ajoutée
+18/11/2023 17:40:06 La règle pour le port 22 en INPUT n'a pas été ajoutée
+18/11/2023 17:40:06 La règle pour le port 22 en INPUT n'a pas été ajoutée
+18/11/2023 17:40:06 La règle pour le port   en OUTPUT est bien présente
+18/11/2023 17:40:06 La règle pour le port   en OUTPUT est bien présente
+18/11/2023 17:40:06 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+18/11/2023 17:40:19 La règle pour le port n/a n'existe pas
+18/11/2023 17:40:19 La règle pour le port 22 en INPUT a bien été supprimée
+18/11/2023 17:40:19 La règle pour le port 22 en INPUT a bien été supprimée
+18/11/2023 17:40:19 La règle pour le port 22 en INPUT a bien été supprimée
+18/11/2023 17:40:19 La règle pour le port   en OUTPUT a bien été supprimée
+18/11/2023 17:40:19 La règle pour le port   en OUTPUT a bien été supprimée
+18/11/2023 17:40:19 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+18/11/2023 17:40:29 La règle pour le port n/a n'existe pas
+18/11/2023 17:40:29 La règle pour le port n/a n'existe pas
+18/11/2023 17:40:29 La règle pour le port n/a n'existe pas
+18/11/2023 17:40:29 La règle pour le port n/a n'existe pas
+18/11/2023 17:40:29 La règle pour le port n/a n'existe pas
+18/11/2023 17:40:29 La règle pour le port 22 en INPUT a bien été supprimée
+18/11/2023 17:40:29 La règle pour le port 22 en INPUT a bien été supprimée
+18/11/2023 17:40:29 La règle pour le port 22 en INPUT a bien été supprimée
+18/11/2023 17:40:29 La règle pour le port   en OUTPUT a bien été supprimée
+18/11/2023 17:40:29 La règle pour le port   en OUTPUT a bien été supprimée
+18/11/2023 17:40:29 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+18/11/2023 17:45:06 La règle pour le port n/a n'existe pas
+18/11/2023 17:45:06 La règle pour le port n/a n'existe pas
+18/11/2023 17:45:06 La règle pour le port n/a n'existe pas
+18/11/2023 17:45:06 La règle pour le port n/a n'existe pas
+18/11/2023 17:45:06 La règle pour le port 22 en INPUT a bien été supprimée
+18/11/2023 17:45:06 La règle pour le port 22 en INPUT a bien été supprimée
+18/11/2023 17:45:06 La règle pour le port 22 en INPUT a bien été supprimée
+18/11/2023 17:45:06 La règle pour le port   en OUTPUT a bien été supprimée
+18/11/2023 17:45:06 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+18/11/2023 18:14:15 La règle pour le port n/a n'existe pas
+18/11/2023 18:14:15 La règle pour le port n/a n'existe pas
+18/11/2023 18:14:15 La règle pour le port n/a n'existe pas
+18/11/2023 18:14:15 La règle pour le port 22 en INPUT n'a pas été supprimée
+18/11/2023 18:14:15 La règle pour le port 22 en INPUT n'a pas été supprimée
+18/11/2023 18:14:15 La règle pour le port 22 en INPUT n'a pas été supprimée
+18/11/2023 18:14:15 La règle pour le port   en OUTPUT a bien été supprimée
+18/11/2023 18:14:15 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+18/11/2023 18:14:38 La règle pour le port n/a n'existe pas
+18/11/2023 18:14:38 La règle pour le port n/a n'existe pas
+18/11/2023 18:14:38 La règle pour le port n/a n'existe pas
+18/11/2023 18:14:38 La règle pour le port 22 en INPUT n'a pas été supprimée
+18/11/2023 18:14:38 La règle pour le port 22 en INPUT n'a pas été supprimée
+18/11/2023 18:14:38 La règle pour le port 22 en INPUT n'a pas été supprimée
+18/11/2023 18:14:38 La règle pour le port   en OUTPUT a bien été supprimée
+18/11/2023 18:14:38 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+18/11/2023 18:14:58 La règle pour le port 22 en INPUT n'a pas été ajoutée
+18/11/2023 18:14:58 La règle pour le port 22 en INPUT n'a pas été ajoutée
+18/11/2023 18:14:58 La règle pour le port 22 en INPUT n'a pas été ajoutée
+18/11/2023 18:14:58 La règle pour le port   en OUTPUT n'a pas été ajoutée
+18/11/2023 18:14:58 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+18/11/2023 18:15:11 La règle pour le port 22 existe déjà
+18/11/2023 18:15:11 La règle pour le port   existe déjà
+18/11/2023 18:15:11 La règle pour le port   existe déjà
+18/11/2023 18:15:11 La règle pour le port   existe déjà
+18/11/2023 18:15:11 La règle pour le port 22 en INPUT est bien présente
+18/11/2023 18:15:11 La règle pour le port 22 en INPUT est bien présente
+18/11/2023 18:15:11 La règle pour le port 22 en INPUT est bien présente
+18/11/2023 18:15:11 La règle pour le port   en OUTPUT est bien présente
+18/11/2023 18:15:11 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+18/11/2023 18:15:54 La règle pour le port 22 existe déjà
+18/11/2023 18:15:54 La règle pour le port   existe déjà
+18/11/2023 18:15:54 La règle pour le port   existe déjà
+18/11/2023 18:15:54 La règle pour le port   existe déjà
+18/11/2023 18:15:54 La règle pour le port 22 en INPUT est bien présente
+18/11/2023 18:15:54 La règle pour le port 22 en INPUT est bien présente
+18/11/2023 18:15:54 La règle pour le port 22 en INPUT est bien présente
+18/11/2023 18:15:54 La règle pour le port   en OUTPUT est bien présente
+18/11/2023 18:15:54 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+18/11/2023 18:16:03 La règle pour le port 22 en INPUT n'a pas été supprimée
+18/11/2023 18:16:03 La règle pour le port 22 en INPUT n'a pas été supprimée
+18/11/2023 18:16:03 La règle pour le port 22 en INPUT n'a pas été supprimée
+18/11/2023 18:16:03 La règle pour le port   en OUTPUT n'a pas été supprimée
+18/11/2023 18:16:03 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+18/11/2023 18:16:18 La règle pour le port n/a n'existe pas
+18/11/2023 18:16:18 La règle pour le port n/a n'existe pas
+18/11/2023 18:16:18 La règle pour le port n/a n'existe pas
+18/11/2023 18:16:18 La règle pour le port n/a n'existe pas
+18/11/2023 18:16:18 La règle pour le port 22 en INPUT a bien été supprimée
+18/11/2023 18:16:18 La règle pour le port 22 en INPUT a bien été supprimée
+18/11/2023 18:16:18 La règle pour le port 22 en INPUT a bien été supprimée
+18/11/2023 18:16:18 La règle pour le port   en OUTPUT a bien été supprimée
+18/11/2023 18:16:18 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+18/11/2023 18:16:39 La règle pour le port 22 en INPUT n'a pas été ajoutée
+18/11/2023 18:16:39 La règle pour le port 22 en INPUT n'a pas été ajoutée
+18/11/2023 18:16:39 La règle pour le port 22 en INPUT n'a pas été ajoutée
+18/11/2023 18:16:39 La règle pour le port   en OUTPUT n'a pas été ajoutée
+18/11/2023 18:16:39 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+18/11/2023 18:30:09 La règle pour le port 22 en INPUT n'a pas été ajoutée
+18/11/2023 18:30:09 La règle pour le port 22 en INPUT n'a pas été ajoutée
+18/11/2023 18:30:09 La règle pour le port 22 en INPUT n'a pas été ajoutée
+18/11/2023 18:30:09 La règle pour le port   en OUTPUT n'a pas été ajoutée
+18/11/2023 18:30:09 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+18/11/2023 18:30:33 La règle pour le port 22 existe déjà
+18/11/2023 18:30:33 La règle pour le port   existe déjà
+18/11/2023 18:30:33 La règle pour le port   existe déjà
+18/11/2023 18:30:33 La règle pour le port   existe déjà
+18/11/2023 18:30:33 La règle pour le port 22 en INPUT est bien présente
+18/11/2023 18:30:33 La règle pour le port 22 en INPUT est bien présente
+18/11/2023 18:30:33 La règle pour le port 22 en INPUT est bien présente
+18/11/2023 18:30:33 La règle pour le port   en OUTPUT est bien présente
+18/11/2023 18:30:33 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+18/11/2023 18:30:52 La règle pour le port 22 en INPUT n'a pas été supprimée
+18/11/2023 18:30:52 La règle pour le port 22 en INPUT n'a pas été supprimée
+18/11/2023 18:30:52 La règle pour le port 22 en INPUT n'a pas été supprimée
+18/11/2023 18:30:52 La règle pour le port   en OUTPUT n'a pas été supprimée
+18/11/2023 18:30:52 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+18/11/2023 18:34:00 La règle pour le port 22 en INPUT n'a pas été ajoutée
+18/11/2023 18:34:00 La règle pour le port 22 en INPUT n'a pas été ajoutée
+18/11/2023 18:34:00 La règle pour le port 22 en INPUT n'a pas été ajoutée
+18/11/2023 18:34:00 La règle pour le port   en OUTPUT n'a pas été ajoutée
+18/11/2023 18:34:00 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+18/11/2023 18:39:37 La règle pour le port 22 en INPUT n'a pas été supprimée
+18/11/2023 18:39:37 La règle pour le port 22 en INPUT n'a pas été supprimée
+18/11/2023 18:39:37 La règle pour le port 22 en INPUT n'a pas été supprimée
+18/11/2023 18:39:37 La règle pour le port   en OUTPUT n'a pas été supprimée
+18/11/2023 18:39:37 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+18/11/2023 18:40:04 La règle pour le port n/a n'existe pas
+18/11/2023 18:40:04 La règle pour le port n/a n'existe pas
+18/11/2023 18:40:04 La règle pour le port n/a n'existe pas
+18/11/2023 18:40:04 La règle pour le port n/a n'existe pas
+18/11/2023 18:40:04 La règle pour le port 22 en INPUT a bien été supprimée
+18/11/2023 18:40:04 La règle pour le port 22 en INPUT a bien été supprimée
+18/11/2023 18:40:04 La règle pour le port 22 en INPUT a bien été supprimée
+18/11/2023 18:40:04 La règle pour le port   en OUTPUT a bien été supprimée
+18/11/2023 18:40:04 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+18/11/2023 18:40:24 La règle pour le port 22 en INPUT n'a pas été ajoutée
+18/11/2023 18:40:24 La règle pour le port 22 en INPUT n'a pas été ajoutée
+18/11/2023 18:40:24 La règle pour le port 22 en INPUT n'a pas été ajoutée
+18/11/2023 18:40:24 La règle pour le port   en OUTPUT n'a pas été ajoutée
+18/11/2023 18:40:24 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+18/11/2023 18:41:29 La règle pour le port 22 en INPUT n'a pas été supprimée
+18/11/2023 18:41:29 La règle pour le port 22 en INPUT n'a pas été supprimée
+18/11/2023 18:41:29 La règle pour le port 22 en INPUT n'a pas été supprimée
+18/11/2023 18:41:29 La règle pour le port   en OUTPUT n'a pas été supprimée
+18/11/2023 18:41:29 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+18/11/2023 18:42:27 La règle pour le port 22 en INPUT n'a pas été ajoutée
+18/11/2023 18:42:27 La règle pour le port 22 en INPUT n'a pas été ajoutée
+18/11/2023 18:42:27 La règle pour le port 22 en INPUT n'a pas été ajoutée
+18/11/2023 18:42:27 La règle pour le port   en OUTPUT n'a pas été ajoutée
+18/11/2023 18:42:27 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+18/11/2023 18:47:51 La règle pour le port 22 en INPUT n'a pas été ajoutée
+18/11/2023 18:47:51 La règle pour le port 22 en INPUT n'a pas été ajoutée
+18/11/2023 18:47:51 La règle pour le port 22 en INPUT n'a pas été ajoutée
+18/11/2023 18:47:51 La règle pour le port   en OUTPUT n'a pas été ajoutée
+18/11/2023 18:47:51 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+18/11/2023 18:51:01 La règle pour le port 22 en INPUT n'a pas été ajoutée
+18/11/2023 18:51:01 La règle pour le port 22 en INPUT n'a pas été ajoutée
+18/11/2023 18:51:01 La règle pour le port 22 en INPUT n'a pas été ajoutée
+18/11/2023 18:51:01 La règle pour le port   en OUTPUT n'a pas été ajoutée
+18/11/2023 18:51:01 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+18/11/2023 18:51:29 La règle pour le port n/a n'existe pas
+18/11/2023 18:51:29 La règle pour le port n/a n'existe pas
+18/11/2023 18:51:29 La règle pour le port n/a n'existe pas
+18/11/2023 18:51:29 La règle pour le port n/a n'existe pas
+18/11/2023 18:51:29 La règle pour le port 22 en INPUT n'a pas été supprimée
+18/11/2023 18:51:29 La règle pour le port 22 en INPUT n'a pas été supprimée
+18/11/2023 18:51:29 La règle pour le port 22 en INPUT n'a pas été supprimée
+18/11/2023 18:51:29 La règle pour le port   en OUTPUT n'a pas été supprimée
+18/11/2023 18:51:29 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+18/11/2023 18:51:56 La règle pour le port n/a n'existe pas
+18/11/2023 18:51:56 La règle pour le port n/a n'existe pas
+18/11/2023 18:51:56 La règle pour le port n/a n'existe pas
+18/11/2023 18:51:56 La règle pour le port n/a n'existe pas
+18/11/2023 18:51:56 La règle pour le port 22 en INPUT n'a pas été supprimée
+18/11/2023 18:51:56 La règle pour le port 22 en INPUT n'a pas été supprimée
+18/11/2023 18:51:56 La règle pour le port 22 en INPUT n'a pas été supprimée
+18/11/2023 18:51:56 La règle pour le port   en OUTPUT n'a pas été supprimée
+18/11/2023 18:51:56 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+18/11/2023 18:56:12 La règle pour le port 22 en INPUT n'a pas été ajoutée
+18/11/2023 18:56:12 La règle pour le port 22 en INPUT n'a pas été ajoutée
+18/11/2023 18:56:12 La règle pour le port 22 en INPUT n'a pas été ajoutée
+18/11/2023 18:56:12 La règle pour le port   en OUTPUT n'a pas été ajoutée
+18/11/2023 18:56:12 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+18/11/2023 21:46:20 La règle pour le port 22 en INPUT n'a pas été ajoutée
+18/11/2023 21:46:20 La règle pour le port 22 en INPUT n'a pas été ajoutée
+18/11/2023 21:46:20 La règle pour le port 22 en INPUT n'a pas été ajoutée
+18/11/2023 21:46:20 La règle pour le port   en OUTPUT n'a pas été ajoutée
+18/11/2023 21:46:20 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+18/11/2023 21:46:54 La règle pour le port 22 en INPUT a bien été supprimée
+18/11/2023 21:46:54 La règle pour le port 22 en INPUT a bien été supprimée
+18/11/2023 21:46:54 La règle pour le port 22 en INPUT a bien été supprimée
+18/11/2023 21:46:54 La règle pour le port   en OUTPUT a bien été supprimée
+18/11/2023 21:46:54 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+18/11/2023 21:47:16 La règle pour le port 22 en INPUT n'a pas été ajoutée
+18/11/2023 21:47:16 La règle pour le port 22 en INPUT n'a pas été ajoutée
+18/11/2023 21:47:16 La règle pour le port 22 en INPUT n'a pas été ajoutée
+18/11/2023 21:47:16 La règle pour le port   en OUTPUT n'a pas été ajoutée
+18/11/2023 21:47:16 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+18/11/2023 21:47:59 La règle pour le port 22 existe déjà
+18/11/2023 21:47:59 La règle pour le port   existe déjà
+18/11/2023 21:47:59 La règle pour le port   existe déjà
+18/11/2023 21:47:59 La règle pour le port   existe déjà
+18/11/2023 21:47:59 La règle pour le port 22 en INPUT n'a pas été ajoutée
+18/11/2023 21:47:59 La règle pour le port 22 en INPUT n'a pas été ajoutée
+18/11/2023 21:47:59 La règle pour le port 22 en INPUT n'a pas été ajoutée
+18/11/2023 21:47:59 La règle pour le port   en OUTPUT n'a pas été ajoutée
+18/11/2023 21:47:59 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+18/11/2023 21:48:36 La règle pour le port 22 en INPUT a bien été supprimée
+18/11/2023 21:48:36 La règle pour le port 22 en INPUT a bien été supprimée
+18/11/2023 21:48:36 La règle pour le port 22 en INPUT a bien été supprimée
+18/11/2023 21:48:36 La règle pour le port   en OUTPUT a bien été supprimée
+18/11/2023 21:48:36 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+18/11/2023 21:48:57 La règle pour le port 22 en INPUT n'a pas été ajoutée
+18/11/2023 21:48:57 La règle pour le port 22 en INPUT n'a pas été ajoutée
+18/11/2023 21:48:57 La règle pour le port 22 en INPUT n'a pas été ajoutée
+18/11/2023 21:48:57 La règle pour le port   en OUTPUT n'a pas été ajoutée
+18/11/2023 21:48:57 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+18/11/2023 21:49:18 La règle pour le port 22 en INPUT a bien été supprimée
+18/11/2023 21:49:18 La règle pour le port 22 en INPUT a bien été supprimée
+18/11/2023 21:49:18 La règle pour le port 22 en INPUT a bien été supprimée
+18/11/2023 21:49:18 La règle pour le port   en OUTPUT a bien été supprimée
+18/11/2023 21:49:18 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+18/11/2023 21:49:46 La règle pour le port 22 en INPUT n'a pas été ajoutée
+18/11/2023 21:49:46 La règle pour le port 22 en INPUT n'a pas été ajoutée
+18/11/2023 21:49:46 La règle pour le port 22 en INPUT n'a pas été ajoutée
+18/11/2023 21:49:46 La règle pour le port   en OUTPUT n'a pas été ajoutée
+18/11/2023 21:49:46 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+18/11/2023 21:50:03 La règle pour le port 22 en INPUT a bien été supprimée
+18/11/2023 21:50:03 La règle pour le port 22 en INPUT a bien été supprimée
+18/11/2023 21:50:03 La règle pour le port 22 en INPUT a bien été supprimée
+18/11/2023 21:50:03 La règle pour le port   en OUTPUT a bien été supprimée
+18/11/2023 21:50:03 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+18/11/2023 21:51:32 La règle pour le port 22 en INPUT n'a pas été ajoutée
+18/11/2023 21:51:32 La règle pour le port 22 en INPUT n'a pas été ajoutée
+18/11/2023 21:51:32 La règle pour le port 22 en INPUT n'a pas été ajoutée
+18/11/2023 21:51:32 La règle pour le port   en OUTPUT n'a pas été ajoutée
+18/11/2023 21:51:32 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+18/11/2023 21:51:58 La règle pour le port 22 en INPUT a bien été supprimée
+18/11/2023 21:51:58 La règle pour le port 22 en INPUT a bien été supprimée
+18/11/2023 21:51:58 La règle pour le port 22 en INPUT a bien été supprimée
+18/11/2023 21:51:58 La règle pour le port   en OUTPUT a bien été supprimée
+18/11/2023 21:51:58 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+18/11/2023 21:55:12 La règle pour le port 22 en INPUT a bien été supprimée
+18/11/2023 21:55:12 La règle pour le port 22 en INPUT a bien été supprimée
+18/11/2023 21:55:12 La règle pour le port 22 en INPUT a bien été supprimée
+18/11/2023 21:55:12 La règle pour le port   en OUTPUT a bien été supprimée
+18/11/2023 21:55:12 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+18/11/2023 21:55:32 La règle pour le port 22 en INPUT n'a pas été ajoutée
+18/11/2023 21:55:32 La règle pour le port 22 en INPUT n'a pas été ajoutée
+18/11/2023 21:55:32 La règle pour le port 22 en INPUT n'a pas été ajoutée
+18/11/2023 21:55:32 La règle pour le port   en OUTPUT n'a pas été ajoutée
+18/11/2023 21:55:32 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+18/11/2023 23:19:08 La règle pour le port n/a n'existe pas
+18/11/2023 23:19:08 La règle pour le port n/a n'existe pas
+18/11/2023 23:19:08 La règle pour le port n/a n'existe pas
+18/11/2023 23:19:08 La règle pour le port n/a n'existe pas
+18/11/2023 23:19:08 La règle pour le port 22 en INPUT a bien été supprimée
+18/11/2023 23:19:08 La règle pour le port 22 en INPUT a bien été supprimée
+18/11/2023 23:19:08 La règle pour le port 22 en INPUT a bien été supprimée
+18/11/2023 23:19:08 La règle pour le port   en OUTPUT a bien été supprimée
+18/11/2023 23:19:08 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+18/11/2023 23:20:21 La règle pour le port 22 en INPUT a bien été supprimée
+18/11/2023 23:20:21 La règle pour le port 22 en INPUT a bien été supprimée
+18/11/2023 23:20:21 La règle pour le port 22 en INPUT a bien été supprimée
+18/11/2023 23:20:21 La règle pour le port   en OUTPUT a bien été supprimée
+18/11/2023 23:20:21 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+18/11/2023 23:20:42 La règle pour le port 22 en INPUT n'a pas été ajoutée
+18/11/2023 23:20:42 La règle pour le port 22 en INPUT n'a pas été ajoutée
+18/11/2023 23:20:42 La règle pour le port 22 en INPUT n'a pas été ajoutée
+18/11/2023 23:20:42 La règle pour le port   en OUTPUT n'a pas été ajoutée
+18/11/2023 23:20:42 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+19/11/2023 00:14:49 La règle pour le port 22 en INPUT n'a pas été ajoutée
+19/11/2023 00:14:49 La règle pour le port 22 en INPUT n'a pas été ajoutée
+19/11/2023 00:14:49 La règle pour le port 22 en INPUT n'a pas été ajoutée
+19/11/2023 00:14:49 La règle pour le port   en OUTPUT n'a pas été ajoutée
+19/11/2023 00:14:49 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+19/11/2023 00:32:08 La règle pour le port 22 en INPUT n'a pas été ajoutée
+19/11/2023 00:32:08 La règle pour le port 22 en INPUT n'a pas été ajoutée
+19/11/2023 00:32:08 La règle pour le port 22 en INPUT n'a pas été ajoutée
+19/11/2023 00:32:08 La règle pour le port   en OUTPUT n'a pas été ajoutée
+19/11/2023 00:32:08 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+19/11/2023 01:38:31 La règle pour le port 22 en INPUT est bien présente
+19/11/2023 01:38:31 La règle pour le port 22 en INPUT est bien présente
+19/11/2023 01:38:31 La règle pour le port 22 en INPUT est bien présente
+19/11/2023 01:38:31 La règle pour le port   en OUTPUT est bien présente
+19/11/2023 01:38:31 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+19/11/2023 01:38:43 La règle pour le port 22 en INPUT a bien été supprimée
+19/11/2023 01:38:43 La règle pour le port 22 en INPUT a bien été supprimée
+19/11/2023 01:38:43 La règle pour le port 22 en INPUT a bien été supprimée
+19/11/2023 01:38:43 La règle pour le port   en OUTPUT a bien été supprimée
+19/11/2023 01:38:43 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+19/11/2023 01:40:45 La règle 3 pour le port 22 en INPUT est bien présente
+19/11/2023 01:40:45 La règle 3 pour le port 22 en INPUT est bien présente
+19/11/2023 01:40:45 La règle 3 pour le port 22 en INPUT est bien présente
+19/11/2023 01:40:45 La règle pour 1 le port   en OUTPUT est bien présente
+19/11/2023 01:40:45 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+19/11/2023 01:42:04 La règle 1 pour le port 22 en INPUT a bien été supprimée
+19/11/2023 01:42:04 La règle 1 pour le port 22 en INPUT a bien été supprimée
+19/11/2023 01:42:04 La règle 1 pour le port 22 en INPUT a bien été supprimée
+19/11/2023 01:42:04 La règle 4 pour le port   en OUTPUT a bien été supprimée
+19/11/2023 01:42:04 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+19/11/2023 01:43:58 La règle 1 pour le port 22 en INPUT est bien présente
+19/11/2023 01:43:58 La règle 1 pour le port 22 en INPUT est bien présente
+19/11/2023 01:43:58 La règle 1 pour le port 22 en INPUT est bien présente
+19/11/2023 01:43:58 La règle 1 pour le port   en OUTPUT est bien présente
+19/11/2023 01:43:58 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+19/11/2023 01:44:21 La règle 1 pour le port 22 en INPUT a bien été supprimée
+19/11/2023 01:44:21 La règle 2 pour le port 22 en INPUT a bien été supprimée
+19/11/2023 01:44:21 La règle 3 pour le port 22 en INPUT a bien été supprimée
+19/11/2023 01:44:21 La règle 4 pour le port   en OUTPUT a bien été supprimée
+19/11/2023 01:44:21 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+19/11/2023 01:59:01 La règle 1 pour le port 22 en INPUT est bien présente
+19/11/2023 01:59:01 La règle 2 pour le port 22 en INPUT est bien présente
+19/11/2023 01:59:01 La règle 3 pour le port 22 en INPUT est bien présente
+19/11/2023 01:59:01 La règle 4 pour le port   en OUTPUT est bien présente
+19/11/2023 01:59:01 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+19/11/2023 02:14:03 La règle 1 pour le port 22 en INPUT est bien présente
+19/11/2023 02:14:03 La règle 1 pour le port 22 en INPUT est bien présente
+19/11/2023 02:14:03 La règle 1 pour le port 22 en INPUT est bien présente
+19/11/2023 02:14:03 La règle 1 pour le port   en INPUT n'a pas été ajoutée
+19/11/2023 02:14:03 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+19/11/2023 02:14:28 La règle 1 pour le port 22 en INPUT a bien été supprimée
+19/11/2023 02:14:28 La règle 2 pour le port 22 en OUTPUT a bien été supprimée
+19/11/2023 02:14:28 La règle 3 pour le port 22 en OUTPUT a bien été supprimée
+19/11/2023 02:14:28 La règle 4 pour le port   en OUTPUT a bien été supprimée
+19/11/2023 02:14:28 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+19/11/2023 02:15:20 La règle 1 pour le port 22 en INPUT est bien présente
+19/11/2023 02:15:20 La règle 2 pour le port 22 en OUTPUT est bien présente
+19/11/2023 02:15:20 La règle 3 pour le port 22 en OUTPUT est bien présente
+19/11/2023 02:15:20 La règle 4 pour le port   en OUTPUT est bien présente
+19/11/2023 02:15:20 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+19/11/2023 02:16:53 La règle 1 pour le port 22 en INPUT a bien été supprimée
+19/11/2023 02:16:53 La règle 2 pour le port 22 en OUTPUT a bien été supprimée
+19/11/2023 02:16:53 La règle 3 pour le port 22 en OUTPUT a bien été supprimée
+19/11/2023 02:16:53 La règle 4 pour le port   en OUTPUT a bien été supprimée
+19/11/2023 02:16:53 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+19/11/2023 02:17:50 La règle 1 pour le port 22 en INPUT est bien présente
+19/11/2023 02:17:50 La règle 2 pour le port 22 en OUTPUT est bien présente
+19/11/2023 02:17:50 La règle 3 pour le port 22 en OUTPUT est bien présente
+19/11/2023 02:17:50 La règle 4 pour le port   en OUTPUT est bien présente
+19/11/2023 02:17:50 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+19/11/2023 02:22:12 La règle 1 pour le port 22 en INPUT est bien présente
+19/11/2023 02:22:12 La règle 2 pour le port 22 en OUTPUT est bien présente
+19/11/2023 02:22:12 La règle 3 pour le port !22 en OUTPUT est bien présente
+19/11/2023 02:22:12 La règle 4 pour le port   en OUTPUT est bien présente
+19/11/2023 02:22:12 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+19/11/2023 02:22:37 La règle 1 pour le port 22 en INPUT a bien été supprimée
+19/11/2023 02:22:37 La règle 2 pour le port 22 en OUTPUT a bien été supprimée
+19/11/2023 02:22:37 La règle 3 pour le port !22 en OUTPUT a bien été supprimée
+19/11/2023 02:22:37 La règle 4 pour le port   en OUTPUT a bien été supprimée
+19/11/2023 02:22:37 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+19/11/2023 02:23:42 La règle 1 pour le port 22 en INPUT est bien présente
+19/11/2023 02:23:42 La règle 2 pour le port 22 en OUTPUT est bien présente
+19/11/2023 02:23:42 La règle 3 pour le port !22 en OUTPUT est bien présente
+19/11/2023 02:23:42 La règle 4 pour le port   en OUTPUT est bien présente
+19/11/2023 02:23:42 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+19/11/2023 02:23:54 La règle pour le port 22 existe déjà
+19/11/2023 02:23:54 La règle pour le port   existe déjà
+19/11/2023 02:23:54 La règle pour le port   existe déjà
+19/11/2023 02:23:54 La règle pour le port   existe déjà
+19/11/2023 02:23:54 La règle 1 pour le port 22 en INPUT est bien présente
+19/11/2023 02:23:54 La règle 2 pour le port 22 en OUTPUT est bien présente
+19/11/2023 02:23:54 La règle 3 pour le port !22 en OUTPUT est bien présente
+19/11/2023 02:23:54 La règle 4 pour le port   en OUTPUT est bien présente
+19/11/2023 02:23:54 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+19/11/2023 02:30:04 La règle 1 pour le port 22 en INPUT a bien été supprimée
+19/11/2023 02:30:04 La règle 2 pour le port 22 en OUTPUT a bien été supprimée
+19/11/2023 02:30:04 La règle 3 pour le port !22 en OUTPUT a bien été supprimée
+19/11/2023 02:30:04 La règle 4 pour le port   en OUTPUT a bien été supprimée
+19/11/2023 02:30:04 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+19/11/2023 02:30:12 La règle pour le port n/a n'existe pas
+19/11/2023 02:30:12 La règle pour le port n/a n'existe pas
+19/11/2023 02:30:12 La règle pour le port n/a n'existe pas
+19/11/2023 02:30:12 La règle pour le port n/a n'existe pas
+19/11/2023 02:30:12 La règle 1 pour le port 22 en INPUT a bien été supprimée
+19/11/2023 02:30:12 La règle 2 pour le port 22 en OUTPUT a bien été supprimée
+19/11/2023 02:30:12 La règle 3 pour le port !22 en OUTPUT a bien été supprimée
+19/11/2023 02:30:12 La règle 4 pour le port   en OUTPUT a bien été supprimée
+19/11/2023 02:30:12 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+19/11/2023 02:30:29 La règle 1 pour le port 22 en INPUT est bien présente
+19/11/2023 02:30:29 La règle 2 pour le port 22 en OUTPUT est bien présente
+19/11/2023 02:30:29 La règle 3 pour le port !22 en OUTPUT est bien présente
+19/11/2023 02:30:29 La règle 4 pour le port   en OUTPUT est bien présente
+19/11/2023 02:30:29 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+19/11/2023 02:30:37 La règle pour le port 22 existe déjà
+19/11/2023 02:30:37 La règle pour le port   existe déjà
+19/11/2023 02:30:37 La règle pour le port   existe déjà
+19/11/2023 02:30:37 La règle pour le port   existe déjà
+19/11/2023 02:30:37 La règle 1 pour le port 22 en INPUT est bien présente
+19/11/2023 02:30:37 La règle 2 pour le port 22 en OUTPUT est bien présente
+19/11/2023 02:30:37 La règle 3 pour le port !22 en OUTPUT est bien présente
+19/11/2023 02:30:37 La règle 4 pour le port   en OUTPUT est bien présente
+19/11/2023 02:30:37 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+19/11/2023 02:31:15 La règle pour le port 2 existe déjà
+19/11/2023 02:31:15 La règle pour le port   existe déjà
+19/11/2023 02:31:15 La règle pour le port   existe déjà
+19/11/2023 02:31:15 La règle pour le port   existe déjà
+19/11/2023 02:31:15 La règle 1 pour le port 22 en INPUT est bien présente
+19/11/2023 02:31:15 La règle 2 pour le port 22 en OUTPUT est bien présente
+19/11/2023 02:31:15 La règle 3 pour le port !22 en OUTPUT est bien présente
+19/11/2023 02:31:15 La règle 4 pour le port   en OUTPUT est bien présente
+19/11/2023 02:31:15 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+19/11/2023 02:40:48 La règle pour le port 22 existe déjà
+19/11/2023 02:40:48 La règle pour le port   existe déjà
+19/11/2023 02:40:48 La règle pour le port   existe déjà
+19/11/2023 02:40:48 La règle pour le port   existe déjà
+19/11/2023 02:40:48 La règle 1 pour le port 22 en INPUT est bien présente
+19/11/2023 02:40:48 La règle 2 pour le port 22 en OUTPUT est bien présente
+19/11/2023 02:40:48 La règle 3 pour le port !22 en OUTPUT est bien présente
+19/11/2023 02:40:48 La règle 4 pour le port   en OUTPUT est bien présente
+19/11/2023 02:40:48 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+19/11/2023 02:41:22 La règle pour le port 22 existe déjà
+19/11/2023 02:41:22 La règle pour le port   existe déjà
+19/11/2023 02:41:22 La règle pour le port   existe déjà
+19/11/2023 02:41:22 La règle pour le port   existe déjà
+19/11/2023 02:41:22 La règle 1 pour le port 22 en INPUT est bien présente
+19/11/2023 02:41:22 La règle 2 pour le port 22 en OUTPUT est bien présente
+19/11/2023 02:41:22 La règle 3 pour le port !22 en OUTPUT est bien présente
+19/11/2023 02:41:22 La règle 4 pour le port   en OUTPUT est bien présente
+19/11/2023 02:41:22 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+19/11/2023 02:46:50 La règle pour le port 22 existe déjà
+19/11/2023 02:46:50 La règle pour le port   existe déjà
+19/11/2023 02:46:50 La règle pour le port   existe déjà
+19/11/2023 02:46:50 La règle pour le port   existe déjà
+19/11/2023 02:46:50 La règle 1 pour le port 22 en INPUT est bien présente
+19/11/2023 02:46:50 La règle 2 pour le port 22 en OUTPUT est bien présente
+19/11/2023 02:46:50 La règle 3 pour le port !22 en OUTPUT est bien présente
+19/11/2023 02:46:50 La règle 4 pour le port   en OUTPUT est bien présente
+19/11/2023 02:46:50 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+19/11/2023 02:49:12 La règle pour le port 22 existe déjà
+19/11/2023 02:49:12 La règle pour le port 22 existe déjà
+19/11/2023 02:49:12 La règle pour le port 22 existe déjà
+19/11/2023 02:49:12 La règle pour le port   existe déjà
+19/11/2023 02:49:12 La règle 1 pour le port 22 en INPUT est bien présente
+19/11/2023 02:49:12 La règle 2 pour le port 22 en OUTPUT est bien présente
+19/11/2023 02:49:12 La règle 3 pour le port !22 en OUTPUT est bien présente
+19/11/2023 02:49:12 La règle 4 pour le port   en OUTPUT est bien présente
+19/11/2023 02:49:12 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+19/11/2023 02:51:10 La règle 0 pour le port 22 existe déjà
+19/11/2023 02:51:10 La règle 1 pour le port 22 existe déjà
+19/11/2023 02:51:10 La règle 2 pour le port !22 existe déjà
+19/11/2023 02:51:10 La règle 3 pour le port   existe déjà
+19/11/2023 02:51:10 La règle 1 pour le port 22 en INPUT est bien présente
+19/11/2023 02:51:10 La règle 2 pour le port 22 en OUTPUT est bien présente
+19/11/2023 02:51:10 La règle 3 pour le port !22 en OUTPUT est bien présente
+19/11/2023 02:51:10 La règle 4 pour le port   en OUTPUT est bien présente
+19/11/2023 02:51:10 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+19/11/2023 02:51:28 La règle 1 pour le port 22 existe déjà
+19/11/2023 02:51:28 La règle 2 pour le port 22 existe déjà
+19/11/2023 02:51:28 La règle 3 pour le port !22 existe déjà
+19/11/2023 02:51:28 La règle 4 pour le port   existe déjà
+19/11/2023 02:51:28 La règle 1 pour le port 22 en INPUT est bien présente
+19/11/2023 02:51:28 La règle 2 pour le port 22 en OUTPUT est bien présente
+19/11/2023 02:51:28 La règle 3 pour le port !22 en OUTPUT est bien présente
+19/11/2023 02:51:28 La règle 4 pour le port   en OUTPUT est bien présente
+19/11/2023 02:51:28 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+19/11/2023 02:52:33 La règle 1 pour le port 22 existe déjà
+19/11/2023 02:52:33 La règle 1 pour le port 22 existe déjà existe déjà
+19/11/2023 02:52:33 La règle 1 pour le port 22 existe déjà existe déjà n'existe pas
+19/11/2023 02:52:33 La règle 1 pour le port 22 existe déjà existe déjà n'existe pas n'existe pas
+19/11/2023 02:52:33 La règle 1 pour le port 22 en INPUT n'a pas été supprimée
+19/11/2023 02:52:33 La règle 2 pour le port 22 en OUTPUT a bien été supprimée
+19/11/2023 02:52:33 La règle 3 pour le port !22 en OUTPUT a bien été supprimée
+19/11/2023 02:52:33 La règle 4 pour le port   en OUTPUT a bien été supprimée
+19/11/2023 02:52:33 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+19/11/2023 02:52:58 La règle 1 pour le port 22 existe déjà
+19/11/2023 02:52:58 La règle 1 pour le port 22 existe déjà existe déjà
+19/11/2023 02:52:58 La règle 1 pour le port 22 existe déjà existe déjà n'existe pas
+19/11/2023 02:52:58 La règle 1 pour le port 22 existe déjà existe déjà n'existe pas n'existe pas
+19/11/2023 02:52:58 La règle 1 pour le port 22 en INPUT n'a pas été supprimée
+19/11/2023 02:52:58 La règle 2 pour le port 22 en OUTPUT a bien été supprimée
+19/11/2023 02:52:58 La règle 3 pour le port !22 en OUTPUT a bien été supprimée
+19/11/2023 02:52:58 La règle 4 pour le port   en OUTPUT a bien été supprimée
+19/11/2023 02:52:58 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+19/11/2023 02:54:33 La règle 1 pour le port 22 existe déjà
+19/11/2023 02:54:33 La règle 1 pour le port 22 existe déjà existe déjà
+19/11/2023 02:54:33 La règle 1 pour le port 22 existe déjà existe déjà existe déjà
+19/11/2023 02:54:33 La règle 1 pour le port 22 existe déjà existe déjà existe déjà existe déjà
+19/11/2023 02:54:33 La règle 1 pour le port 22 en INPUT est bien présente
+19/11/2023 02:54:33 La règle 2 pour le port 22 en OUTPUT est bien présente
+19/11/2023 02:54:33 La règle 3 pour le port !22 en OUTPUT est bien présente
+19/11/2023 02:54:33 La règle 4 pour le port   en OUTPUT n'a pas été ajoutée
+19/11/2023 02:54:33 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+19/11/2023 02:54:48 La règle 1 pour le port 22 existe déjà
+19/11/2023 02:54:48 La règle 2 pour le port 22 existe déjà
+19/11/2023 02:54:48 La règle 3 pour le port !22 existe déjà
+19/11/2023 02:54:48 La règle 3 pour le port !22 existe déjà existe déjà
+19/11/2023 02:54:48 La règle 1 pour le port 22 en INPUT est bien présente
+19/11/2023 02:54:48 La règle 2 pour le port 22 en OUTPUT est bien présente
+19/11/2023 02:54:48 La règle 3 pour le port !22 en OUTPUT est bien présente
+19/11/2023 02:54:48 La règle 4 pour le port   en OUTPUT n'a pas été ajoutée
+19/11/2023 02:54:48 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+19/11/2023 02:55:06 La règle 1 pour le port 22 existe déjà
+19/11/2023 02:55:06 La règle 2 pour le port 22 existe déjà
+19/11/2023 02:55:06 La règle 3 pour le port !22 n'existe pas
+19/11/2023 02:55:06 La règle 3 pour le port !22 n'existe pas n'existe pas
+19/11/2023 02:55:06 La règle 1 pour le port 22 en INPUT n'a pas été supprimée
+19/11/2023 02:55:06 La règle 2 pour le port 22 en OUTPUT n'a pas été supprimée
+19/11/2023 02:55:06 La règle 3 pour le port !22 en OUTPUT n'a pas été supprimée
+19/11/2023 02:55:06 La règle 4 pour le port   en OUTPUT a bien été supprimée
+19/11/2023 02:55:06 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+19/11/2023 02:56:28 La règle 1 pour le port 22 existe déjà
+19/11/2023 02:56:28 La règle 2 pour le port 22 existe déjà
+19/11/2023 02:56:28 La règle 3 pour le port !22 existe déjà
+19/11/2023 02:56:28 La règle 4 pour le port   existe déjà
+19/11/2023 02:56:28 La règle 1 pour le port 22 en INPUT est bien présente
+19/11/2023 02:56:28 La règle 2 pour le port 22 en OUTPUT est bien présente
+19/11/2023 02:56:28 La règle 3 pour le port !22 en OUTPUT est bien présente
+19/11/2023 02:56:28 La règle 4 pour le port   en OUTPUT est bien présente
+19/11/2023 02:56:28 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+19/11/2023 02:56:36 La règle 1 pour le port 22 existe déjà
+19/11/2023 02:56:36 La règle 2 pour le port 22 existe déjà
+19/11/2023 02:56:36 La règle 3 pour le port !22 n'existe pas
+19/11/2023 02:56:36 La règle 4 pour le port   n'existe pas
+19/11/2023 02:56:36 La règle 1 pour le port 22 en INPUT n'a pas été supprimée
+19/11/2023 02:56:36 La règle 2 pour le port 22 en OUTPUT n'a pas été supprimée
+19/11/2023 02:56:36 La règle 3 pour le port !22 en OUTPUT n'a pas été supprimée
+19/11/2023 02:56:36 La règle 4 pour le port   en OUTPUT n'a pas été supprimée
+19/11/2023 02:56:36 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+19/11/2023 02:56:52 La règle 1 pour le port 22 existe déjà
+19/11/2023 02:56:52 La règle 2 pour le port 22 existe déjà
+19/11/2023 02:56:52 La règle 3 pour le port !22 n'existe pas
+19/11/2023 02:56:52 La règle 4 pour le port   n'existe pas
+19/11/2023 02:56:52 La règle 1 pour le port 22 en INPUT n'a pas été supprimée
+19/11/2023 02:56:52 La règle 2 pour le port 22 en OUTPUT n'a pas été supprimée
+19/11/2023 02:56:52 La règle 3 pour le port !22 en OUTPUT n'a pas été supprimée
+19/11/2023 02:56:52 La règle 4 pour le port   en OUTPUT n'a pas été supprimée
+19/11/2023 02:56:52 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+19/11/2023 02:59:32 La règle 1 pour le port 22 n'existe pas
+19/11/2023 02:59:32 La règle 2 pour le port 22 n'existe pas
+19/11/2023 02:59:32 La règle 3 pour le port !22 n'existe pas
+19/11/2023 02:59:32 La règle 4 pour le port   n'existe pas
+19/11/2023 02:59:32 La règle 1 pour le port 22 en INPUT n'a pas été supprimée
+19/11/2023 02:59:32 La règle 2 pour le port 22 en OUTPUT n'a pas été supprimée
+19/11/2023 02:59:32 La règle 3 pour le port !22 en OUTPUT n'a pas été supprimée
+19/11/2023 02:59:32 La règle 4 pour le port   en OUTPUT n'a pas été supprimée
+19/11/2023 02:59:32 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+19/11/2023 03:02:38 La règle pour le port n/a n'existe pas
+19/11/2023 03:02:38 La règle 1 pour le port 22 en INPUT a bien été supprimée
+19/11/2023 03:02:38 La règle 2 pour le port 22 en OUTPUT a bien été supprimée
+19/11/2023 03:02:38 La règle 3 pour le port !22 en OUTPUT a bien été supprimée
+19/11/2023 03:02:38 La règle 4 pour le port   en OUTPUT a bien été supprimée
+19/11/2023 03:02:38 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+19/11/2023 03:03:03 La règle pour le port !22 n'existe pas
+19/11/2023 03:03:03 La règle 1 pour le port 22 en INPUT a bien été supprimée
+19/11/2023 03:03:03 La règle 2 pour le port 22 en OUTPUT a bien été supprimée
+19/11/2023 03:03:03 La règle 3 pour le port !22 en OUTPUT a bien été supprimée
+19/11/2023 03:03:03 La règle 4 pour le port   en OUTPUT a bien été supprimée
+19/11/2023 03:03:03 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+19/11/2023 03:03:23 La règle pour le port n/a n'existe pas
+19/11/2023 03:03:23 La règle pour le port n/a n'existe pas
+19/11/2023 03:03:23 La règle pour le port n/a n'existe pas
+19/11/2023 03:03:23 La règle pour le port n/a n'existe pas
+19/11/2023 03:03:23 La règle 1 pour le port 22 en INPUT a bien été supprimée
+19/11/2023 03:03:23 La règle 2 pour le port 22 en OUTPUT a bien été supprimée
+19/11/2023 03:03:23 La règle 3 pour le port !22 en OUTPUT a bien été supprimée
+19/11/2023 03:03:23 La règle 4 pour le port   en OUTPUT a bien été supprimée
+19/11/2023 03:03:23 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+19/11/2023 03:03:59 La règle 1 pour le port 22 en INPUT est bien présente
+19/11/2023 03:03:59 La règle 2 pour le port 22 en OUTPUT est bien présente
+19/11/2023 03:03:59 La règle 3 pour le port !22 en OUTPUT est bien présente
+19/11/2023 03:03:59 La règle 4 pour le port   en OUTPUT n'a pas été ajoutée
+19/11/2023 03:03:59 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+19/11/2023 03:07:10 La règle pour le port !22 n'existe pas
+19/11/2023 03:07:10 La règle 1 pour le port 22 en INPUT a bien été supprimée
+19/11/2023 03:07:10 La règle 2 pour le port 22 en OUTPUT a bien été supprimée
+19/11/2023 03:07:10 La règle 3 pour le port !22 en OUTPUT a bien été supprimée
+19/11/2023 03:07:10 La règle 4 pour le port   en OUTPUT a bien été supprimée
+19/11/2023 03:07:10 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+19/11/2023 03:07:32 La règle 1 pour le port 22 en INPUT est bien présente
+19/11/2023 03:07:32 La règle 2 pour le port 22 en OUTPUT est bien présente
+19/11/2023 03:07:32 La règle 3 pour le port !22 en OUTPUT est bien présente
+19/11/2023 03:07:32 La règle 4 pour le port   en OUTPUT n'a pas été ajoutée
+19/11/2023 03:07:32 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+19/11/2023 03:07:52 La règle pour le port !22 n'existe pas
+19/11/2023 03:07:52 La règle 1 pour le port 22 en INPUT a bien été supprimée
+19/11/2023 03:07:52 La règle 2 pour le port 22 en OUTPUT a bien été supprimée
+19/11/2023 03:07:52 La règle 3 pour le port !22 en OUTPUT a bien été supprimée
+19/11/2023 03:07:52 La règle 4 pour le port   en OUTPUT a bien été supprimée
+19/11/2023 03:07:52 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+19/11/2023 03:11:27 La règle pour le port n/a n'existe pas
+19/11/2023 03:11:27 La règle pour le port n/a n'existe pas
+19/11/2023 03:11:27 La règle pour le port n/a n'existe pas
+19/11/2023 03:11:27 La règle pour le port n/a n'existe pas
+19/11/2023 03:11:27 La règle 1 pour le port 22 en INPUT a bien été supprimée
+19/11/2023 03:11:27 La règle 2 pour le port 22 en OUTPUT a bien été supprimée
+19/11/2023 03:11:27 La règle 3 pour le port !22 en OUTPUT a bien été supprimée
+19/11/2023 03:11:27 La règle 4 pour le port   en OUTPUT a bien été supprimée
+19/11/2023 03:11:27 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+19/11/2023 03:17:59 La règle pour le port !22 n'existe pas
+19/11/2023 03:17:59 La règle pour le port !22 n'existe pas
+19/11/2023 03:17:59 La règle 1 pour le port 22 en INPUT a bien été supprimée
+19/11/2023 03:17:59 La règle 2 pour le port 22 en OUTPUT a bien été supprimée
+19/11/2023 03:17:59 La règle 3 pour le port !22 en OUTPUT a bien été supprimée
+19/11/2023 03:17:59 La règle 4 pour le port   en OUTPUT a bien été supprimée
+19/11/2023 03:17:59 La règle 5 pour le port   en OUTPUT a bien été supprimée
+19/11/2023 03:17:59 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+19/11/2023 03:18:30 La règle pour le port n/a n'existe pas
+19/11/2023 03:18:30 La règle 1 pour le port 22 en INPUT a bien été supprimée
+19/11/2023 03:18:30 La règle 2 pour le port 22 en OUTPUT a bien été supprimée
+19/11/2023 03:18:30 La règle 3 pour le port !22 en OUTPUT a bien été supprimée
+19/11/2023 03:18:30 La règle 4 pour le port   en OUTPUT a bien été supprimée
+19/11/2023 03:18:30 La règle 5 pour le port   en OUTPUT a bien été supprimée
+19/11/2023 03:18:30 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+19/11/2023 03:18:40 La règle 1 pour le port 22 en INPUT est bien présente
+19/11/2023 03:18:40 La règle 2 pour le port 22 en OUTPUT est bien présente
+19/11/2023 03:18:40 La règle 3 pour le port !22 en OUTPUT est bien présente
+19/11/2023 03:18:40 La règle 4 pour le port   en OUTPUT est bien présente
+19/11/2023 03:18:40 La règle 5 pour le port   en OUTPUT est bien présente
+19/11/2023 03:18:40 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+19/11/2023 03:22:31 La règle 1 pour le port 22 existe déjà
+19/11/2023 03:22:31 La règle 2 pour le port 22 existe déjà
+19/11/2023 03:22:31 La règle 3 pour le port !22 existe déjà
+19/11/2023 03:22:31 La règle 4 pour le port   existe déjà
+19/11/2023 03:22:31 La règle 5 pour le port   existe déjà
+19/11/2023 03:22:31 La règle 1 pour le port 22 en INPUT est bien présente
+19/11/2023 03:22:31 La règle 2 pour le port 22 en OUTPUT est bien présente
+19/11/2023 03:22:31 La règle 3 pour le port !22 en OUTPUT est bien présente
+19/11/2023 03:22:31 La règle 4 pour le port   en OUTPUT est bien présente
+19/11/2023 03:22:31 La règle 5 pour le port   en OUTPUT est bien présente
+19/11/2023 03:22:31 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+19/11/2023 03:23:47 La règle 1 pour le port 22 en INPUT a bien été supprimée
+19/11/2023 03:23:47 La règle 2 pour le port 22 en OUTPUT a bien été supprimée
+19/11/2023 03:23:47 La règle 3 pour le port !22 en OUTPUT a bien été supprimée
+19/11/2023 03:23:47 La règle 4 pour le port   en OUTPUT a bien été supprimée
+19/11/2023 03:23:47 La règle 5 pour le port   en OUTPUT a bien été supprimée
+19/11/2023 03:23:47 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+19/11/2023 03:23:55 La règle 1 pour le port 22 en INPUT est bien présente
+19/11/2023 03:23:55 La règle 2 pour le port 22 en OUTPUT est bien présente
+19/11/2023 03:23:55 La règle 3 pour le port !22 en OUTPUT est bien présente
+19/11/2023 03:23:55 La règle 4 pour le port   en OUTPUT est bien présente
+19/11/2023 03:23:55 La règle 5 pour le port   en OUTPUT est bien présente
+19/11/2023 03:23:55 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+19/11/2023 03:24:11 La règle 1 pour le port 22 en INPUT a bien été supprimée
+19/11/2023 03:24:11 La règle 2 pour le port 22 en OUTPUT a bien été supprimée
+19/11/2023 03:24:11 La règle 3 pour le port !22 en OUTPUT a bien été supprimée
+19/11/2023 03:24:11 La règle 4 pour le port   en OUTPUT a bien été supprimée
+19/11/2023 03:24:11 La règle 5 pour le port   en OUTPUT a bien été supprimée
+19/11/2023 03:24:11 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+19/11/2023 03:24:23 La règle 1 pour le port 22 en INPUT est bien présente
+19/11/2023 03:24:23 La règle 2 pour le port 22 en OUTPUT est bien présente
+19/11/2023 03:24:23 La règle 3 pour le port !22 en OUTPUT est bien présente
+19/11/2023 03:24:23 La règle 4 pour le port   en OUTPUT est bien présente
+19/11/2023 03:24:23 La règle 5 pour le port   en OUTPUT est bien présente
+19/11/2023 03:24:23 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+19/11/2023 03:25:04 La règle 1 pour le port 22 en INPUT a bien été supprimée
+19/11/2023 03:25:04 La règle 2 pour le port 22 en OUTPUT a bien été supprimée
+19/11/2023 03:25:04 La règle 3 pour le port !22 en OUTPUT a bien été supprimée
+19/11/2023 03:25:04 La règle 4 pour le port   en OUTPUT a bien été supprimée
+19/11/2023 03:25:04 La règle 5 pour le port   en OUTPUT a bien été supprimée
+19/11/2023 03:25:04 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+19/11/2023 03:26:47 La règle 1 pour le port 22 en INPUT est bien présente
+19/11/2023 03:26:47 La règle 2 pour le port 22 en OUTPUT est bien présente
+19/11/2023 03:26:47 La règle 3 pour le port !22 en OUTPUT est bien présente
+19/11/2023 03:26:47 La règle 4 pour le port   en OUTPUT est bien présente
+19/11/2023 03:26:47 La règle 5 pour le port   en OUTPUT est bien présente
+19/11/2023 03:26:47 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
+19/11/2023 03:27:25 Toutes les règles iptables ont été supprimées
+19/11/2023 03:35:03 La règle 1 pour le port 22 en INPUT est bien présente
+19/11/2023 03:35:03 La règle 2 pour le port 22 en OUTPUT est bien présente
+19/11/2023 03:35:03 La règle 3 pour le port !22 en OUTPUT est bien présente
+19/11/2023 03:35:03 La règle 4 pour le port   en OUTPUT est bien présente
+19/11/2023 03:35:03 La règle 5 pour le port   en OUTPUT est bien présente
+19/11/2023 03:35:03 Si une régle déclarée comme déjà existante et que cette même régle est déclarée comme ajoutée, rien ne s'est passé
